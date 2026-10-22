@@ -1,0 +1,4453 @@
+{
+    "complex NP island": {
+        "predictions": [
+            {
+                "id": "complex NP island_0",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が昨日花子に会った人を<ruby>探<rt>さが</rt></ruby>しているのだ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が昨日花子に会った人を<ruby>探<rt>さが</rt></ruby>しているのだ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が昨日会った人を<ruby>探<rt>さが</rt></ruby>しているのは花子にだ。"
+                ],
+                "probs": [
+                    -156.72381591796875,
+                    -166.259033203125
+                ]
+            },
+            {
+                "id": "complex NP island_1",
+                "pred": "初めて会う人がけなすのは<ruby>誰<rt>だれ</rt></ruby>にですか？",
+                "correct": false,
+                "sentences": [
+                    "初めて会う人がけなすのは<ruby>誰<rt>だれ</rt></ruby>をですか？",
+                    "初めて会う人がけなすのは<ruby>誰<rt>だれ</rt></ruby>にですか？"
+                ],
+                "probs": [
+                    -117.2652816772461,
+                    -115.36166381835938
+                ]
+            },
+            {
+                "id": "complex NP island_2",
+                "pred": "読んだ学生がうんざりしたのはどの<ruby>論文<rt>ろんぶん</rt></ruby>をですか？",
+                "correct": false,
+                "sentences": [
+                    "読んだ学生がうんざりしたのはどの<ruby>論文<rt>ろんぶん</rt></ruby>にですか？",
+                    "読んだ学生がうんざりしたのはどの<ruby>論文<rt>ろんぶん</rt></ruby>をですか？"
+                ],
+                "probs": [
+                    -131.092529296875,
+                    -131.09242248535156
+                ]
+            }
+        ]
+    },
+    "adjunct island": {
+        "predictions": [
+            {
+                "id": "adjunct island_0",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>がその本を読んだから花子が<ruby>怒<rt>おこ</rt></ruby>ったのだ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>がその本を読んだから花子が<ruby>怒<rt>おこ</rt></ruby>ったのだ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が読んだから花子が<ruby>怒<rt>おこ</rt></ruby>ったのはその本をだ。"
+                ],
+                "probs": [
+                    -163.75814819335938,
+                    -183.4352264404297
+                ]
+            },
+            {
+                "id": "adjunct island_1",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は花子がなぜ<ruby>彼<rt>かれ</rt></ruby>の手紙を<ruby>捨<rt>す</rt></ruby>てたと思っているの？",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は花子がなぜ<ruby>彼<rt>かれ</rt></ruby>の手紙を<ruby>捨<rt>す</rt></ruby>てたと思っているの？",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は花子がなぜ<ruby>彼<rt>かれ</rt></ruby>の手紙を<ruby>捨<rt>す</rt></ruby>てたから<ruby>怒<rt>おこ</rt></ruby>っているの？"
+                ],
+                "probs": [
+                    -220.49472045898438,
+                    -280.6832275390625
+                ]
+            },
+            {
+                "id": "adjunct island_2",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>泥棒<rt>どろぼう</rt></ruby>が<ruby>現金<rt>げんきん</rt></ruby>を<ruby>盗<rt>ぬす</rt></ruby>んだと思っているのはこの銀行からだ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>泥棒<rt>どろぼう</rt></ruby>が<ruby>現金<rt>げんきん</rt></ruby>を<ruby>盗<rt>ぬす</rt></ruby>んだと思っているのはこの銀行からだ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>泥棒<rt>どろぼう</rt></ruby>が<ruby>盗<rt>ぬす</rt></ruby>む前に学校に<ruby>居<rt>い</rt></ruby>たのはこの銀行からだ。"
+                ],
+                "probs": [
+                    -272.25152587890625,
+                    -280.4106140136719
+                ]
+            },
+            {
+                "id": "adjunct island_3",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が花子が<ruby>彼<rt>かれ</rt></ruby>の手紙を<ruby>捨<rt>す</rt></ruby>てさえしたので<ruby>怒<rt>おこ</rt></ruby>った。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子が<ruby>彼<rt>かれ</rt></ruby>の手紙を<ruby>捨<rt>す</rt></ruby>てさえしたので<ruby>怒<rt>おこ</rt></ruby>った。",
+                    "<ruby>彼<rt>かれ</rt></ruby>の手紙を<ruby>捨<rt>す</rt></ruby>てさえ<ruby>太郎<rt>たろう</rt></ruby>が花子がしたので<ruby>怒<rt>おこ</rt></ruby>った。"
+                ],
+                "probs": [
+                    -278.62841796875,
+                    -286.0716247558594
+                ]
+            },
+            {
+                "id": "adjunct island_4",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>彼<rt>かれ</rt></ruby>の手紙を<ruby>捨<rt>す</rt></ruby>てさえ花子がしたので<ruby>怒<rt>おこ</rt></ruby>った。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>彼<rt>かれ</rt></ruby>の手紙を<ruby>捨<rt>す</rt></ruby>てさえ花子がしたので<ruby>怒<rt>おこ</rt></ruby>った。",
+                    "<ruby>彼<rt>かれ</rt></ruby>の手紙を<ruby>捨<rt>す</rt></ruby>てさえ<ruby>太郎<rt>たろう</rt></ruby>が花子がしたので<ruby>怒<rt>おこ</rt></ruby>った。"
+                ],
+                "probs": [
+                    -281.742431640625,
+                    -286.0716247558594
+                ]
+            }
+        ]
+    },
+    "weak crossover": {
+        "predictions": [
+            {
+                "id": "weak crossover_0",
+                "pred": "初めて会う人がけなすのは<ruby>誰<rt>だれ</rt></ruby>をですか？",
+                "correct": true,
+                "sentences": [
+                    "初めて会う人がけなすのは<ruby>誰<rt>だれ</rt></ruby>をですか？",
+                    "初めてそいつに会う人がけなすのは<ruby>誰<rt>だれ</rt></ruby>をですか？"
+                ],
+                "probs": [
+                    -117.2652816772461,
+                    -133.18746948242188
+                ]
+            },
+            {
+                "id": "weak crossover_1",
+                "pred": "初めてそいつに会った人が<ruby>太郎<rt>たろう</rt></ruby>をけなした。",
+                "correct": true,
+                "sentences": [
+                    "初めてそいつに会った人が<ruby>太郎<rt>たろう</rt></ruby>をけなした。",
+                    "初めてそいつに会った人が<ruby>誰<rt>だれ</rt></ruby>もをけなした。"
+                ],
+                "probs": [
+                    -115.53157043457031,
+                    -122.8931884765625
+                ]
+            },
+            {
+                "id": "weak crossover_2",
+                "pred": "初めて会った人が<ruby>太郎<rt>たろう</rt></ruby>をけなした。",
+                "correct": true,
+                "sentences": [
+                    "初めて会った人が<ruby>太郎<rt>たろう</rt></ruby>をけなした。",
+                    "初めて会った人が<ruby>誰<rt>だれ</rt></ruby>もをけなした。"
+                ],
+                "probs": [
+                    -98.46907043457031,
+                    -106.20481872558594
+                ]
+            },
+            {
+                "id": "weak crossover_3",
+                "pred": "初めてそいつに会った人が<ruby>太郎<rt>たろう</rt></ruby>をけなしたの？",
+                "correct": true,
+                "sentences": [
+                    "初めてそいつに会った人が<ruby>太郎<rt>たろう</rt></ruby>をけなしたの？",
+                    "初めてそいつに会った人が<ruby>誰<rt>だれ</rt></ruby>をけなしたの？"
+                ],
+                "probs": [
+                    -118.45619201660156,
+                    -120.02205657958984
+                ]
+            },
+            {
+                "id": "weak crossover_4",
+                "pred": "初めて会った人が<ruby>太郎<rt>たろう</rt></ruby>をけなしたの？",
+                "correct": true,
+                "sentences": [
+                    "初めて会った人が<ruby>太郎<rt>たろう</rt></ruby>をけなしたの？",
+                    "初めて会った人が<ruby>誰<rt>だれ</rt></ruby>をけなしたの？"
+                ],
+                "probs": [
+                    -101.48838806152344,
+                    -102.3617172241211
+                ]
+            },
+            {
+                "id": "weak crossover_5",
+                "pred": "花子が何度も会っていたから泣き出した<ruby>女性<rt>じょせい</rt></ruby>が好きだったのは<ruby>誰<rt>だれ</rt></ruby>をですか？",
+                "correct": true,
+                "sentences": [
+                    "花子が何度も会っていたから泣き出した<ruby>女性<rt>じょせい</rt></ruby>が好きだったのは<ruby>誰<rt>だれ</rt></ruby>をですか？",
+                    "花子が何度もそいつに会っていたから泣き出した<ruby>女性<rt>じょせい</rt></ruby>が好きだったのは<ruby>誰<rt>だれ</rt></ruby>をですか？"
+                ],
+                "probs": [
+                    -191.2054443359375,
+                    -207.78228759765625
+                ]
+            },
+            {
+                "id": "weak crossover_6",
+                "pred": "初めて会った人がけなしたのは<ruby>誰<rt>だれ</rt></ruby>をですか？",
+                "correct": true,
+                "sentences": [
+                    "初めて会った人がけなしたのは<ruby>誰<rt>だれ</rt></ruby>をですか？",
+                    "初めてそいつに会った人がけなしたのは<ruby>誰<rt>だれ</rt></ruby>をですか？"
+                ],
+                "probs": [
+                    -111.6666259765625,
+                    -128.68051147460938
+                ]
+            }
+        ]
+    },
+    "case": {
+        "predictions": [
+            {
+                "id": "case_0",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が花子に会う。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子に会う。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子を会う。"
+                ],
+                "probs": [
+                    -83.42729187011719,
+                    -89.74546813964844
+                ]
+            },
+            {
+                "id": "case_1",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が花子にけなす。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子をけなす。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子にけなす。"
+                ],
+                "probs": [
+                    -96.50419616699219,
+                    -95.07881164550781
+                ]
+            },
+            {
+                "id": "case_2",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>がその本を読んだ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>がその本を読んだ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>がその本に読んだ。"
+                ],
+                "probs": [
+                    -74.75694274902344,
+                    -82.85965728759766
+                ]
+            },
+            {
+                "id": "case_3",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>がその本をうんざりした。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>がその本にうんざりした。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>がその本をうんざりした。"
+                ],
+                "probs": [
+                    -87.41675567626953,
+                    -87.12727355957031
+                ]
+            },
+            {
+                "id": "case_4",
+                "pred": "<ruby>私<rt>わたし</rt></ruby>が先生をお助けした。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>私<rt>わたし</rt></ruby>が先生をお助けした。",
+                    "<ruby>私<rt>わたし</rt></ruby>が先生のお助けした。"
+                ],
+                "probs": [
+                    -83.40038299560547,
+                    -88.85466003417969
+                ]
+            },
+            {
+                "id": "case_5",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が花子にお<ruby>菓子<rt>かし</rt></ruby>を<ruby>与<rt>あた</rt></ruby>えた。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子にお<ruby>菓子<rt>かし</rt></ruby>を<ruby>与<rt>あた</rt></ruby>えた。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子へお<ruby>菓子<rt>かし</rt></ruby>を<ruby>与<rt>あた</rt></ruby>えた。"
+                ],
+                "probs": [
+                    -192.57412719726562,
+                    -198.86036682128906
+                ]
+            },
+            {
+                "id": "case_6",
+                "pred": "思ったことを口に出す。",
+                "correct": true,
+                "sentences": [
+                    "思ったことを口に出す。",
+                    "思ったことを口へ出す。"
+                ],
+                "probs": [
+                    -29.017507553100586,
+                    -35.20694351196289
+                ]
+            },
+            {
+                "id": "case_7",
+                "pred": "<ruby>才能<rt>さいのう</rt></ruby>を鼻にかける。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>才能<rt>さいのう</rt></ruby>を鼻にかける。",
+                    "<ruby>才能<rt>さいのう</rt></ruby>を鼻へかける。"
+                ],
+                "probs": [
+                    -78.65740203857422,
+                    -83.60858154296875
+                ]
+            },
+            {
+                "id": "case_8",
+                "pred": "車を手に入れる。",
+                "correct": true,
+                "sentences": [
+                    "車を手に入れる。",
+                    "車を手へ入れる。"
+                ],
+                "probs": [
+                    -24.729328155517578,
+                    -32.778533935546875
+                ]
+            },
+            {
+                "id": "case_9",
+                "pred": "失敗を<ruby>棚<rt>たな</rt></ruby>に上げる。",
+                "correct": true,
+                "sentences": [
+                    "失敗を<ruby>棚<rt>たな</rt></ruby>に上げる。",
+                    "失敗を<ruby>棚<rt>たな</rt></ruby>へ上げる。"
+                ],
+                "probs": [
+                    -80.3699951171875,
+                    -81.9012222290039
+                ]
+            },
+            {
+                "id": "case_10",
+                "pred": "人のことに口の出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "人のことへの口の出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "人のことに口の出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -117.81063842773438,
+                    -116.07872009277344
+                ]
+            },
+            {
+                "id": "case_11",
+                "pred": "そんな<ruby>議論<rt>ぎろん</rt></ruby>に<ruby>拍車<rt>はくしゃ</rt></ruby>のかけにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "そんな<ruby>議論<rt>ぎろん</rt></ruby>への<ruby>拍車<rt>はくしゃ</rt></ruby>のかけにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "そんな<ruby>議論<rt>ぎろん</rt></ruby>に<ruby>拍車<rt>はくしゃ</rt></ruby>のかけにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -224.74420166015625,
+                    -216.56341552734375
+                ]
+            },
+            {
+                "id": "case_12",
+                "pred": "<ruby>原稿<rt>げんこう</rt></ruby>に手の入れにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>原稿<rt>げんこう</rt></ruby>への手の入れにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "<ruby>原稿<rt>げんこう</rt></ruby>に手の入れにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -171.04678344726562,
+                    -166.77508544921875
+                ]
+            },
+            {
+                "id": "case_13",
+                "pred": "<ruby>麻雀<rt>まーじゃん</rt></ruby>に血道の上げやすさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>麻雀<rt>まーじゃん</rt></ruby>への血道の上げやすさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "<ruby>麻雀<rt>まーじゃん</rt></ruby>に血道の上げやすさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -193.37159729003906,
+                    -189.58103942871094
+                ]
+            },
+            {
+                "id": "case_14",
+                "pred": "自分の<ruby>才能<rt>さいのう</rt></ruby>の鼻にかけやすさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "自分の<ruby>才能<rt>さいのう</rt></ruby>の鼻にかけやすさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "自分の<ruby>才能<rt>さいのう</rt></ruby>の鼻へのかけやすさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -165.19500732421875,
+                    -177.75033569335938
+                ]
+            },
+            {
+                "id": "case_15",
+                "pred": "車の手に入れにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "車の手に入れにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "車の手への入れにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -106.15544128417969,
+                    -113.29203796386719
+                ]
+            },
+            {
+                "id": "case_16",
+                "pred": "自分の失敗の<ruby>棚<rt>たな</rt></ruby>への上げやすさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "自分の失敗の<ruby>棚<rt>たな</rt></ruby>に上げやすさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "自分の失敗の<ruby>棚<rt>たな</rt></ruby>への上げやすさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -175.46018981933594,
+                    -174.72061157226562
+                ]
+            },
+            {
+                "id": "case_17",
+                "pred": "人のことへの口を出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "人のことへの口の出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "人のことへの口を出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -117.81063842773438,
+                    -117.61135864257812
+                ]
+            },
+            {
+                "id": "case_18",
+                "pred": "そんな<ruby>議論<rt>ぎろん</rt></ruby>への<ruby>拍車<rt>はくしゃ</rt></ruby>のかけにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "そんな<ruby>議論<rt>ぎろん</rt></ruby>への<ruby>拍車<rt>はくしゃ</rt></ruby>のかけにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "そんな<ruby>議論<rt>ぎろん</rt></ruby>への<ruby>拍車<rt>はくしゃ</rt></ruby>をかけやすさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -224.74420166015625,
+                    -227.02374267578125
+                ]
+            },
+            {
+                "id": "case_19",
+                "pred": "<ruby>原稿<rt>げんこう</rt></ruby>への手の入れにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>原稿<rt>げんこう</rt></ruby>への手の入れにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "<ruby>原稿<rt>げんこう</rt></ruby>への手を入れにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -171.04678344726562,
+                    -171.39772033691406
+                ]
+            },
+            {
+                "id": "case_20",
+                "pred": "<ruby>麻雀<rt>まーじゃん</rt></ruby>への血道の上げやすさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>麻雀<rt>まーじゃん</rt></ruby>への血道の上げやすさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "<ruby>麻雀<rt>まーじゃん</rt></ruby>への血道を上げやすさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -193.37159729003906,
+                    -195.05364990234375
+                ]
+            },
+            {
+                "id": "case_21",
+                "pred": "<ruby>臭<rt>くさ</rt></ruby>い物に<ruby>蓋<rt>ふた</rt></ruby>のしにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>臭<rt>くさ</rt></ruby>い物への<ruby>蓋<rt>ふた</rt></ruby>のしにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "<ruby>臭<rt>くさ</rt></ruby>い物に<ruby>蓋<rt>ふた</rt></ruby>のしにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -218.26708984375,
+                    -212.29446411132812
+                ]
+            },
+            {
+                "id": "case_22",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が花子に本を<ruby>与<rt>あた</rt></ruby>えた。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子に本を<ruby>与<rt>あた</rt></ruby>えた。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子へ本を<ruby>与<rt>あた</rt></ruby>えた。"
+                ],
+                "probs": [
+                    -146.7442626953125,
+                    -151.1590576171875
+                ]
+            },
+            {
+                "id": "case_23",
+                "pred": "花子に本の<ruby>与<rt>あた</rt></ruby>えにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "花子への本の<ruby>与<rt>あた</rt></ruby>えにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "花子に本の<ruby>与<rt>あた</rt></ruby>えにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -177.7845458984375,
+                    -173.49029541015625
+                ]
+            },
+            {
+                "id": "case_24",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>原稿<rt>げんこう</rt></ruby>に手を入れた。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>原稿<rt>げんこう</rt></ruby>に手を入れた。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>原稿<rt>げんこう</rt></ruby>へ手を入れた。"
+                ],
+                "probs": [
+                    -136.73992919921875,
+                    -141.8211212158203
+                ]
+            },
+            {
+                "id": "case_25",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>はいつも<ruby>臭<rt>くさ</rt></ruby>い物に<ruby>蓋<rt>ふた</rt></ruby>をする。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>はいつも<ruby>臭<rt>くさ</rt></ruby>い物に<ruby>蓋<rt>ふた</rt></ruby>をする。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>はいつも<ruby>臭<rt>くさ</rt></ruby>いものへ<ruby>蓋<rt>ふた</rt></ruby>をする。"
+                ],
+                "probs": [
+                    -195.29620361328125,
+                    -196.18275451660156
+                ]
+            },
+            {
+                "id": "case_26",
+                "pred": "ベランダに<ruby>洗濯<rt>せんたく</rt></ruby>物の出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "ベランダへの<ruby>洗濯<rt>せんたく</rt></ruby>物の出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "ベランダに<ruby>洗濯<rt>せんたく</rt></ruby>物の出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -179.71412658691406,
+                    -170.06619262695312
+                ]
+            },
+            {
+                "id": "case_27",
+                "pred": "<ruby>洗濯<rt>せんたく</rt></ruby>物のベランダに出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>洗濯<rt>せんたく</rt></ruby>物のベランダへの出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "<ruby>洗濯<rt>せんたく</rt></ruby>物のベランダに出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -176.1148223876953,
+                    -172.95208740234375
+                ]
+            },
+            {
+                "id": "case_28",
+                "pred": "ひまわりに水の<ruby>与<rt>あた</rt></ruby>えにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "ひまわりへの水の<ruby>与<rt>あた</rt></ruby>えにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "ひまわりに水の<ruby>与<rt>あた</rt></ruby>えにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -174.70556640625,
+                    -164.42822265625
+                ]
+            },
+            {
+                "id": "case_29",
+                "pred": "水のひまわりに<ruby>与<rt>あた</rt></ruby>えにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "水のひまわりへの<ruby>与<rt>あた</rt></ruby>えにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "水のひまわりに<ruby>与<rt>あた</rt></ruby>えにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -167.53965759277344,
+                    -165.11415100097656
+                ]
+            },
+            {
+                "id": "case_30",
+                "pred": "花子への荷物の東京への送りにくさ。",
+                "correct": true,
+                "sentences": [
+                    "花子への荷物の東京への送りにくさ。",
+                    "花子への荷物の東京に送りにくさ。"
+                ],
+                "probs": [
+                    -72.60934448242188,
+                    -76.61644744873047
+                ]
+            },
+            {
+                "id": "case_31",
+                "pred": "花子への東京への荷物の送りにくさ。",
+                "correct": true,
+                "sentences": [
+                    "花子への東京への荷物の送りにくさ。",
+                    "花子への東京に荷物の送りにくさ。"
+                ],
+                "probs": [
+                    -69.02485656738281,
+                    -73.04350280761719
+                ]
+            },
+            {
+                "id": "case_32",
+                "pred": "花子に東京への荷物の送りにくさ。",
+                "correct": false,
+                "sentences": [
+                    "花子への東京への荷物の送りにくさ。",
+                    "花子に東京への荷物の送りにくさ。"
+                ],
+                "probs": [
+                    -69.02485656738281,
+                    -68.78516387939453
+                ]
+            },
+            {
+                "id": "case_33",
+                "pred": "その<ruby>方針<rt>ほうしん</rt></ruby>への不満の口にしにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "その<ruby>方針<rt>ほうしん</rt></ruby>への不満の口にしにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "その<ruby>方針<rt>ほうしん</rt></ruby>への不満の口へのしにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -168.96429443359375,
+                    -179.93194580078125
+                ]
+            },
+            {
+                "id": "case_34",
+                "pred": "その<ruby>方針<rt>ほうしん</rt></ruby>への不満の口にしにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "その<ruby>方針<rt>ほうしん</rt></ruby>への不満の口にしにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "その<ruby>方針<rt>ほうしん</rt></ruby>に不満の口へのしにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -168.96429443359375,
+                    -177.57408142089844
+                ]
+            },
+            {
+                "id": "case_35",
+                "pred": "その<ruby>方針<rt>ほうしん</rt></ruby>に不満の口にしにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "その<ruby>方針<rt>ほうしん</rt></ruby>への不満の口にしにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "その<ruby>方針<rt>ほうしん</rt></ruby>に不満の口にしにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -168.96429443359375,
+                    -167.12442016601562
+                ]
+            },
+            {
+                "id": "case_36",
+                "pred": "先生が生徒を泣かせた場所はここだ。",
+                "correct": true,
+                "sentences": [
+                    "先生が生徒を泣かせた場所はここだ。",
+                    "先生が生徒の泣かせた場所はここだ。"
+                ],
+                "probs": [
+                    -53.043060302734375,
+                    -57.662841796875
+                ]
+            },
+            {
+                "id": "case_37",
+                "pred": "生徒を泣かせた先生はあの人だ。",
+                "correct": true,
+                "sentences": [
+                    "生徒を泣かせた先生はあの人だ。",
+                    "生徒の泣かせた先生はあの人だ。"
+                ],
+                "probs": [
+                    -49.471702575683594,
+                    -53.52354431152344
+                ]
+            },
+            {
+                "id": "case_38",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>のゴミを<ruby>捨<rt>す</rt></ruby>て方は<ruby>雑<rt>ざつ</rt></ruby>だ。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>のゴミの<ruby>捨<rt>す</rt></ruby>て方は<ruby>雑<rt>ざつ</rt></ruby>だ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>のゴミを<ruby>捨<rt>す</rt></ruby>て方は<ruby>雑<rt>ざつ</rt></ruby>だ。"
+                ],
+                "probs": [
+                    -191.10836791992188,
+                    -189.363037109375
+                ]
+            },
+            {
+                "id": "case_39",
+                "pred": "悪事からの足を<ruby>洗<rt>あら</rt></ruby>い方は知っている。",
+                "correct": false,
+                "sentences": [
+                    "悪事からの足の<ruby>洗<rt>あら</rt></ruby>い方は知っている。",
+                    "悪事からの足を<ruby>洗<rt>あら</rt></ruby>い方は知っている。"
+                ],
+                "probs": [
+                    -111.72770690917969,
+                    -111.64968872070312
+                ]
+            },
+            {
+                "id": "case_40",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>燃<rt>も</rt></ruby>えるゴミを<ruby>捨<rt>す</rt></ruby>てる場所はここだ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>燃<rt>も</rt></ruby>えるゴミを<ruby>捨<rt>す</rt></ruby>てる場所はここだ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>燃<rt>も</rt></ruby>えるゴミの<ruby>捨<rt>す</rt></ruby>てる場所はここだ。"
+                ],
+                "probs": [
+                    -206.2615509033203,
+                    -208.51766967773438
+                ]
+            },
+            {
+                "id": "case_41",
+                "pred": "<ruby>彼<rt>かれ</rt></ruby>が悪事から足を<ruby>洗<rt>あら</rt></ruby>う日はいつになるのだろう？",
+                "correct": true,
+                "sentences": [
+                    "<ruby>彼<rt>かれ</rt></ruby>が悪事から足を<ruby>洗<rt>あら</rt></ruby>う日はいつになるのだろう？",
+                    "<ruby>彼<rt>かれ</rt></ruby>が悪事から足の<ruby>洗<rt>あら</rt></ruby>う日はいつになるのだろう？"
+                ],
+                "probs": [
+                    -173.3868408203125,
+                    -175.63858032226562
+                ]
+            },
+            {
+                "id": "case_42",
+                "pred": "<ruby>彼<rt>かれ</rt></ruby>の手下が<ruby>大統領<rt>だいとうりょう</rt></ruby>を<ruby>暗殺<rt>あんさつ</rt></ruby>する計画は入念だ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>彼<rt>かれ</rt></ruby>の手下が<ruby>大統領<rt>だいとうりょう</rt></ruby>を<ruby>暗殺<rt>あんさつ</rt></ruby>する計画は入念だ。",
+                    "<ruby>彼<rt>かれ</rt></ruby>の手下が<ruby>大統領<rt>だいとうりょう</rt></ruby>の<ruby>暗殺<rt>あんさつ</rt></ruby>する計画は入念だ。"
+                ],
+                "probs": [
+                    -232.88148498535156,
+                    -235.4038848876953
+                ]
+            },
+            {
+                "id": "case_43",
+                "pred": "生徒たちが力を入れる科目は数学だ。",
+                "correct": true,
+                "sentences": [
+                    "生徒たちが力を入れる科目は数学だ。",
+                    "生徒たちが力の入れる科目は数学だ。"
+                ],
+                "probs": [
+                    -54.872161865234375,
+                    -62.11379623413086
+                ]
+            },
+            {
+                "id": "case_44",
+                "pred": "山田が<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>を運び<ruby>込<rt>こ</rt></ruby>む部屋はここだ。",
+                "correct": true,
+                "sentences": [
+                    "山田が<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>を運び<ruby>込<rt>こ</rt></ruby>む部屋はここだ。",
+                    "山田が<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>の運び<ruby>込<rt>こ</rt></ruby>む部屋はここだ。"
+                ],
+                "probs": [
+                    -222.514892578125,
+                    -226.57369995117188
+                ]
+            },
+            {
+                "id": "case_45",
+                "pred": "新入社員が羽目を外す機会は少ない。",
+                "correct": true,
+                "sentences": [
+                    "新入社員が羽目を外す機会は少ない。",
+                    "新入社員が羽目の外す機会は少ない。"
+                ],
+                "probs": [
+                    -59.85301971435547,
+                    -66.6921615600586
+                ]
+            },
+            {
+                "id": "case_46",
+                "pred": "鳥が<ruby>卵<rt>たまご</rt></ruby>を温める場所はここだ。",
+                "correct": true,
+                "sentences": [
+                    "鳥が<ruby>卵<rt>たまご</rt></ruby>を温める場所はここだ。",
+                    "鳥が<ruby>卵<rt>たまご</rt></ruby>の温める場所はここだ。"
+                ],
+                "probs": [
+                    -100.29867553710938,
+                    -105.08086395263672
+                ]
+            },
+            {
+                "id": "case_47",
+                "pred": "<ruby>燃<rt>も</rt></ruby>えるゴミを<ruby>捨<rt>す</rt></ruby>てた場所はここだ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>燃<rt>も</rt></ruby>えるゴミを<ruby>捨<rt>す</rt></ruby>てた場所はここだ。",
+                    "<ruby>燃<rt>も</rt></ruby>えるゴミの<ruby>捨<rt>す</rt></ruby>てた場所はここだ。"
+                ],
+                "probs": [
+                    -145.811767578125,
+                    -149.669189453125
+                ]
+            },
+            {
+                "id": "case_48",
+                "pred": "悪事から足の<ruby>洗<rt>あら</rt></ruby>った日は覚えている。",
+                "correct": false,
+                "sentences": [
+                    "悪事から足を<ruby>洗<rt>あら</rt></ruby>った日は覚えている。",
+                    "悪事から足の<ruby>洗<rt>あら</rt></ruby>った日は覚えている。"
+                ],
+                "probs": [
+                    -112.96173858642578,
+                    -111.8555908203125
+                ]
+            },
+            {
+                "id": "case_49",
+                "pred": "力を入れた科目は数学だ。",
+                "correct": true,
+                "sentences": [
+                    "力を入れた科目は数学だ。",
+                    "力の入れた科目は数学だ。"
+                ],
+                "probs": [
+                    -47.62672805786133,
+                    -50.26959991455078
+                ]
+            },
+            {
+                "id": "case_50",
+                "pred": "<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>を運び<ruby>込<rt>こ</rt></ruby>んだ部屋はここだ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>を運び<ruby>込<rt>こ</rt></ruby>んだ部屋はここだ。",
+                    "<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>の運び<ruby>込<rt>こ</rt></ruby>んだ部屋はここだ。"
+                ],
+                "probs": [
+                    -206.09756469726562,
+                    -210.22552490234375
+                ]
+            },
+            {
+                "id": "case_51",
+                "pred": "この場所には<ruby>燃<rt>も</rt></ruby>えるゴミを<ruby>捨<rt>す</rt></ruby>てる。",
+                "correct": true,
+                "sentences": [
+                    "この場所には<ruby>燃<rt>も</rt></ruby>えるゴミを<ruby>捨<rt>す</rt></ruby>てる。",
+                    "この場所には<ruby>燃<rt>も</rt></ruby>えるゴミの<ruby>捨<rt>す</rt></ruby>てる。"
+                ],
+                "probs": [
+                    -142.10470581054688,
+                    -147.4539794921875
+                ]
+            },
+            {
+                "id": "case_52",
+                "pred": "家族を持つと<ruby>普通<rt>ふつう</rt></ruby>悪事から足を<ruby>洗<rt>あら</rt></ruby>う。",
+                "correct": true,
+                "sentences": [
+                    "家族を持つと<ruby>普通<rt>ふつう</rt></ruby>悪事から足を<ruby>洗<rt>あら</rt></ruby>う。",
+                    "家族を持つと<ruby>普通<rt>ふつう</rt></ruby>悪事から足の<ruby>洗<rt>あら</rt></ruby>う。"
+                ],
+                "probs": [
+                    -168.84463500976562,
+                    -170.38137817382812
+                ]
+            },
+            {
+                "id": "case_53",
+                "pred": "<ruby>宴会<rt>えんかい</rt></ruby>では羽目を外す。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>宴会<rt>えんかい</rt></ruby>では羽目を外す。",
+                    "<ruby>宴会<rt>えんかい</rt></ruby>では羽目の外す。"
+                ],
+                "probs": [
+                    -97.05554962158203,
+                    -103.35688018798828
+                ]
+            },
+            {
+                "id": "case_54",
+                "pred": "<ruby>燃<rt>も</rt></ruby>えるゴミを<ruby>捨<rt>す</rt></ruby>てるよう命令した。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>燃<rt>も</rt></ruby>えるゴミを<ruby>捨<rt>す</rt></ruby>てるよう命令した。",
+                    "<ruby>燃<rt>も</rt></ruby>えるゴミの<ruby>捨<rt>す</rt></ruby>てるよう命令した。"
+                ],
+                "probs": [
+                    -143.2351531982422,
+                    -148.9515838623047
+                ]
+            },
+            {
+                "id": "case_55",
+                "pred": "<ruby>彼<rt>かれ</rt></ruby>は悪事から足を<ruby>洗<rt>あら</rt></ruby>うと思われていた。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>彼<rt>かれ</rt></ruby>は悪事から足を<ruby>洗<rt>あら</rt></ruby>うと思われていた。",
+                    "<ruby>彼<rt>かれ</rt></ruby>は悪事から足の<ruby>洗<rt>あら</rt></ruby>うと思われていた。"
+                ],
+                "probs": [
+                    -158.61480712890625,
+                    -160.7598114013672
+                ]
+            },
+            {
+                "id": "case_56",
+                "pred": "<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>を運び<ruby>込<rt>こ</rt></ruby>むかどうかわからない部屋があった。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>を運び<ruby>込<rt>こ</rt></ruby>むかどうかわからない部屋があった。",
+                    "<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>の運び<ruby>込<rt>こ</rt></ruby>むかどうかわからない部屋があった。"
+                ],
+                "probs": [
+                    -213.29678344726562,
+                    -217.21597290039062
+                ]
+            },
+            {
+                "id": "case_57",
+                "pred": "ゴミを<ruby>捨<rt>す</rt></ruby>てると思われていた日は覚えている。",
+                "correct": true,
+                "sentences": [
+                    "ゴミを<ruby>捨<rt>す</rt></ruby>てると思われていた日は覚えている。",
+                    "ゴミの<ruby>捨<rt>す</rt></ruby>てると思われていた日は覚えている。"
+                ],
+                "probs": [
+                    -107.01524353027344,
+                    -108.90878295898438
+                ]
+            },
+            {
+                "id": "case_58",
+                "pred": "悪事から足を<ruby>洗<rt>あら</rt></ruby>うまで信じてあげない。",
+                "correct": true,
+                "sentences": [
+                    "悪事から足を<ruby>洗<rt>あら</rt></ruby>うまで信じてあげない。",
+                    "悪事から足の<ruby>洗<rt>あら</rt></ruby>うまで信じてあげない。"
+                ],
+                "probs": [
+                    -115.1440658569336,
+                    -115.86659240722656
+                ]
+            },
+            {
+                "id": "case_59",
+                "pred": "<ruby>燃<rt>も</rt></ruby>えるゴミを<ruby>捨<rt>す</rt></ruby>てるより<ruby>燃<rt>も</rt></ruby>えないゴミを<ruby>捨<rt>す</rt></ruby>てる方が<ruby>難<rt>むずか</rt></ruby>しい。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>燃<rt>も</rt></ruby>えるゴミを<ruby>捨<rt>す</rt></ruby>てるより<ruby>燃<rt>も</rt></ruby>えないゴミを<ruby>捨<rt>す</rt></ruby>てる方が<ruby>難<rt>むずか</rt></ruby>しい。",
+                    "<ruby>燃<rt>も</rt></ruby>えるゴミの<ruby>捨<rt>す</rt></ruby>てるより<ruby>燃<rt>も</rt></ruby>えないゴミを<ruby>捨<rt>す</rt></ruby>てる方が<ruby>難<rt>むずか</rt></ruby>しい。"
+                ],
+                "probs": [
+                    -338.51580810546875,
+                    -341.32440185546875
+                ]
+            },
+            {
+                "id": "case_60",
+                "pred": "<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>を運び<ruby>込<rt>こ</rt></ruby>むにつれて部屋がいっぱいになってきた。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>を運び<ruby>込<rt>こ</rt></ruby>むにつれて部屋がいっぱいになってきた。",
+                    "<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>の運び<ruby>込<rt>こ</rt></ruby>むにつれて部屋がいっぱいになってきた。"
+                ],
+                "probs": [
+                    -215.98001098632812,
+                    -220.670166015625
+                ]
+            },
+            {
+                "id": "case_61",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が音楽を好む季節は夏だ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が音楽を好む季節は夏だ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が音楽の好む季節は夏だ。"
+                ],
+                "probs": [
+                    -95.79248046875,
+                    -99.8760986328125
+                ]
+            },
+            {
+                "id": "case_62",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>がゴミを<ruby>捨<rt>す</rt></ruby>てると約束した日は明日だ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>がゴミを<ruby>捨<rt>す</rt></ruby>てると約束した日は明日だ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>がゴミの<ruby>捨<rt>す</rt></ruby>てると約束した日は明日だ。"
+                ],
+                "probs": [
+                    -162.52163696289062,
+                    -164.24160766601562
+                ]
+            },
+            {
+                "id": "case_63",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>の<ruby>琵琶<rt>びわ</rt></ruby>湖を泳いだ日は土曜日だった。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>琵琶<rt>びわ</rt></ruby>湖を泳いだ日は土曜日だった。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>の<ruby>琵琶<rt>びわ</rt></ruby>湖を泳いだ日は土曜日だった。"
+                ],
+                "probs": [
+                    -161.95623779296875,
+                    -161.63836669921875
+                ]
+            },
+            {
+                "id": "case_64",
+                "pred": "<ruby>彼<rt>かれ</rt></ruby>の問題を<ruby>解決<rt>かいけつ</rt></ruby>した日は土曜日だった。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>彼<rt>かれ</rt></ruby>が問題を<ruby>解決<rt>かいけつ</rt></ruby>した日は土曜日だった。",
+                    "<ruby>彼<rt>かれ</rt></ruby>の問題を<ruby>解決<rt>かいけつ</rt></ruby>した日は土曜日だった。"
+                ],
+                "probs": [
+                    -157.46542358398438,
+                    -153.3203582763672
+                ]
+            },
+            {
+                "id": "case_65",
+                "pred": "ジョンの試験を受けた日に雨が<ruby>降<rt>ふ</rt></ruby>った。",
+                "correct": false,
+                "sentences": [
+                    "ジョンが試験を受けた日に雨が<ruby>降<rt>ふ</rt></ruby>った。",
+                    "ジョンの試験を受けた日に雨が<ruby>降<rt>ふ</rt></ruby>った。"
+                ],
+                "probs": [
+                    -109.21882629394531,
+                    -108.24388122558594
+                ]
+            },
+            {
+                "id": "case_66",
+                "pred": "<ruby>従業<rt>じゅうぎょう</rt></ruby>員が<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>を運び<ruby>込<rt>こ</rt></ruby>んだ部屋はここだ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>従業<rt>じゅうぎょう</rt></ruby>員が<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>を運び<ruby>込<rt>こ</rt></ruby>んだ部屋はここだ。",
+                    "<ruby>従業<rt>じゅうぎょう</rt></ruby>員の<ruby>座<rt>ざ</rt></ruby><ruby>布団<rt>ぶとん</rt></ruby>を運び<ruby>込<rt>こ</rt></ruby>んだ部屋はここだ。"
+                ],
+                "probs": [
+                    -268.0900573730469,
+                    -272.2789306640625
+                ]
+            },
+            {
+                "id": "case_67",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が右目を<ruby>瞑<rt>つぶ</rt></ruby>る。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が右目を<ruby>瞑<rt>つぶ</rt></ruby>る。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が右目が<ruby>瞑<rt>つぶ</rt></ruby>る。"
+                ],
+                "probs": [
+                    -141.72341918945312,
+                    -142.85858154296875
+                ]
+            },
+            {
+                "id": "case_68",
+                "pred": "花子が<ruby>太郎<rt>たろう</rt></ruby>に右目を<ruby>瞑<rt>つぶ</rt></ruby>らせた。",
+                "correct": true,
+                "sentences": [
+                    "花子が<ruby>太郎<rt>たろう</rt></ruby>に右目を<ruby>瞑<rt>つぶ</rt></ruby>らせた。",
+                    "花子が<ruby>太郎<rt>たろう</rt></ruby>に右目が<ruby>瞑<rt>つぶ</rt></ruby>らせた。"
+                ],
+                "probs": [
+                    -165.17498779296875,
+                    -168.02117919921875
+                ]
+            },
+            {
+                "id": "case_69",
+                "pred": "メアリーがジョンに英語を分からせる。",
+                "correct": true,
+                "sentences": [
+                    "メアリーがジョンに英語を分からせる。",
+                    "メアリーがジョンに英語が分からせる。"
+                ],
+                "probs": [
+                    -65.3665542602539,
+                    -68.83316802978516
+                ]
+            },
+            {
+                "id": "case_70",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>はメアリーにワインを飲ませやすい。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>はメアリーにワインを飲ませやすい。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>はメアリーをワインを飲ませやすい。"
+                ],
+                "probs": [
+                    -102.68305969238281,
+                    -107.88124084472656
+                ]
+            },
+            {
+                "id": "case_71",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>はメアリーがワインを飲ませやすい。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>はメアリーがワインを飲ませやすい。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>はメアリーをワインを飲ませやすい。"
+                ],
+                "probs": [
+                    -102.68008422851562,
+                    -107.88124084472656
+                ]
+            },
+            {
+                "id": "case_72",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>はメアリーがワインを飲ませやすい。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>はメアリーがワインを飲ませやすい。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>はメアリーをワインが飲ませやすい。"
+                ],
+                "probs": [
+                    -102.68008422851562,
+                    -110.39352416992188
+                ]
+            },
+            {
+                "id": "case_73",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>はメアリーがワインが飲ませやすい。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>はメアリーがワインが飲ませやすい。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>はメアリーをワインが飲ませやすい。"
+                ],
+                "probs": [
+                    -109.82450866699219,
+                    -110.39352416992188
+                ]
+            },
+            {
+                "id": "case_74",
+                "pred": "栄光を手にする。",
+                "correct": true,
+                "sentences": [
+                    "栄光を手にする。",
+                    "栄光を手へする。"
+                ],
+                "probs": [
+                    -26.78308868408203,
+                    -36.53285217285156
+                ]
+            },
+            {
+                "id": "case_75",
+                "pred": "<ruby>衝撃<rt>しょうげき</rt></ruby>的な光景を目にする。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>衝撃<rt>しょうげき</rt></ruby>的な光景を目にする。",
+                    "<ruby>衝撃<rt>しょうげき</rt></ruby>的な光景を目へする。"
+                ],
+                "probs": [
+                    -89.45154571533203,
+                    -98.92499542236328
+                ]
+            },
+            {
+                "id": "case_76",
+                "pred": "友達の悪口を根に持つ。",
+                "correct": true,
+                "sentences": [
+                    "友達の悪口を根に持つ。",
+                    "友達の悪口を根へ持つ。"
+                ],
+                "probs": [
+                    -44.990562438964844,
+                    -46.9752197265625
+                ]
+            },
+            {
+                "id": "case_77",
+                "pred": "<ruby>報道<rt>ほうどう</rt></ruby><ruby>陣<rt>じん</rt></ruby>を<ruby>煙<rt>けむ</rt></ruby>に<ruby>巻<rt>ま</rt></ruby>く。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>報道<rt>ほうどう</rt></ruby><ruby>陣<rt>じん</rt></ruby>を<ruby>煙<rt>けむ</rt></ruby>に<ruby>巻<rt>ま</rt></ruby>く。",
+                    "<ruby>報道<rt>ほうどう</rt></ruby><ruby>陣<rt>じん</rt></ruby>を<ruby>煙<rt>けむ</rt></ruby>へ<ruby>巻<rt>ま</rt></ruby>く。"
+                ],
+                "probs": [
+                    -229.5971221923828,
+                    -236.40382385253906
+                ]
+            },
+            {
+                "id": "case_78",
+                "pred": "人生を<ruby>棒<rt>ぼう</rt></ruby>に<ruby>振<rt>ふ</rt></ruby>る。",
+                "correct": true,
+                "sentences": [
+                    "人生を<ruby>棒<rt>ぼう</rt></ruby>に<ruby>振<rt>ふ</rt></ruby>る。",
+                    "人生を<ruby>棒<rt>ぼう</rt></ruby>へ<ruby>振<rt>ふ</rt></ruby>る。"
+                ],
+                "probs": [
+                    -124.59320068359375,
+                    -127.31346130371094
+                ]
+            },
+            {
+                "id": "case_79",
+                "pred": "<ruby>子供<rt>こども</rt></ruby>を手に<ruby>余<rt>あま</rt></ruby>す。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>子供<rt>こども</rt></ruby>を手に<ruby>余<rt>あま</rt></ruby>す。",
+                    "<ruby>子供<rt>こども</rt></ruby>を手へ<ruby>余<rt>あま</rt></ruby>す。"
+                ],
+                "probs": [
+                    -129.20504760742188,
+                    -129.30853271484375
+                ]
+            },
+            {
+                "id": "case_80",
+                "pred": "<ruby>不審<rt>ふしん</rt></ruby>な人物に目に<ruby>留<rt>と</rt></ruby>める。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>不審<rt>ふしん</rt></ruby>な人物に目に<ruby>留<rt>と</rt></ruby>める。",
+                    "<ruby>不審<rt>ふしん</rt></ruby>な人物に目へ<ruby>留<rt>と</rt></ruby>める。"
+                ],
+                "probs": [
+                    -139.99655151367188,
+                    -144.21669006347656
+                ]
+            },
+            {
+                "id": "case_81",
+                "pred": "<ruby>警察<rt>けいさつ</rt></ruby>が<ruby>組織<rt>そしき</rt></ruby>を<ruby>網<rt>あみ</rt></ruby>にかける。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>警察<rt>けいさつ</rt></ruby>が<ruby>組織<rt>そしき</rt></ruby>を<ruby>網<rt>あみ</rt></ruby>にかける。",
+                    "<ruby>警察<rt>けいさつ</rt></ruby>が<ruby>組織<rt>そしき</rt></ruby>を<ruby>網<rt>あみ</rt></ruby>へかける。"
+                ],
+                "probs": [
+                    -179.63711547851562,
+                    -183.8478240966797
+                ]
+            },
+            {
+                "id": "case_82",
+                "pred": "<ruby>仇<rt>あだ</rt></ruby>を手にかける。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>仇<rt>あだ</rt></ruby>を手にかける。",
+                    "<ruby>仇<rt>あだ</rt></ruby>を手へかける。"
+                ],
+                "probs": [
+                    -77.1407241821289,
+                    -80.93939208984375
+                ]
+            },
+            {
+                "id": "case_83",
+                "pred": "ブランド品を身に着ける。",
+                "correct": true,
+                "sentences": [
+                    "ブランド品を身に着ける。",
+                    "ブランド品を身へ着ける。"
+                ],
+                "probs": [
+                    -27.745500564575195,
+                    -43.79887390136719
+                ]
+            },
+            {
+                "id": "case_84",
+                "pred": "高い地位を手に入れる。",
+                "correct": true,
+                "sentences": [
+                    "高い地位を手に入れる。",
+                    "高い地位を手へ入れる。"
+                ],
+                "probs": [
+                    -33.01758575439453,
+                    -44.00959777832031
+                ]
+            },
+            {
+                "id": "case_85",
+                "pred": "トイレに学校での行きにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "トイレへの学校での行きにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "トイレに学校での行きにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -125.69981384277344,
+                    -120.24075317382812
+                ]
+            },
+            {
+                "id": "case_86",
+                "pred": "トイレへ学校での行きにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "トイレへの学校での行きにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "トイレへ学校での行きにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -125.69981384277344,
+                    -123.96553802490234
+                ]
+            },
+            {
+                "id": "case_87",
+                "pred": "トイレへの学校での行きにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "トイレへの学校での行きにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "トイレへの学校で行きにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -125.69981384277344,
+                    -126.60262298583984
+                ]
+            },
+            {
+                "id": "case_88",
+                "pred": "学校でトイレへの行きにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": false,
+                "sentences": [
+                    "学校でのトイレへの行きにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "学校でトイレへの行きにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -117.26727294921875,
+                    -115.54985809326172
+                ]
+            },
+            {
+                "id": "case_89",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>と仕事のやりにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>と仕事のやりにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "仕事の<ruby>太郎<rt>たろう</rt></ruby>とやりにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -155.45309448242188,
+                    -159.0947723388672
+                ]
+            },
+            {
+                "id": "case_90",
+                "pred": "副作用を出し方には<ruby>個人<rt>こじん</rt></ruby>差があります。",
+                "correct": false,
+                "sentences": [
+                    "副作用の出し方には<ruby>個人<rt>こじん</rt></ruby>差があります。",
+                    "副作用を出し方には<ruby>個人<rt>こじん</rt></ruby>差があります。"
+                ],
+                "probs": [
+                    -98.84358215332031,
+                    -97.46778869628906
+                ]
+            },
+            {
+                "id": "case_91",
+                "pred": "組み合わせによって、<ruby>影響<rt>えいきょう</rt></ruby>を受け方が変わってきます。",
+                "correct": false,
+                "sentences": [
+                    "組み合わせによって、<ruby>影響<rt>えいきょう</rt></ruby>の受け方が変わってきます。",
+                    "組み合わせによって、<ruby>影響<rt>えいきょう</rt></ruby>を受け方が変わってきます。"
+                ],
+                "probs": [
+                    -103.73587036132812,
+                    -102.95701599121094
+                ]
+            },
+            {
+                "id": "case_92",
+                "pred": "これはものによって、熱を伝えやすさが<ruby>違<rt>ちが</rt></ruby>うためです。",
+                "correct": false,
+                "sentences": [
+                    "これはものによって、熱の伝えやすさが<ruby>違<rt>ちが</rt></ruby>うためです。",
+                    "これはものによって、熱を伝えやすさが<ruby>違<rt>ちが</rt></ruby>うためです。"
+                ],
+                "probs": [
+                    -126.13156127929688,
+                    -121.08914184570312
+                ]
+            },
+            {
+                "id": "case_93",
+                "pred": "健に手紙が<ruby>届<rt>とど</rt></ruby>いた。",
+                "correct": true,
+                "sentences": [
+                    "健に手紙が<ruby>届<rt>とど</rt></ruby>いた。",
+                    "健が手紙が<ruby>届<rt>とど</rt></ruby>いた。"
+                ],
+                "probs": [
+                    -92.62698364257812,
+                    -94.08564758300781
+                ]
+            },
+            {
+                "id": "case_94",
+                "pred": "会長が昨日死去した。",
+                "correct": true,
+                "sentences": [
+                    "会長が昨日死去した。",
+                    "会長が昨日死去をした。"
+                ],
+                "probs": [
+                    -34.56633758544922,
+                    -41.50865936279297
+                ]
+            },
+            {
+                "id": "case_95",
+                "pred": "強い<ruby>地震<rt>じしん</rt></ruby>のため建物が<ruby>自壊<rt>じかい</rt></ruby>した。",
+                "correct": true,
+                "sentences": [
+                    "強い<ruby>地震<rt>じしん</rt></ruby>のため建物が<ruby>自壊<rt>じかい</rt></ruby>した。",
+                    "強い<ruby>地震<rt>じしん</rt></ruby>のため建物が<ruby>自壊<rt>じかい</rt></ruby>をした。"
+                ],
+                "probs": [
+                    -164.3796844482422,
+                    -169.69749450683594
+                ]
+            },
+            {
+                "id": "case_96",
+                "pred": "建物が<ruby>自壊<rt>じかい</rt></ruby>した。",
+                "correct": true,
+                "sentences": [
+                    "建物が<ruby>自壊<rt>じかい</rt></ruby>した。",
+                    "建物が<ruby>自壊<rt>じかい</rt></ruby>をした。"
+                ],
+                "probs": [
+                    -92.72956085205078,
+                    -96.00952911376953
+                ]
+            },
+            {
+                "id": "case_97",
+                "pred": "<ruby>惑星<rt>わくせい</rt></ruby>が自転している。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>惑星<rt>わくせい</rt></ruby>が自転している。",
+                    "<ruby>惑星<rt>わくせい</rt></ruby>が自転をしている。"
+                ],
+                "probs": [
+                    -84.32351684570312,
+                    -85.84223937988281
+                ]
+            },
+            {
+                "id": "case_98",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は息子医者である。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は息子が医者である。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は息子医者である。"
+                ],
+                "probs": [
+                    -83.22068786621094,
+                    -81.22943878173828
+                ]
+            },
+            {
+                "id": "case_99",
+                "pred": "何<ruby>太郎<rt>たろう</rt></ruby>は買ったの？",
+                "correct": false,
+                "sentences": [
+                    "何を<ruby>太郎<rt>たろう</rt></ruby>は買ったの？",
+                    "何<ruby>太郎<rt>たろう</rt></ruby>は買ったの？"
+                ],
+                "probs": [
+                    -77.6752700805664,
+                    -74.30213928222656
+                ]
+            }
+        ]
+    },
+    "parasitic-gap": {
+        "predictions": [
+            {
+                "id": "parasitic-gap_0",
+                "pred": "読んだ学生がどの<ruby>論文<rt>ろんぶん</rt></ruby>にうんざりしたの？",
+                "correct": false,
+                "sentences": [
+                    "読んだ学生がうんざりしたのはどの<ruby>論文<rt>ろんぶん</rt></ruby>にですか？",
+                    "読んだ学生がどの<ruby>論文<rt>ろんぶん</rt></ruby>にうんざりしたの？"
+                ],
+                "probs": [
+                    -131.092529296875,
+                    -127.53485107421875
+                ]
+            },
+            {
+                "id": "parasitic-gap_1",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が花子を<ruby>解雇<rt>かいこ</rt></ruby>しようとしているのはなぜですか？",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子を<ruby>解雇<rt>かいこ</rt></ruby>しようとしているのはなぜですか？",
+                    "<ruby>太郎<rt>たろう</rt></ruby>を<ruby>解雇<rt>かいこ</rt></ruby>した人が花子も<ruby>解雇<rt>かいこ</rt></ruby>しようとしているのはなぜですか？"
+                ],
+                "probs": [
+                    -163.46131896972656,
+                    -240.0517578125
+                ]
+            },
+            {
+                "id": "parasitic-gap_2",
+                "pred": "その人がこの定理を<ruby>証明<rt>しょうめい</rt></ruby>したのはどうやってですか？",
+                "correct": true,
+                "sentences": [
+                    "その人がこの定理を<ruby>証明<rt>しょうめい</rt></ruby>したのはどうやってですか？",
+                    "その定理を<ruby>証明<rt>しょうめい</rt></ruby>した人がこの定理も<ruby>証明<rt>しょうめい</rt></ruby>したのはどうやってですか？"
+                ],
+                "probs": [
+                    -112.99779510498047,
+                    -195.50025939941406
+                ]
+            },
+            {
+                "id": "parasitic-gap_3",
+                "pred": "読んだ学生がどの<ruby>論文<rt>ろんぶん</rt></ruby>にうんざりしたのですか？",
+                "correct": false,
+                "sentences": [
+                    "読んだ学生がうんざりしたのはどの<ruby>論文<rt>ろんぶん</rt></ruby>にですか？",
+                    "読んだ学生がどの<ruby>論文<rt>ろんぶん</rt></ruby>にうんざりしたのですか？"
+                ],
+                "probs": [
+                    -131.092529296875,
+                    -129.86866760253906
+                ]
+            },
+            {
+                "id": "parasitic-gap_4",
+                "pred": "初めて会った人がけなしたのは<ruby>誰<rt>だれ</rt></ruby>をですか？",
+                "correct": true,
+                "sentences": [
+                    "初めて会った人がけなしたのは<ruby>誰<rt>だれ</rt></ruby>をですか？",
+                    "初めて会った人がメアリーがけなしたと言ったのは<ruby>誰<rt>だれ</rt></ruby>をですか？"
+                ],
+                "probs": [
+                    -111.6666259765625,
+                    -144.9243927001953
+                ]
+            },
+            {
+                "id": "parasitic-gap_5",
+                "pred": "初めて会った人がけなしたのは<ruby>誰<rt>だれ</rt></ruby>をですか？",
+                "correct": true,
+                "sentences": [
+                    "初めて会った人がけなしたのは<ruby>誰<rt>だれ</rt></ruby>をですか？",
+                    "<ruby>誰<rt>だれ</rt></ruby>を初めて会った人がメアリーがけなしたと言ったの？"
+                ],
+                "probs": [
+                    -111.6666259765625,
+                    -144.1201171875
+                ]
+            }
+        ]
+    },
+    "passive": {
+        "predictions": [
+            {
+                "id": "passive_0",
+                "pred": "このドアが<ruby>太郎<rt>たろう</rt></ruby>に開けられた。",
+                "correct": false,
+                "sentences": [
+                    "このドアが<ruby>太郎<rt>たろう</rt></ruby>によって開けられた。",
+                    "このドアが<ruby>太郎<rt>たろう</rt></ruby>に開けられた。"
+                ],
+                "probs": [
+                    -90.2748794555664,
+                    -88.9181137084961
+                ]
+            },
+            {
+                "id": "passive_1",
+                "pred": "その寺は<ruby>翌年<rt>よくねん</rt></ruby>空海に建てられた。",
+                "correct": false,
+                "sentences": [
+                    "その寺は<ruby>翌年<rt>よくねん</rt></ruby>空海に焼き<ruby>払<rt>はら</rt></ruby>われた。",
+                    "その寺は<ruby>翌年<rt>よくねん</rt></ruby>空海に建てられた。"
+                ],
+                "probs": [
+                    -177.25662231445312,
+                    -114.49028015136719
+                ]
+            },
+            {
+                "id": "passive_2",
+                "pred": "大工が家を建てさせられた。",
+                "correct": true,
+                "sentences": [
+                    "大工が家を建てさせられた。",
+                    "家が大工に建てさせられた。"
+                ],
+                "probs": [
+                    -41.80809020996094,
+                    -49.65361785888672
+                ]
+            },
+            {
+                "id": "passive_3",
+                "pred": "由美が手紙を送られた。",
+                "correct": false,
+                "sentences": [
+                    "由美が手紙を<ruby>渡<rt>わた</rt></ruby>された。",
+                    "由美が手紙を送られた。"
+                ],
+                "probs": [
+                    -86.950439453125,
+                    -34.900634765625
+                ]
+            },
+            {
+                "id": "passive_4",
+                "pred": "だるまが母親によって転ばせられた。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>子供<rt>こども</rt></ruby>が母親によって転ばせられた。",
+                    "だるまが母親によって転ばせられた。"
+                ],
+                "probs": [
+                    -100.87489318847656,
+                    -61.12332534790039
+                ]
+            },
+            {
+                "id": "passive_5",
+                "pred": "<ruby>子供<rt>こども</rt></ruby>が母親によって思わず転ばせられた。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>子供<rt>こども</rt></ruby>が母親によって無理矢理あんな風に転ばせられた。",
+                    "<ruby>子供<rt>こども</rt></ruby>が母親によって思わず転ばせられた。"
+                ],
+                "probs": [
+                    -151.35650634765625,
+                    -108.99288940429688
+                ]
+            },
+            {
+                "id": "passive_6",
+                "pred": "息子がジョンによって<ruby>自炊<rt>じすい</rt></ruby>させられた。",
+                "correct": true,
+                "sentences": [
+                    "息子がジョンによって<ruby>自炊<rt>じすい</rt></ruby>させられた。",
+                    "家がジョンによって<ruby>自壊<rt>じかい</rt></ruby>させられた。"
+                ],
+                "probs": [
+                    -112.51238250732422,
+                    -118.91122436523438
+                ]
+            }
+        ]
+    },
+    "person constraint": {
+        "predictions": [
+            {
+                "id": "person constraint_0",
+                "pred": "あなたは寒いです。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>私<rt>わたし</rt></ruby>は寒いです。",
+                    "あなたは寒いです。"
+                ],
+                "probs": [
+                    -71.42179107666016,
+                    -23.24972915649414
+                ]
+            },
+            {
+                "id": "person constraint_1",
+                "pred": "<ruby>彼<rt>かれ</rt></ruby>は寒いです。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>私<rt>わたし</rt></ruby>は寒いです。",
+                    "<ruby>彼<rt>かれ</rt></ruby>は寒いです。"
+                ],
+                "probs": [
+                    -71.42179107666016,
+                    -70.1692886352539
+                ]
+            },
+            {
+                "id": "person constraint_2",
+                "pred": "あなたは<ruby>寂<rt>さび</rt></ruby>しいです。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>私<rt>わたし</rt></ruby>は<ruby>寂<rt>さび</rt></ruby>しいです。",
+                    "あなたは<ruby>寂<rt>さび</rt></ruby>しいです。"
+                ],
+                "probs": [
+                    -126.78565979003906,
+                    -75.91937255859375
+                ]
+            },
+            {
+                "id": "person constraint_3",
+                "pred": "<ruby>彼<rt>かれ</rt></ruby>は<ruby>寂<rt>さび</rt></ruby>しいです。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>私<rt>わたし</rt></ruby>は<ruby>寂<rt>さび</rt></ruby>しいです。",
+                    "<ruby>彼<rt>かれ</rt></ruby>は<ruby>寂<rt>さび</rt></ruby>しいです。"
+                ],
+                "probs": [
+                    -126.78565979003906,
+                    -123.29546356201172
+                ]
+            },
+            {
+                "id": "person constraint_4",
+                "pred": "あなたは寒いですか？",
+                "correct": true,
+                "sentences": [
+                    "あなたは寒いですか？",
+                    "<ruby>私<rt>わたし</rt></ruby>は寒いですか？"
+                ],
+                "probs": [
+                    -25.2697811126709,
+                    -73.67431640625
+                ]
+            },
+            {
+                "id": "person constraint_5",
+                "pred": "あなたは寒いですか？",
+                "correct": true,
+                "sentences": [
+                    "あなたは寒いですか？",
+                    "<ruby>彼<rt>かれ</rt></ruby>は寒いですか？"
+                ],
+                "probs": [
+                    -25.2697811126709,
+                    -73.84104919433594
+                ]
+            },
+            {
+                "id": "person constraint_6",
+                "pred": "あなたは<ruby>寂<rt>さび</rt></ruby>しいですか？",
+                "correct": true,
+                "sentences": [
+                    "あなたは<ruby>寂<rt>さび</rt></ruby>しいですか？",
+                    "<ruby>私<rt>わたし</rt></ruby>は<ruby>寂<rt>さび</rt></ruby>しいですか？"
+                ],
+                "probs": [
+                    -77.2857437133789,
+                    -129.36953735351562
+                ]
+            },
+            {
+                "id": "person constraint_7",
+                "pred": "あなたは<ruby>寂<rt>さび</rt></ruby>しいですか？",
+                "correct": true,
+                "sentences": [
+                    "あなたは<ruby>寂<rt>さび</rt></ruby>しいですか？",
+                    "<ruby>彼<rt>かれ</rt></ruby>は<ruby>寂<rt>さび</rt></ruby>しいですか？"
+                ],
+                "probs": [
+                    -77.2857437133789,
+                    -126.3563461303711
+                ]
+            },
+            {
+                "id": "person constraint_8",
+                "pred": "メアリーは<ruby>寂<rt>さび</rt></ruby>しいよ。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>私<rt>わたし</rt></ruby>は<ruby>寂<rt>さび</rt></ruby>しいよ。",
+                    "メアリーは<ruby>寂<rt>さび</rt></ruby>しいよ。"
+                ],
+                "probs": [
+                    -127.87808227539062,
+                    -89.98748779296875
+                ]
+            },
+            {
+                "id": "person constraint_9",
+                "pred": "メアリーは暑かったよ。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>私<rt>わたし</rt></ruby>は暑かったよ。",
+                    "メアリーは暑かったよ。"
+                ],
+                "probs": [
+                    -74.2284927368164,
+                    -37.498199462890625
+                ]
+            },
+            {
+                "id": "person constraint_10",
+                "pred": "<ruby>彼<rt>かれ</rt></ruby>は水が飲みたい。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>私<rt>わたし</rt></ruby>は水が飲みたい。",
+                    "<ruby>彼<rt>かれ</rt></ruby>は水が飲みたい。"
+                ],
+                "probs": [
+                    -85.11204528808594,
+                    -84.76773071289062
+                ]
+            },
+            {
+                "id": "person constraint_11",
+                "pred": "<ruby>私<rt>わたし</rt></ruby>は寒がっているよ。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>彼女<rt>かのじょ</rt></ruby>は寒がっているよ。",
+                    "<ruby>私<rt>わたし</rt></ruby>は寒がっているよ。"
+                ],
+                "probs": [
+                    -88.74884033203125,
+                    -83.48937225341797
+                ]
+            },
+            {
+                "id": "person constraint_12",
+                "pred": "<ruby>私<rt>わたし</rt></ruby>は寒がっていますか？",
+                "correct": false,
+                "sentences": [
+                    "<ruby>彼女<rt>かのじょ</rt></ruby>は寒がっていますか？",
+                    "<ruby>私<rt>わたし</rt></ruby>は寒がっていますか？"
+                ],
+                "probs": [
+                    -89.40879821777344,
+                    -84.29883575439453
+                ]
+            },
+            {
+                "id": "person constraint_13",
+                "pred": "あなたは寒がっていますよ。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>彼女<rt>かのじょ</rt></ruby>は寒がっていますよ。",
+                    "あなたは寒がっていますよ。"
+                ],
+                "probs": [
+                    -88.1195297241211,
+                    -34.95381546020508
+                ]
+            },
+            {
+                "id": "person constraint_14",
+                "pred": "あなたは寒がっていますか？",
+                "correct": false,
+                "sentences": [
+                    "<ruby>彼女<rt>かのじょ</rt></ruby>は寒がっていますか？",
+                    "あなたは寒がっていますか？"
+                ],
+                "probs": [
+                    -89.40879821777344,
+                    -35.14461898803711
+                ]
+            },
+            {
+                "id": "person constraint_15",
+                "pred": "<ruby>僕<rt>ぼく</rt></ruby>は寒いよ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>僕<rt>ぼく</rt></ruby>は寒いよ。",
+                    "<ruby>彼<rt>かれ</rt></ruby>は寒いよ。"
+                ],
+                "probs": [
+                    -72.22346496582031,
+                    -73.51586151123047
+                ]
+            },
+            {
+                "id": "person constraint_16",
+                "pred": "<ruby>僕<rt>ぼく</rt></ruby>は寒がっているよ。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>彼<rt>かれ</rt></ruby>は寒がっているよ。",
+                    "<ruby>僕<rt>ぼく</rt></ruby>は寒がっているよ。"
+                ],
+                "probs": [
+                    -82.56892395019531,
+                    -82.23985290527344
+                ]
+            }
+        ]
+    },
+    "anaphor": {
+        "predictions": [
+            {
+                "id": "anaphor_0",
+                "pred": "<ruby>隆史<rt>たかし</rt></ruby>は良子が自分を<ruby>訪<rt>たず</rt></ruby>ねていったので<ruby>嬉<rt>うれ</rt></ruby>しがった。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>隆史<rt>たかし</rt></ruby>は良子が自分を<ruby>訪<rt>たず</rt></ruby>ねてきたので<ruby>嬉<rt>うれ</rt></ruby>しがった。",
+                    "<ruby>隆史<rt>たかし</rt></ruby>は良子が自分を<ruby>訪<rt>たず</rt></ruby>ねていったので<ruby>嬉<rt>うれ</rt></ruby>しがった。"
+                ],
+                "probs": [
+                    -247.22337341308594,
+                    -246.96768188476562
+                ]
+            },
+            {
+                "id": "anaphor_1",
+                "pred": "ジョンとビルをお<ruby>互<rt>たが</rt></ruby>いの母親がけなした。",
+                "correct": true,
+                "sentences": [
+                    "ジョンとビルをお<ruby>互<rt>たが</rt></ruby>いの母親がけなした。",
+                    "ジョンとビルをお<ruby>互<rt>たが</rt></ruby>いの母親が先生がけなしたと言った。"
+                ],
+                "probs": [
+                    -131.51454162597656,
+                    -154.57925415039062
+                ]
+            },
+            {
+                "id": "anaphor_2",
+                "pred": "お<ruby>互<rt>たが</rt></ruby>いの母親がけなしたのはジョンとビルをです。",
+                "correct": true,
+                "sentences": [
+                    "お<ruby>互<rt>たが</rt></ruby>いの母親がけなしたのはジョンとビルをです。",
+                    "お<ruby>互<rt>たが</rt></ruby>いの母親が先生がけなしたと言ったのはジョンとビルをです。"
+                ],
+                "probs": [
+                    -148.44129943847656,
+                    -168.20578002929688
+                ]
+            },
+            {
+                "id": "anaphor_3",
+                "pred": "ジョンにも自分の<ruby>子供<rt>こども</rt></ruby>の声が聞こえた。",
+                "correct": true,
+                "sentences": [
+                    "ジョンにも自分の<ruby>子供<rt>こども</rt></ruby>の声が聞こえた。",
+                    "ジョンからも自分の<ruby>叫<rt>さけ</rt></ruby>び声が聞こえた。"
+                ],
+                "probs": [
+                    -99.28153991699219,
+                    -107.73738861083984
+                ]
+            },
+            {
+                "id": "anaphor_4",
+                "pred": "先生には自分の学生がわかる。",
+                "correct": true,
+                "sentences": [
+                    "先生には自分の学生がわかる。",
+                    "自分の先生には学生がわかる。"
+                ],
+                "probs": [
+                    -40.5010871887207,
+                    -43.31616973876953
+                ]
+            }
+        ]
+    },
+    "aspect": {
+        "predictions": [
+            {
+                "id": "aspect_0",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>がプールで1時間泳いだ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>がプールで1時間泳いだ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>がプールで1時間で泳いだ。"
+                ],
+                "probs": [
+                    -90.7994384765625,
+                    -91.89588928222656
+                ]
+            },
+            {
+                "id": "aspect_1",
+                "pred": "ジョンは<ruby>寿司<rt>すし</rt></ruby>を食べてみた。",
+                "correct": true,
+                "sentences": [
+                    "ジョンは<ruby>寿司<rt>すし</rt></ruby>を食べてみた。",
+                    "ジョンは<ruby>寿司<rt>すし</rt></ruby>を食べにみた。"
+                ],
+                "probs": [
+                    -88.61046600341797,
+                    -101.11601257324219
+                ]
+            },
+            {
+                "id": "aspect_2",
+                "pred": "ジョンは<ruby>寿司<rt>すし</rt></ruby>を食べてもみた。",
+                "correct": true,
+                "sentences": [
+                    "ジョンは<ruby>寿司<rt>すし</rt></ruby>を食べてもみた。",
+                    "ジョンは<ruby>寿司<rt>すし</rt></ruby>を食べにもみた。"
+                ],
+                "probs": [
+                    -99.54086303710938,
+                    -104.4600830078125
+                ]
+            }
+        ]
+    },
+    "relative clause": {
+        "predictions": [
+            {
+                "id": "relative clause_0",
+                "pred": "山田先生はこの本をお読みになった。",
+                "correct": true,
+                "sentences": [
+                    "山田先生はこの本をお読みになった。",
+                    "山田先生はこの本をなったことはお読みだ。"
+                ],
+                "probs": [
+                    -42.767574310302734,
+                    -70.45429992675781
+                ]
+            }
+        ]
+    },
+    "cleft": {
+        "predictions": [
+            {
+                "id": "cleft_0",
+                "pred": "山田先生がこの本をお読みになった。",
+                "correct": true,
+                "sentences": [
+                    "山田先生がこの本をお読みになった。",
+                    "山田先生がなったのはこの本のお読みだ。"
+                ],
+                "probs": [
+                    -43.647132873535156,
+                    -66.59894561767578
+                ]
+            },
+            {
+                "id": "cleft_1",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>驚愕<rt>きょうがく</rt></ruby>した。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>驚愕<rt>きょうがく</rt></ruby>した。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>がしたのは<ruby>驚愕<rt>きょうがく</rt></ruby>だ。"
+                ],
+                "probs": [
+                    -129.1563720703125,
+                    -142.28570556640625
+                ]
+            },
+            {
+                "id": "cleft_2",
+                "pred": "直美は<ruby>驚愕<rt>きょうがく</rt></ruby>ではなく、<ruby>興奮<rt>こうふん</rt></ruby>した。",
+                "correct": true,
+                "sentences": [
+                    "直美は<ruby>驚愕<rt>きょうがく</rt></ruby>ではなく、<ruby>興奮<rt>こうふん</rt></ruby>した。",
+                    "直美がしたのは<ruby>驚愕<rt>きょうがく</rt></ruby>ではなく、<ruby>興奮<rt>こうふん</rt></ruby>だ。"
+                ],
+                "probs": [
+                    -167.8643798828125,
+                    -178.6791534423828
+                ]
+            }
+        ]
+    },
+    "nominal ellipsis": {
+        "predictions": [
+            {
+                "id": "nominal ellipsis_0",
+                "pred": "山田さんは<ruby>吉田<rt>よしだ</rt></ruby>さんのことが心配になり、田中さんも心配になった。",
+                "correct": true,
+                "sentences": [
+                    "山田さんは<ruby>吉田<rt>よしだ</rt></ruby>さんのことが心配になり、田中さんも心配になった。",
+                    "山田さんは<ruby>吉田<rt>よしだ</rt></ruby>さんのことが心配になり、田中さんもなった。"
+                ],
+                "probs": [
+                    -112.4093246459961,
+                    -116.00015258789062
+                ]
+            },
+            {
+                "id": "nominal ellipsis_1",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>驚愕<rt>きょうがく</rt></ruby>して、直子もした。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>驚愕<rt>きょうがく</rt></ruby>して、直子も<ruby>驚愕<rt>きょうがく</rt></ruby>した。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>驚愕<rt>きょうがく</rt></ruby>して、直子もした。"
+                ],
+                "probs": [
+                    -226.02598571777344,
+                    -162.28671264648438
+                ]
+            },
+            {
+                "id": "nominal ellipsis_2",
+                "pred": "明子が<ruby>気絶<rt>きぜつ</rt></ruby>して、直子もした。",
+                "correct": false,
+                "sentences": [
+                    "明子が<ruby>気絶<rt>きぜつ</rt></ruby>して、直子も<ruby>気絶<rt>きぜつ</rt></ruby>した。",
+                    "明子が<ruby>気絶<rt>きぜつ</rt></ruby>して、直子もした。"
+                ],
+                "probs": [
+                    -190.7322235107422,
+                    -125.31859588623047
+                ]
+            },
+            {
+                "id": "nominal ellipsis_3",
+                "pred": "晴れの日は良いが、雨の日は落ち<ruby>込<rt>こ</rt></ruby>む。",
+                "correct": true,
+                "sentences": [
+                    "晴れの日は良いが、雨の日は落ち<ruby>込<rt>こ</rt></ruby>む。",
+                    "晴れの日は良いが、雨のは落ち<ruby>込<rt>こ</rt></ruby>む。"
+                ],
+                "probs": [
+                    -129.63345336914062,
+                    -136.47979736328125
+                ]
+            },
+            {
+                "id": "nominal ellipsis_4",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は1日に三<ruby>冊<rt>さつ</rt></ruby>の本を読むが、花子は5<ruby>冊<rt>さつ</rt></ruby>の本を読む。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は1日に三<ruby>冊<rt>さつ</rt></ruby>の本を読むが、花子は5<ruby>冊<rt>さつ</rt></ruby>の本を読む。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は1日に三<ruby>冊<rt>さつ</rt></ruby>の本を読むが、花子は5<ruby>冊<rt>さつ</rt></ruby>のを読む。"
+                ],
+                "probs": [
+                    -251.83880615234375,
+                    -254.2201690673828
+                ]
+            },
+            {
+                "id": "nominal ellipsis_5",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は3<ruby>冊<rt>さつ</rt></ruby>の本を買ったが、花子は5<ruby>冊<rt>さつ</rt></ruby>の本を買った。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は3<ruby>冊<rt>さつ</rt></ruby>の本を買ったが、花子は5<ruby>冊<rt>さつ</rt></ruby>の本を買った。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は3<ruby>冊<rt>さつ</rt></ruby>の本を買ったが、花子は5<ruby>冊<rt>さつ</rt></ruby>のを買った。"
+                ],
+                "probs": [
+                    -228.13009643554688,
+                    -231.02333068847656
+                ]
+            },
+            {
+                "id": "nominal ellipsis_6",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が昨日会った人は<ruby>優<rt>やさ</rt></ruby>しいが、花子が昨日会ったは<ruby>怖<rt>こわ</rt></ruby>い。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が昨日会った人は<ruby>優<rt>やさ</rt></ruby>しいが、花子が昨日会った人は<ruby>怖<rt>こわ</rt></ruby>い。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が昨日会った人は<ruby>優<rt>やさ</rt></ruby>しいが、花子が昨日会ったは<ruby>怖<rt>こわ</rt></ruby>い。"
+                ],
+                "probs": [
+                    -251.23126220703125,
+                    -249.72317504882812
+                ]
+            },
+            {
+                "id": "nominal ellipsis_7",
+                "pred": "2切れのハムは夕食になるが、1切れのはならない。",
+                "correct": false,
+                "sentences": [
+                    "2切れのハムは夕食になるが、1切れのハムはならない。",
+                    "2切れのハムは夕食になるが、1切れのはならない。"
+                ],
+                "probs": [
+                    -106.3009033203125,
+                    -98.25588989257812
+                ]
+            },
+            {
+                "id": "nominal ellipsis_8",
+                "pred": "東京での食事は良かったが、京都での食事は<ruby>悲惨<rt>ひさん</rt></ruby>だった。",
+                "correct": true,
+                "sentences": [
+                    "東京での食事は良かったが、京都での食事は<ruby>悲惨<rt>ひさん</rt></ruby>だった。",
+                    "東京での食事は良かったが、京都でのは<ruby>悲惨<rt>ひさん</rt></ruby>だった。"
+                ],
+                "probs": [
+                    -139.23239135742188,
+                    -139.28475952148438
+                ]
+            },
+            {
+                "id": "nominal ellipsis_9",
+                "pred": "五人のの<ruby>面倒<rt>めんどう</rt></ruby>を見なければならない。",
+                "correct": false,
+                "sentences": [
+                    "五人の学生の<ruby>面倒<rt>めんどう</rt></ruby>を見なければならない。",
+                    "五人のの<ruby>面倒<rt>めんどう</rt></ruby>を見なければならない。"
+                ],
+                "probs": [
+                    -100.56584167480469,
+                    -98.48765563964844
+                ]
+            },
+            {
+                "id": "nominal ellipsis_10",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が花子が<ruby>誰<rt>だれ</rt></ruby>を愛しているかと由美子が愛しているか知っている。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子が<ruby>誰<rt>だれ</rt></ruby>を愛しているかと由美子が<ruby>誰<rt>だれ</rt></ruby>を愛しているか知っている。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子が<ruby>誰<rt>だれ</rt></ruby>を愛しているかと由美子が愛しているか知っている。"
+                ],
+                "probs": [
+                    -244.00860595703125,
+                    -191.82598876953125
+                ]
+            },
+            {
+                "id": "nominal ellipsis_11",
+                "pred": "ジョンはとても<ruby>賢<rt>かしこ</rt></ruby>いが、メアリーの期待したではない。",
+                "correct": false,
+                "sentences": [
+                    "ジョンはとても<ruby>賢<rt>かしこ</rt></ruby>いが、メアリーの期待した<ruby>賢<rt>かしこ</rt></ruby>さではない。",
+                    "ジョンはとても<ruby>賢<rt>かしこ</rt></ruby>いが、メアリーの期待したではない。"
+                ],
+                "probs": [
+                    -210.06942749023438,
+                    -148.36061096191406
+                ]
+            },
+            {
+                "id": "nominal ellipsis_12",
+                "pred": "ジョンは本を読まなかったが、メアリーはビルが書いた本を読んだ。",
+                "correct": true,
+                "sentences": [
+                    "ジョンは本を読まなかったが、メアリーはビルが書いた本を読んだ。",
+                    "ジョンは本を読まなかったが、メアリーはビルが書いたを読んだ。"
+                ],
+                "probs": [
+                    -94.55564880371094,
+                    -97.94306945800781
+                ]
+            }
+        ]
+    },
+    "part of speech": {
+        "predictions": [
+            {
+                "id": "part of speech_0",
+                "pred": "食べそう。",
+                "correct": true,
+                "sentences": [
+                    "食べそう。",
+                    "<ruby>子供<rt>こども</rt></ruby>そう。"
+                ],
+                "probs": [
+                    -18.38648223876953,
+                    -70.32632446289062
+                ]
+            },
+            {
+                "id": "part of speech_1",
+                "pred": "美味しそう。",
+                "correct": true,
+                "sentences": [
+                    "美味しそう。",
+                    "<ruby>子供<rt>こども</rt></ruby>そう。"
+                ],
+                "probs": [
+                    -14.07530403137207,
+                    -70.32632446289062
+                ]
+            },
+            {
+                "id": "part of speech_2",
+                "pred": "食べそう。",
+                "correct": true,
+                "sentences": [
+                    "食べそう。",
+                    "お食べそう。"
+                ],
+                "probs": [
+                    -18.38648223876953,
+                    -25.351531982421875
+                ]
+            },
+            {
+                "id": "part of speech_3",
+                "pred": "美味しそう。",
+                "correct": true,
+                "sentences": [
+                    "美味しそう。",
+                    "お食べそう。"
+                ],
+                "probs": [
+                    -14.07530403137207,
+                    -25.351531982421875
+                ]
+            },
+            {
+                "id": "part of speech_4",
+                "pred": "先生が早くお帰りになった。",
+                "correct": true,
+                "sentences": [
+                    "先生が早くお帰りになった。",
+                    "先生が早いお帰りになった。"
+                ],
+                "probs": [
+                    -32.340126037597656,
+                    -37.21047592163086
+                ]
+            },
+            {
+                "id": "part of speech_5",
+                "pred": "先生のお話は<ruby>素敵<rt>すてき</rt></ruby>だった。",
+                "correct": true,
+                "sentences": [
+                    "先生のお話は<ruby>素敵<rt>すてき</rt></ruby>だった。",
+                    "先生のお話になりは<ruby>素敵<rt>すてき</rt></ruby>だった。"
+                ],
+                "probs": [
+                    -84.93209075927734,
+                    -96.37672424316406
+                ]
+            },
+            {
+                "id": "part of speech_6",
+                "pred": "ジョンは身長がある。",
+                "correct": true,
+                "sentences": [
+                    "ジョンは身長がある。",
+                    "ジョンは身長ある。"
+                ],
+                "probs": [
+                    -35.396446228027344,
+                    -37.20863342285156
+                ]
+            },
+            {
+                "id": "part of speech_7",
+                "pred": "ジョンは身長がある。",
+                "correct": true,
+                "sentences": [
+                    "ジョンは身長がある。",
+                    "ジョンは身長である。"
+                ],
+                "probs": [
+                    -35.396446228027344,
+                    -38.35425567626953
+                ]
+            },
+            {
+                "id": "part of speech_8",
+                "pred": "ジョンは身長がある。",
+                "correct": true,
+                "sentences": [
+                    "ジョンは身長がある。",
+                    "ジョンは身長がである。"
+                ],
+                "probs": [
+                    -35.396446228027344,
+                    -45.382789611816406
+                ]
+            },
+            {
+                "id": "part of speech_9",
+                "pred": "そのビルは高さがある。",
+                "correct": true,
+                "sentences": [
+                    "そのビルは高さがある。",
+                    "そのビルは高さがである。"
+                ],
+                "probs": [
+                    -33.712440490722656,
+                    -44.617252349853516
+                ]
+            },
+            {
+                "id": "part of speech_10",
+                "pred": "そのビルは高さがある。",
+                "correct": true,
+                "sentences": [
+                    "そのビルは高さがある。",
+                    "そのビルは高くである。"
+                ],
+                "probs": [
+                    -33.712440490722656,
+                    -40.775814056396484
+                ]
+            }
+        ]
+    },
+    "scrambling": {
+        "predictions": [
+            {
+                "id": "scrambling_0",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は思ったことを口に出す。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は思ったことを口に出す。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は口に思ったことを出す。"
+                ],
+                "probs": [
+                    -82.78863525390625,
+                    -94.51388549804688
+                ]
+            },
+            {
+                "id": "scrambling_1",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>才能<rt>さいのう</rt></ruby>を鼻にかけている。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>才能<rt>さいのう</rt></ruby>を鼻にかけている。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は鼻に<ruby>才能<rt>さいのう</rt></ruby>をかけている。"
+                ],
+                "probs": [
+                    -135.02517700195312,
+                    -135.58819580078125
+                ]
+            },
+            {
+                "id": "scrambling_2",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は車を手に入れた。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は車を手に入れた。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は手に車を入れた。"
+                ],
+                "probs": [
+                    -79.26138305664062,
+                    -80.57321166992188
+                ]
+            },
+            {
+                "id": "scrambling_3",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>はいつも自分の失敗を<ruby>棚<rt>たな</rt></ruby>に上げる。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>はいつも自分の失敗を<ruby>棚<rt>たな</rt></ruby>に上げる。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>はいつも<ruby>棚<rt>たな</rt></ruby>に自分の失敗を上げる。"
+                ],
+                "probs": [
+                    -145.64463806152344,
+                    -149.114013671875
+                ]
+            },
+            {
+                "id": "scrambling_4",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は人のことに口を出す。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は人のことに口を出す。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は口を人のことに出す。"
+                ],
+                "probs": [
+                    -85.31491088867188,
+                    -95.47398376464844
+                ]
+            },
+            {
+                "id": "scrambling_5",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>はその<ruby>議論<rt>ぎろん</rt></ruby>に<ruby>拍車<rt>はくしゃ</rt></ruby>をかけた。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>はその<ruby>議論<rt>ぎろん</rt></ruby>に<ruby>拍車<rt>はくしゃ</rt></ruby>をかけた。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>拍車<rt>はくしゃ</rt></ruby>をその<ruby>議論<rt>ぎろん</rt></ruby>にかけた。"
+                ],
+                "probs": [
+                    -190.67465209960938,
+                    -202.42349243164062
+                ]
+            },
+            {
+                "id": "scrambling_6",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>原稿<rt>げんこう</rt></ruby>に手を入れた。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>原稿<rt>げんこう</rt></ruby>に手を入れた。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は手を<ruby>原稿<rt>げんこう</rt></ruby>に入れた。"
+                ],
+                "probs": [
+                    -133.97198486328125,
+                    -140.47555541992188
+                ]
+            },
+            {
+                "id": "scrambling_7",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>麻雀<rt>まーじゃん</rt></ruby>に血道を上げた。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>麻雀<rt>まーじゃん</rt></ruby>に血道を上げた。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は血道を<ruby>麻雀<rt>まーじゃん</rt></ruby>に上げた。"
+                ],
+                "probs": [
+                    -156.5366668701172,
+                    -163.32412719726562
+                ]
+            },
+            {
+                "id": "scrambling_8",
+                "pred": "人のことへの口の出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "人のことへの口の出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "口の人のことへの出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -117.81063842773438,
+                    -124.43233489990234
+                ]
+            },
+            {
+                "id": "scrambling_9",
+                "pred": "そんな<ruby>議論<rt>ぎろん</rt></ruby>への<ruby>拍車<rt>はくしゃ</rt></ruby>のかけにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "そんな<ruby>議論<rt>ぎろん</rt></ruby>への<ruby>拍車<rt>はくしゃ</rt></ruby>のかけにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "<ruby>拍車<rt>はくしゃ</rt></ruby>のそんな<ruby>議論<rt>ぎろん</rt></ruby>へのかけやすさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -224.74420166015625,
+                    -242.62307739257812
+                ]
+            },
+            {
+                "id": "scrambling_10",
+                "pred": "<ruby>原稿<rt>げんこう</rt></ruby>への手の入れにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>原稿<rt>げんこう</rt></ruby>への手の入れにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "手の<ruby>原稿<rt>げんこう</rt></ruby>への入れにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -171.04678344726562,
+                    -178.87445068359375
+                ]
+            },
+            {
+                "id": "scrambling_11",
+                "pred": "<ruby>麻雀<rt>まーじゃん</rt></ruby>への血道の上げやすさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>麻雀<rt>まーじゃん</rt></ruby>への血道の上げやすさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "血道の<ruby>麻雀<rt>まーじゃん</rt></ruby>への上げやすさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -193.37159729003906,
+                    -196.07618713378906
+                ]
+            },
+            {
+                "id": "scrambling_12",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>蓋<rt>ふた</rt></ruby>を<ruby>臭<rt>くさ</rt></ruby>いものにしない<ruby>主義<rt>しゅぎ</rt></ruby>だ。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>臭<rt>くさ</rt></ruby>い物に<ruby>蓋<rt>ふた</rt></ruby>をしない<ruby>主義<rt>しゅぎ</rt></ruby>だ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>蓋<rt>ふた</rt></ruby>を<ruby>臭<rt>くさ</rt></ruby>いものにしない<ruby>主義<rt>しゅぎ</rt></ruby>だ。"
+                ],
+                "probs": [
+                    -258.7275390625,
+                    -249.95806884765625
+                ]
+            },
+            {
+                "id": "scrambling_13",
+                "pred": "<ruby>蓋<rt>ふた</rt></ruby>を<ruby>臭<rt>くさ</rt></ruby>い物にしにくいこと。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>臭<rt>くさ</rt></ruby>い物に<ruby>蓋<rt>ふた</rt></ruby>をしにくいこと。",
+                    "<ruby>蓋<rt>ふた</rt></ruby>を<ruby>臭<rt>くさ</rt></ruby>い物にしにくいこと。"
+                ],
+                "probs": [
+                    -146.7535858154297,
+                    -141.314453125
+                ]
+            },
+            {
+                "id": "scrambling_14",
+                "pred": "絵本のテーブルの置き方は人それぞれだ。",
+                "correct": false,
+                "sentences": [
+                    "テーブルの絵本の置き方は人それぞれだ。",
+                    "絵本のテーブルの置き方は人それぞれだ。"
+                ],
+                "probs": [
+                    -54.140377044677734,
+                    -53.62287902832031
+                ]
+            },
+            {
+                "id": "scrambling_15",
+                "pred": "絵本のテーブルの置かれ方は<ruby>独特<rt>どくとく</rt></ruby>だ。",
+                "correct": false,
+                "sentences": [
+                    "テーブルの絵本の置かれ方は<ruby>独特<rt>どくとく</rt></ruby>だ。",
+                    "絵本のテーブルの置かれ方は<ruby>独特<rt>どくとく</rt></ruby>だ。"
+                ],
+                "probs": [
+                    -110.18536376953125,
+                    -109.486083984375
+                ]
+            },
+            {
+                "id": "scrambling_16",
+                "pred": "教科書のランドセルの入れ方は人それぞれだ。",
+                "correct": false,
+                "sentences": [
+                    "ランドセルの教科書の入れ方は人それぞれだ。",
+                    "教科書のランドセルの入れ方は人それぞれだ。"
+                ],
+                "probs": [
+                    -56.77827453613281,
+                    -56.51216506958008
+                ]
+            },
+            {
+                "id": "scrambling_17",
+                "pred": "ベランダの<ruby>洗濯<rt>せんたく</rt></ruby>物の出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "ベランダの<ruby>洗濯<rt>せんたく</rt></ruby>物の出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "<ruby>洗濯<rt>せんたく</rt></ruby>物のベランダの出しにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -171.0191650390625,
+                    -171.67453002929688
+                ]
+            },
+            {
+                "id": "scrambling_18",
+                "pred": "ひまわりの水の<ruby>与<rt>あた</rt></ruby>えにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                "correct": true,
+                "sentences": [
+                    "ひまわりの水の<ruby>与<rt>あた</rt></ruby>えにくさが<ruby>指摘<rt>してき</rt></ruby>された。",
+                    "水のひまわりの<ruby>与<rt>あた</rt></ruby>えにくさが<ruby>指摘<rt>してき</rt></ruby>された。"
+                ],
+                "probs": [
+                    -162.49874877929688,
+                    -162.6420440673828
+                ]
+            },
+            {
+                "id": "scrambling_19",
+                "pred": "子犬のジョンの<ruby>餌<rt>えさ</rt></ruby>の<ruby>与<rt>あた</rt></ruby>え方は<ruby>独特<rt>どくとく</rt></ruby>だ。",
+                "correct": false,
+                "sentences": [
+                    "ジョンの子犬の<ruby>餌<rt>えさ</rt></ruby>の<ruby>与<rt>あた</rt></ruby>え方は<ruby>独特<rt>どくとく</rt></ruby>だ。",
+                    "子犬のジョンの<ruby>餌<rt>えさ</rt></ruby>の<ruby>与<rt>あた</rt></ruby>え方は<ruby>独特<rt>どくとく</rt></ruby>だ。"
+                ],
+                "probs": [
+                    -226.6826934814453,
+                    -226.07452392578125
+                ]
+            },
+            {
+                "id": "scrambling_20",
+                "pred": "選手は<ruby>監督<rt>かんとく</rt></ruby>の<ruby>方針<rt>ほうしん</rt></ruby>に不満を口にした。",
+                "correct": true,
+                "sentences": [
+                    "選手は<ruby>監督<rt>かんとく</rt></ruby>の<ruby>方針<rt>ほうしん</rt></ruby>に不満を口にした。",
+                    "選手は<ruby>監督<rt>かんとく</rt></ruby>の<ruby>方針<rt>ほうしん</rt></ruby>に口に不満をした。"
+                ],
+                "probs": [
+                    -149.5229034423828,
+                    -161.93096923828125
+                ]
+            },
+            {
+                "id": "scrambling_21",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が東京に花子に荷物を送った。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子に東京に荷物を送った。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が東京に花子に荷物を送った。"
+                ],
+                "probs": [
+                    -104.89288330078125,
+                    -103.26427459716797
+                ]
+            },
+            {
+                "id": "scrambling_22",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が花子に荷物を東京に送った。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が花子に荷物を東京に送った。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が荷物を花子に東京に送った。"
+                ],
+                "probs": [
+                    -106.68154907226562,
+                    -110.97828674316406
+                ]
+            },
+            {
+                "id": "scrambling_23",
+                "pred": "学生がアパートを<ruby>訪<rt>たず</rt></ruby>ねてくれてきた。",
+                "correct": false,
+                "sentences": [
+                    "学生がアパートを<ruby>訪<rt>たず</rt></ruby>ねてきてくれた。",
+                    "学生がアパートを<ruby>訪<rt>たず</rt></ruby>ねてくれてきた。"
+                ],
+                "probs": [
+                    -107.10459899902344,
+                    -106.34205627441406
+                ]
+            },
+            {
+                "id": "scrambling_24",
+                "pred": "息子に高い車を買ってやってしまった。",
+                "correct": true,
+                "sentences": [
+                    "息子に高い車を買ってやってしまった。",
+                    "息子に高い車を買ってしまってやった。"
+                ],
+                "probs": [
+                    -49.742130279541016,
+                    -53.44850158691406
+                ]
+            },
+            {
+                "id": "scrambling_25",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が最も面白かった人を取材した。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が最も面白かった人を取材した。",
+                    "最も<ruby>太郎<rt>たろう</rt></ruby>が面白かった人を取材した。"
+                ],
+                "probs": [
+                    -90.90776062011719,
+                    -99.30901336669922
+                ]
+            }
+        ]
+    },
+    "idiom": {
+        "predictions": [
+            {
+                "id": "idiom_0",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>の<ruby>忠告<rt>ちゅうこく</rt></ruby>は花子には<ruby>糠<rt>ぬか</rt></ruby>に<ruby>釘<rt>くぎ</rt></ruby>だった。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>の<ruby>忠告<rt>ちゅうこく</rt></ruby>は花子には<ruby>糠<rt>ぬか</rt></ruby>に<ruby>釘<rt>くぎ</rt></ruby>だった。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>の<ruby>忠告<rt>ちゅうこく</rt></ruby>は花子には<ruby>糠<rt>ぬか</rt></ruby>にも<ruby>釘<rt>くぎ</rt></ruby>だった。"
+                ],
+                "probs": [
+                    -258.37689208984375,
+                    -261.46331787109375
+                ]
+            },
+            {
+                "id": "idiom_1",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>に何を言っても<ruby>暖簾<rt>のれん</rt></ruby>に<ruby>腕押<rt>うでお</rt></ruby>しだ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>に何を言っても<ruby>暖簾<rt>のれん</rt></ruby>に<ruby>腕押<rt>うでお</rt></ruby>しだ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>に何を言っても<ruby>暖簾<rt>のれん</rt></ruby>には<ruby>腕押<rt>うでお</rt></ruby>しだ。"
+                ],
+                "probs": [
+                    -231.26625061035156,
+                    -233.81118774414062
+                ]
+            },
+            {
+                "id": "idiom_2",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>の発言が火に油を注いだ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>の発言が火に油を注いだ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>の発言が火には油を注いだ。"
+                ],
+                "probs": [
+                    -98.49403381347656,
+                    -103.92920684814453
+                ]
+            },
+            {
+                "id": "idiom_3",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>腕<rt>うで</rt></ruby>に<ruby>縒<rt>よ</rt></ruby>りをかけて料理を作った。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>腕<rt>うで</rt></ruby>に<ruby>縒<rt>よ</rt></ruby>りをかけて料理を作った。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>腕<rt>うで</rt></ruby>には<ruby>縒<rt>よ</rt></ruby>りをかけて料理を作った。"
+                ],
+                "probs": [
+                    -195.31936645507812,
+                    -198.2959747314453
+                ]
+            },
+            {
+                "id": "idiom_4",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>爪<rt>つめ</rt></ruby>に火を点す生活をしている。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>爪<rt>つめ</rt></ruby>に火を点す生活をしている。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>爪<rt>つめ</rt></ruby>には火を点す生活をしている。"
+                ],
+                "probs": [
+                    -161.268310546875,
+                    -166.22329711914062
+                ]
+            },
+            {
+                "id": "idiom_5",
+                "pred": "目には目を。",
+                "correct": true,
+                "sentences": [
+                    "目には目を。",
+                    "目に目を。"
+                ],
+                "probs": [
+                    -25.90964698791504,
+                    -28.81389617919922
+                ]
+            },
+            {
+                "id": "idiom_6",
+                "pred": "念に念を入れる。",
+                "correct": false,
+                "sentences": [
+                    "念には念を入れる。",
+                    "念に念を入れる。"
+                ],
+                "probs": [
+                    -34.2204704284668,
+                    -31.96243667602539
+                ]
+            },
+            {
+                "id": "idiom_7",
+                "pred": "石の上に3年。",
+                "correct": false,
+                "sentences": [
+                    "石の上にも3年。",
+                    "石の上に3年。"
+                ],
+                "probs": [
+                    -37.221744537353516,
+                    -32.82651901245117
+                ]
+            }
+        ]
+    },
+    "nominalization": {
+        "predictions": [
+            {
+                "id": "nominalization_0",
+                "pred": "<ruby>原稿<rt>げんこう</rt></ruby>に手の入れ方は人それぞれだ。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>原稿<rt>げんこう</rt></ruby>への手の入れ方は人それぞれだ。",
+                    "<ruby>原稿<rt>げんこう</rt></ruby>に手の入れ方は人それぞれだ。"
+                ],
+                "probs": [
+                    -107.79694366455078,
+                    -104.4180679321289
+                ]
+            },
+            {
+                "id": "nominalization_1",
+                "pred": "<ruby>臭<rt>くさ</rt></ruby>い物に<ruby>蓋<rt>ふた</rt></ruby>の仕方は人それぞれだ。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>臭<rt>くさ</rt></ruby>い物への<ruby>蓋<rt>ふた</rt></ruby>の仕方は人それぞれだ。",
+                    "<ruby>臭<rt>くさ</rt></ruby>い物に<ruby>蓋<rt>ふた</rt></ruby>の仕方は人それぞれだ。"
+                ],
+                "probs": [
+                    -157.15174865722656,
+                    -152.97201538085938
+                ]
+            }
+        ]
+    },
+    "modifier": {
+        "predictions": [
+            {
+                "id": "modifier_0",
+                "pred": "<ruby>私<rt>わたし</rt></ruby>が昨日見た人は<ruby>素敵<rt>すてき</rt></ruby>だった。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>私<rt>わたし</rt></ruby>が昨日見た人は<ruby>素敵<rt>すてき</rt></ruby>だった。",
+                    "<ruby>私<rt>わたし</rt></ruby>が昨日見たの人は<ruby>素敵<rt>すてき</rt></ruby>だった。"
+                ],
+                "probs": [
+                    -145.58448791503906,
+                    -155.2510223388672
+                ]
+            },
+            {
+                "id": "modifier_1",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が買ったのは三<ruby>冊<rt>さつ</rt></ruby>本だ。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が買ったのは三<ruby>冊<rt>さつ</rt></ruby>の本だ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が買ったのは三<ruby>冊<rt>さつ</rt></ruby>本だ。"
+                ],
+                "probs": [
+                    -140.3784942626953,
+                    -138.7713623046875
+                ]
+            },
+            {
+                "id": "modifier_2",
+                "pred": "これは<ruby>太郎<rt>たろう</rt></ruby>が主人公である物語だ。",
+                "correct": true,
+                "sentences": [
+                    "これは<ruby>太郎<rt>たろう</rt></ruby>が主人公である物語だ。",
+                    "これは<ruby>太郎<rt>たろう</rt></ruby>が主人公であるの物語だ。"
+                ],
+                "probs": [
+                    -85.60179138183594,
+                    -94.6497802734375
+                ]
+            },
+            {
+                "id": "modifier_3",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>はその二人の学生に会った。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>はその二人の学生に会った。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>はその二人学生に会った。"
+                ],
+                "probs": [
+                    -90.7744369506836,
+                    -93.68977355957031
+                ]
+            },
+            {
+                "id": "modifier_4",
+                "pred": "これは<ruby>太郎<rt>たろう</rt></ruby>との仕事だ。",
+                "correct": true,
+                "sentences": [
+                    "これは<ruby>太郎<rt>たろう</rt></ruby>との仕事だ。",
+                    "これは<ruby>太郎<rt>たろう</rt></ruby>と仕事だ。"
+                ],
+                "probs": [
+                    -78.58479309082031,
+                    -79.48347473144531
+                ]
+            },
+            {
+                "id": "modifier_5",
+                "pred": "これは銀行からのお金だ。",
+                "correct": true,
+                "sentences": [
+                    "これは銀行からのお金だ。",
+                    "これは銀行からお金だ。"
+                ],
+                "probs": [
+                    -30.273073196411133,
+                    -31.553287506103516
+                ]
+            },
+            {
+                "id": "modifier_6",
+                "pred": "読みかけの<ruby>雑誌<rt>ざっし</rt></ruby>は<ruby>珍<rt>めずら</rt></ruby>しい。",
+                "correct": true,
+                "sentences": [
+                    "読みかけの<ruby>雑誌<rt>ざっし</rt></ruby>は<ruby>珍<rt>めずら</rt></ruby>しい。",
+                    "読みかけの<ruby>正雄<rt>まさお</rt></ruby>は<ruby>珍<rt>めずら</rt></ruby>しい。"
+                ],
+                "probs": [
+                    -152.09381103515625,
+                    -158.44088745117188
+                ]
+            },
+            {
+                "id": "modifier_7",
+                "pred": "<ruby>自壊<rt>じかい</rt></ruby>しかけの建物は<ruby>珍<rt>めずら</rt></ruby>しい。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>自壊<rt>じかい</rt></ruby>しかけの建物は<ruby>珍<rt>めずら</rt></ruby>しい。",
+                    "<ruby>自炊<rt>じすい</rt></ruby>しかけのジョンは<ruby>珍<rt>めずら</rt></ruby>しい。"
+                ],
+                "probs": [
+                    -168.95835876464844,
+                    -175.03854370117188
+                ]
+            },
+            {
+                "id": "modifier_8",
+                "pred": "ジョンのすぐ後ろのところにビルがいる。",
+                "correct": true,
+                "sentences": [
+                    "ジョンのすぐ後ろのところにビルがいる。",
+                    "ジョンの後ろすぐのところにビルがいる。"
+                ],
+                "probs": [
+                    -49.56461715698242,
+                    -60.725502014160156
+                ]
+            }
+        ]
+    },
+    "negation": {
+        "predictions": [
+            {
+                "id": "negation_0",
+                "pred": "ジョンはメアリーが<ruby>賢<rt>かしこ</rt></ruby>い以上に<ruby>賢<rt>かしこ</rt></ruby>い。",
+                "correct": true,
+                "sentences": [
+                    "ジョンはメアリーが<ruby>賢<rt>かしこ</rt></ruby>い以上に<ruby>賢<rt>かしこ</rt></ruby>い。",
+                    "ジョンはメアリーが<ruby>賢<rt>かしこ</rt></ruby>い以上に<ruby>賢<rt>かしこ</rt></ruby>くない。"
+                ],
+                "probs": [
+                    -184.00015258789062,
+                    -187.39479064941406
+                ]
+            },
+            {
+                "id": "negation_1",
+                "pred": "ジョンはメアリーが<ruby>賢<rt>かしこ</rt></ruby>いぐらい<ruby>賢<rt>かしこ</rt></ruby>い。",
+                "correct": true,
+                "sentences": [
+                    "ジョンはメアリーが<ruby>賢<rt>かしこ</rt></ruby>いぐらい<ruby>賢<rt>かしこ</rt></ruby>い。",
+                    "ジョンはメアリーが<ruby>賢<rt>かしこ</rt></ruby>いぐらい<ruby>賢<rt>かしこ</rt></ruby>くない。"
+                ],
+                "probs": [
+                    -179.3031005859375,
+                    -182.1680908203125
+                ]
+            }
+        ]
+    },
+    "classifier": {
+        "predictions": [
+            {
+                "id": "classifier_0",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>はその3本ずつの<ruby>鉛筆<rt>えんぴつ</rt></ruby>を買った。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>はその3本ずつの<ruby>鉛筆<rt>えんぴつ</rt></ruby>を買った。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は3本ずつのその<ruby>鉛筆<rt>えんぴつ</rt></ruby>を買った。"
+                ],
+                "probs": [
+                    -151.400634765625,
+                    -154.0744171142578
+                ]
+            },
+            {
+                "id": "classifier_1",
+                "pred": "グランド30周の特訓は<ruby>過酷<rt>かこく</rt></ruby>だ。",
+                "correct": true,
+                "sentences": [
+                    "グランド30周の特訓は<ruby>過酷<rt>かこく</rt></ruby>だ。",
+                    "30周のグラウンドの特訓は<ruby>過酷<rt>かこく</rt></ruby>だ。"
+                ],
+                "probs": [
+                    -108.2092514038086,
+                    -109.0948715209961
+                ]
+            },
+            {
+                "id": "classifier_2",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>はグランドをした。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>はグランドを30周した。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>はグランドをした。"
+                ],
+                "probs": [
+                    -95.22443389892578,
+                    -82.76396179199219
+                ]
+            }
+        ]
+    },
+    "intervention effects": {
+        "predictions": [
+            {
+                "id": "intervention effects_0",
+                "pred": "健しか何を読まなかったの？",
+                "correct": false,
+                "sentences": [
+                    "何を健しか読まなかったの？",
+                    "健しか何を読まなかったの？"
+                ],
+                "probs": [
+                    -46.621490478515625,
+                    -46.30664825439453
+                ]
+            },
+            {
+                "id": "intervention effects_1",
+                "pred": "何を<ruby>誰<rt>だれ</rt></ruby>かが読んだの？",
+                "correct": true,
+                "sentences": [
+                    "何を<ruby>誰<rt>だれ</rt></ruby>かが読んだの？",
+                    "<ruby>誰<rt>だれ</rt></ruby>かが何を読んだの？"
+                ],
+                "probs": [
+                    -80.9412841796875,
+                    -81.07395935058594
+                ]
+            },
+            {
+                "id": "intervention effects_2",
+                "pred": "絵里香は<ruby>誰<rt>だれ</rt></ruby>もなぜ来なかったと思っているの？",
+                "correct": false,
+                "sentences": [
+                    "絵里香は<ruby>誰<rt>だれ</rt></ruby>もなぜ来なかったか知っているの？",
+                    "絵里香は<ruby>誰<rt>だれ</rt></ruby>もなぜ来なかったと思っているの？"
+                ],
+                "probs": [
+                    -119.02161407470703,
+                    -116.66893005371094
+                ]
+            }
+        ]
+    },
+    "factive island": {
+        "predictions": [
+            {
+                "id": "factive island_0",
+                "pred": "メアリーがジョンが自分の学生が新しい<ruby>仮説<rt>かせつ</rt></ruby>を<ruby>提案<rt>ていあん</rt></ruby>したと言っていたのの<ruby>欠陥<rt>けっかん</rt></ruby>を<ruby>指摘<rt>してき</rt></ruby>した。",
+                "correct": true,
+                "sentences": [
+                    "メアリーがジョンが自分の学生が新しい<ruby>仮説<rt>かせつ</rt></ruby>を<ruby>提案<rt>ていあん</rt></ruby>したと言っていたのの<ruby>欠陥<rt>けっかん</rt></ruby>を<ruby>指摘<rt>してき</rt></ruby>した。",
+                    "メアリーがジョンが自分の学生が新しい<ruby>仮説<rt>かせつ</rt></ruby>を<ruby>提案<rt>ていあん</rt></ruby>したと知っていたのの<ruby>欠陥<rt>けっかん</rt></ruby>を<ruby>指摘<rt>してき</rt></ruby>した。"
+                ],
+                "probs": [
+                    -362.1831970214844,
+                    -365.3772888183594
+                ]
+            }
+        ]
+    },
+    "variable binding": {
+        "predictions": [
+            {
+                "id": "variable binding_0",
+                "pred": "花子がそいつが書いた<ruby>論文<rt>ろんぶん</rt></ruby>を<ruby>修正<rt>しゅうせい</rt></ruby>させたのは<ruby>誰<rt>だれ</rt></ruby>にですか？",
+                "correct": false,
+                "sentences": [
+                    "花子が<ruby>誰<rt>だれ</rt></ruby>にそいつが書いた<ruby>論文<rt>ろんぶん</rt></ruby>を<ruby>修正<rt>しゅうせい</rt></ruby>させたのですか？",
+                    "花子がそいつが書いた<ruby>論文<rt>ろんぶん</rt></ruby>を<ruby>修正<rt>しゅうせい</rt></ruby>させたのは<ruby>誰<rt>だれ</rt></ruby>にですか？"
+                ],
+                "probs": [
+                    -259.2255554199219,
+                    -244.207275390625
+                ]
+            }
+        ]
+    },
+    "subject honorification": {
+        "predictions": [
+            {
+                "id": "subject honorification_0",
+                "pred": "山田先生が健にお会いになった。",
+                "correct": true,
+                "sentences": [
+                    "山田先生が健にお会いになった。",
+                    "健が山田先生にお会いになった。"
+                ],
+                "probs": [
+                    -43.546722412109375,
+                    -44.6032600402832
+                ]
+            },
+            {
+                "id": "subject honorification_1",
+                "pred": "健が山田先生にお会いになった。",
+                "correct": false,
+                "sentences": [
+                    "健に山田先生がお会いになった。",
+                    "健が山田先生にお会いになった。"
+                ],
+                "probs": [
+                    -46.56226348876953,
+                    -44.6032600402832
+                ]
+            },
+            {
+                "id": "subject honorification_2",
+                "pred": "山田先生が健にお会いになった。",
+                "correct": true,
+                "sentences": [
+                    "山田先生が健にお会いになった。",
+                    "山田先生に健がお会いになった。"
+                ],
+                "probs": [
+                    -43.546722412109375,
+                    -48.73155212402344
+                ]
+            },
+            {
+                "id": "subject honorification_3",
+                "pred": "健に山田先生がお会いになった。",
+                "correct": true,
+                "sentences": [
+                    "健に山田先生がお会いになった。",
+                    "山田先生に健がお会いになった。"
+                ],
+                "probs": [
+                    -46.56226348876953,
+                    -48.73155212402344
+                ]
+            },
+            {
+                "id": "subject honorification_4",
+                "pred": "山田先生がその学生にお分かりにならなかったこと。",
+                "correct": false,
+                "sentences": [
+                    "山田先生にその学生がお分かりにならなかったこと。",
+                    "山田先生がその学生にお分かりにならなかったこと。"
+                ],
+                "probs": [
+                    -60.57014465332031,
+                    -59.16654968261719
+                ]
+            },
+            {
+                "id": "subject honorification_5",
+                "pred": "健に<ruby>財布<rt>さいふ</rt></ruby>が<ruby>戻<rt>もど</rt></ruby>った。",
+                "correct": true,
+                "sentences": [
+                    "健に<ruby>財布<rt>さいふ</rt></ruby>が<ruby>戻<rt>もど</rt></ruby>った。",
+                    "山田先生に<ruby>財布<rt>さいふ</rt></ruby>がお<ruby>戻<rt>もど</rt></ruby>りになった。"
+                ],
+                "probs": [
+                    -145.03097534179688,
+                    -150.19761657714844
+                ]
+            },
+            {
+                "id": "subject honorification_6",
+                "pred": "研究室に山田先生がお<ruby>戻<rt>もど</rt></ruby>りになった。",
+                "correct": true,
+                "sentences": [
+                    "研究室に山田先生がお<ruby>戻<rt>もど</rt></ruby>りになった。",
+                    "山田先生に<ruby>財布<rt>さいふ</rt></ruby>がお<ruby>戻<rt>もど</rt></ruby>りになった。"
+                ],
+                "probs": [
+                    -105.25601959228516,
+                    -150.19761657714844
+                ]
+            },
+            {
+                "id": "subject honorification_7",
+                "pred": "<ruby>財布<rt>さいふ</rt></ruby>が健に<ruby>戻<rt>もど</rt></ruby>った。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>財布<rt>さいふ</rt></ruby>が健に<ruby>戻<rt>もど</rt></ruby>った。",
+                    "<ruby>財布<rt>さいふ</rt></ruby>が山田先生にお<ruby>戻<rt>もど</rt></ruby>りになった。"
+                ],
+                "probs": [
+                    -145.28448486328125,
+                    -153.53575134277344
+                ]
+            },
+            {
+                "id": "subject honorification_8",
+                "pred": "研究室に山田先生がお<ruby>戻<rt>もど</rt></ruby>りになった。",
+                "correct": true,
+                "sentences": [
+                    "研究室に山田先生がお<ruby>戻<rt>もど</rt></ruby>りになった。",
+                    "<ruby>財布<rt>さいふ</rt></ruby>が山田先生にお<ruby>戻<rt>もど</rt></ruby>りになった。"
+                ],
+                "probs": [
+                    -105.25601959228516,
+                    -153.53575134277344
+                ]
+            },
+            {
+                "id": "subject honorification_9",
+                "pred": "健に大金が<ruby>渡<rt>わた</rt></ruby>った。",
+                "correct": true,
+                "sentences": [
+                    "健に大金が<ruby>渡<rt>わた</rt></ruby>った。",
+                    "山田先生に大金がお<ruby>渡<rt>わた</rt></ruby>りになった。"
+                ],
+                "probs": [
+                    -97.73216247558594,
+                    -107.77842712402344
+                ]
+            },
+            {
+                "id": "subject honorification_10",
+                "pred": "健にその<ruby>情報<rt>じょうほう</rt></ruby>が伝わった。",
+                "correct": true,
+                "sentences": [
+                    "健にその<ruby>情報<rt>じょうほう</rt></ruby>が伝わった。",
+                    "山田先生にその<ruby>情報<rt>じょうほう</rt></ruby>がお伝わりになった。"
+                ],
+                "probs": [
+                    -93.17124938964844,
+                    -99.59036254882812
+                ]
+            },
+            {
+                "id": "subject honorification_11",
+                "pred": "由美に<ruby>弁当<rt>べんとう</rt></ruby>が<ruby>届<rt>とど</rt></ruby>いた。",
+                "correct": true,
+                "sentences": [
+                    "由美に<ruby>弁当<rt>べんとう</rt></ruby>が<ruby>届<rt>とど</rt></ruby>いた。",
+                    "山田先生にお<ruby>弁当<rt>べんとう</rt></ruby>がお<ruby>届<rt>とど</rt></ruby>きになった。"
+                ],
+                "probs": [
+                    -142.83035278320312,
+                    -151.732666015625
+                ]
+            },
+            {
+                "id": "subject honorification_12",
+                "pred": "山田先生にプレゼントがお<ruby>渡<rt>わた</rt></ruby>されになった。",
+                "correct": false,
+                "sentences": [
+                    "山田先生がプレゼントをお<ruby>渡<rt>わた</rt></ruby>されになった。",
+                    "山田先生にプレゼントがお<ruby>渡<rt>わた</rt></ruby>されになった。"
+                ],
+                "probs": [
+                    -110.80572509765625,
+                    -107.80823516845703
+                ]
+            },
+            {
+                "id": "subject honorification_13",
+                "pred": "<ruby>伊藤<rt>いとう</rt></ruby>先生がメアリーをお<ruby>褒<rt>ほ</rt></ruby>めになった。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生がメアリーをお<ruby>褒<rt>ほ</rt></ruby>めになった。",
+                    "メアリーが<ruby>伊藤<rt>いとう</rt></ruby>先生をお<ruby>褒<rt>ほ</rt></ruby>めになった。"
+                ],
+                "probs": [
+                    -154.73751831054688,
+                    -158.52114868164062
+                ]
+            },
+            {
+                "id": "subject honorification_14",
+                "pred": "<ruby>伊藤<rt>いとう</rt></ruby>先生がメアリーに本をお<ruby>与<rt>あた</rt></ruby>えになった。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生がメアリーに本をお<ruby>与<rt>あた</rt></ruby>えになった。",
+                    "メアリーが<ruby>伊藤<rt>いとう</rt></ruby>先生に本をお<ruby>与<rt>あた</rt></ruby>えになった。"
+                ],
+                "probs": [
+                    -169.72850036621094,
+                    -172.9024658203125
+                ]
+            },
+            {
+                "id": "subject honorification_15",
+                "pred": "ジョンは<ruby>伊藤<rt>いとう</rt></ruby>先生から本をお借りになった。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生はジョンから本をお借りになった。",
+                    "ジョンは<ruby>伊藤<rt>いとう</rt></ruby>先生から本をお借りになった。"
+                ],
+                "probs": [
+                    -108.02388000488281,
+                    -105.47756958007812
+                ]
+            },
+            {
+                "id": "subject honorification_16",
+                "pred": "先生が健から本をお受け取りになっている。",
+                "correct": true,
+                "sentences": [
+                    "先生が健から本をお受け取りになっている。",
+                    "健が先生から本をお受け取りになっている。"
+                ],
+                "probs": [
+                    -62.57020568847656,
+                    -62.82106399536133
+                ]
+            },
+            {
+                "id": "subject honorification_17",
+                "pred": "先生が健から本を受け取っておいでになる。",
+                "correct": true,
+                "sentences": [
+                    "先生が健から本を受け取っておいでになる。",
+                    "健が先生から本を受け取っておいでになる。"
+                ],
+                "probs": [
+                    -62.243587493896484,
+                    -62.44076919555664
+                ]
+            },
+            {
+                "id": "subject honorification_18",
+                "pred": "絵里が先生からそのことを話されている。",
+                "correct": true,
+                "sentences": [
+                    "絵里が先生からそのことを話されている。",
+                    "絵里が先生からそのことをお話されになっている。"
+                ],
+                "probs": [
+                    -56.68206024169922,
+                    -71.23770141601562
+                ]
+            },
+            {
+                "id": "subject honorification_19",
+                "pred": "絵里が先生からそのことを話されている。",
+                "correct": true,
+                "sentences": [
+                    "絵里が先生からそのことを話されている。",
+                    "絵里が先生からそのことを話されておいでになる。"
+                ],
+                "probs": [
+                    -56.68206024169922,
+                    -68.33364868164062
+                ]
+            },
+            {
+                "id": "subject honorification_20",
+                "pred": "先生が絵里をお<ruby>褒<rt>ほ</rt></ruby>めになっている。",
+                "correct": true,
+                "sentences": [
+                    "先生が絵里をお<ruby>褒<rt>ほ</rt></ruby>めになっている。",
+                    "絵里が先生をお<ruby>褒<rt>ほ</rt></ruby>めになっている。"
+                ],
+                "probs": [
+                    -109.09339904785156,
+                    -109.18914031982422
+                ]
+            },
+            {
+                "id": "subject honorification_21",
+                "pred": "先生が絵里を<ruby>褒<rt>ほ</rt></ruby>めておいでになる。",
+                "correct": true,
+                "sentences": [
+                    "先生が絵里を<ruby>褒<rt>ほ</rt></ruby>めておいでになる。",
+                    "絵里が先生を<ruby>褒<rt>ほ</rt></ruby>めておいでになる。"
+                ],
+                "probs": [
+                    -109.47030639648438,
+                    -110.6004867553711
+                ]
+            },
+            {
+                "id": "subject honorification_22",
+                "pred": "その仕事が<ruby>佐藤<rt>さとう</rt></ruby>先生にお<ruby>頼<rt>たの</rt></ruby>まれになった。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>佐藤<rt>さとう</rt></ruby>先生がその仕事をお<ruby>頼<rt>たの</rt></ruby>まれになった。",
+                    "その仕事が<ruby>佐藤<rt>さとう</rt></ruby>先生にお<ruby>頼<rt>たの</rt></ruby>まれになった。"
+                ],
+                "probs": [
+                    -160.11380004882812,
+                    -155.26805114746094
+                ]
+            },
+            {
+                "id": "subject honorification_23",
+                "pred": "荷物が<ruby>佐藤<rt>さとう</rt></ruby>先生から<ruby>届<rt>とど</rt></ruby>いた。",
+                "correct": true,
+                "sentences": [
+                    "荷物が<ruby>佐藤<rt>さとう</rt></ruby>先生から<ruby>届<rt>とど</rt></ruby>いた。",
+                    "荷物が<ruby>佐藤<rt>さとう</rt></ruby>先生からお<ruby>届<rt>とど</rt></ruby>きになった。"
+                ],
+                "probs": [
+                    -141.54957580566406,
+                    -154.38018798828125
+                ]
+            },
+            {
+                "id": "subject honorification_24",
+                "pred": "<ruby>伊藤<rt>いとう</rt></ruby>先生にその<ruby>叫<rt>さけ</rt></ruby>び声がお聞こえになった。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生にその<ruby>叫<rt>さけ</rt></ruby>び声がお聞こえになった。",
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生からその<ruby>叫<rt>さけ</rt></ruby>び声がお聞こえになった。"
+                ],
+                "probs": [
+                    -163.05479431152344,
+                    -163.84556579589844
+                ]
+            },
+            {
+                "id": "subject honorification_25",
+                "pred": "<ruby>伊藤<rt>いとう</rt></ruby>先生が健をお<ruby>褒<rt>ほ</rt></ruby>めになっている。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生が健をお<ruby>褒<rt>ほ</rt></ruby>めになっている。",
+                    "健が<ruby>伊藤<rt>いとう</rt></ruby>先生をお<ruby>褒<rt>ほ</rt></ruby>めになっている。"
+                ],
+                "probs": [
+                    -159.02447509765625,
+                    -159.84661865234375
+                ]
+            },
+            {
+                "id": "subject honorification_26",
+                "pred": "健を<ruby>伊藤<rt>いとう</rt></ruby>先生がお<ruby>褒<rt>ほ</rt></ruby>めになっている。",
+                "correct": true,
+                "sentences": [
+                    "健を<ruby>伊藤<rt>いとう</rt></ruby>先生がお<ruby>褒<rt>ほ</rt></ruby>めになっている。",
+                    "健が<ruby>伊藤<rt>いとう</rt></ruby>先生をお<ruby>褒<rt>ほ</rt></ruby>めになっている。"
+                ],
+                "probs": [
+                    -156.22821044921875,
+                    -159.84661865234375
+                ]
+            },
+            {
+                "id": "subject honorification_27",
+                "pred": "<ruby>伊藤<rt>いとう</rt></ruby>先生が健を<ruby>褒<rt>ほ</rt></ruby>めておいでになる。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生が健を<ruby>褒<rt>ほ</rt></ruby>めておいでになる。",
+                    "健が<ruby>伊藤<rt>いとう</rt></ruby>先生を<ruby>褒<rt>ほ</rt></ruby>めておいでになる。"
+                ],
+                "probs": [
+                    -158.25416564941406,
+                    -161.2208251953125
+                ]
+            },
+            {
+                "id": "subject honorification_28",
+                "pred": "健を<ruby>伊藤<rt>いとう</rt></ruby>先生が<ruby>褒<rt>ほ</rt></ruby>めておいでになる。",
+                "correct": true,
+                "sentences": [
+                    "健を<ruby>伊藤<rt>いとう</rt></ruby>先生が<ruby>褒<rt>ほ</rt></ruby>めておいでになる。",
+                    "健が<ruby>伊藤<rt>いとう</rt></ruby>先生を<ruby>褒<rt>ほ</rt></ruby>めておいでになる。"
+                ],
+                "probs": [
+                    -159.8275604248047,
+                    -161.2208251953125
+                ]
+            },
+            {
+                "id": "subject honorification_29",
+                "pred": "<ruby>伊藤<rt>いとう</rt></ruby>先生が健をお<ruby>褒<rt>ほ</rt></ruby>めになっている。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生が健をお<ruby>褒<rt>ほ</rt></ruby>めになっている。",
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生を健がお<ruby>褒<rt>ほ</rt></ruby>めになっている。"
+                ],
+                "probs": [
+                    -159.02447509765625,
+                    -162.29505920410156
+                ]
+            },
+            {
+                "id": "subject honorification_30",
+                "pred": "<ruby>伊藤<rt>いとう</rt></ruby>先生が健を<ruby>褒<rt>ほ</rt></ruby>めておいでになる。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生が健を<ruby>褒<rt>ほ</rt></ruby>めておいでになる。",
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生を健が<ruby>褒<rt>ほ</rt></ruby>めておいでになる。"
+                ],
+                "probs": [
+                    -158.25416564941406,
+                    -160.49221801757812
+                ]
+            },
+            {
+                "id": "subject honorification_31",
+                "pred": "健を<ruby>伊藤<rt>いとう</rt></ruby>先生が<ruby>褒<rt>ほ</rt></ruby>めておいでになる。",
+                "correct": true,
+                "sentences": [
+                    "健を<ruby>伊藤<rt>いとう</rt></ruby>先生が<ruby>褒<rt>ほ</rt></ruby>めておいでになる。",
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生を健が<ruby>褒<rt>ほ</rt></ruby>めておいでになる。"
+                ],
+                "probs": [
+                    -159.8275604248047,
+                    -160.49221801757812
+                ]
+            },
+            {
+                "id": "subject honorification_32",
+                "pred": "<ruby>伊藤<rt>いとう</rt></ruby>先生は健がお<ruby>褒<rt>ほ</rt></ruby>めになっている。",
+                "correct": false,
+                "sentences": [
+                    "健は<ruby>伊藤<rt>いとう</rt></ruby>先生がお<ruby>褒<rt>ほ</rt></ruby>めになっている。",
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生は健がお<ruby>褒<rt>ほ</rt></ruby>めになっている。"
+                ],
+                "probs": [
+                    -156.31153869628906,
+                    -156.03944396972656
+                ]
+            },
+            {
+                "id": "subject honorification_33",
+                "pred": "<ruby>伊藤<rt>いとう</rt></ruby>先生は健が<ruby>褒<rt>ほ</rt></ruby>めておいでになる。",
+                "correct": false,
+                "sentences": [
+                    "健は<ruby>伊藤<rt>いとう</rt></ruby>先生が<ruby>褒<rt>ほ</rt></ruby>めておいでになる。",
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生は健が<ruby>褒<rt>ほ</rt></ruby>めておいでになる。"
+                ],
+                "probs": [
+                    -161.7725067138672,
+                    -158.82334899902344
+                ]
+            },
+            {
+                "id": "subject honorification_34",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は健がお<ruby>褒<rt>ほ</rt></ruby>めになっている<ruby>伊藤<rt>いとう</rt></ruby>先生に会った。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>伊藤<rt>いとう</rt></ruby>先生がお<ruby>褒<rt>ほ</rt></ruby>めになっている健に会った。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は健がお<ruby>褒<rt>ほ</rt></ruby>めになっている<ruby>伊藤<rt>いとう</rt></ruby>先生に会った。"
+                ],
+                "probs": [
+                    -215.4493408203125,
+                    -213.74423217773438
+                ]
+            },
+            {
+                "id": "subject honorification_35",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は健が<ruby>褒<rt>ほ</rt></ruby>めておいでになる<ruby>伊藤<rt>いとう</rt></ruby>先生に会った。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は<ruby>伊藤<rt>いとう</rt></ruby>先生が<ruby>誉<rt>ほ</rt></ruby>めておいでになる健に会った。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は健が<ruby>褒<rt>ほ</rt></ruby>めておいでになる<ruby>伊藤<rt>いとう</rt></ruby>先生に会った。"
+                ],
+                "probs": [
+                    -223.70828247070312,
+                    -215.41058349609375
+                ]
+            },
+            {
+                "id": "subject honorification_36",
+                "pred": "<ruby>私<rt>わたし</rt></ruby>がメアリーをお<ruby>褒<rt>ほ</rt></ruby>めになった。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生がメアリーをお<ruby>褒<rt>ほ</rt></ruby>めになった。",
+                    "<ruby>私<rt>わたし</rt></ruby>がメアリーをお<ruby>褒<rt>ほ</rt></ruby>めになった。"
+                ],
+                "probs": [
+                    -154.73751831054688,
+                    -151.39663696289062
+                ]
+            },
+            {
+                "id": "subject honorification_37",
+                "pred": "<ruby>伊藤<rt>いとう</rt></ruby>先生がメアリーをお<ruby>褒<rt>ほ</rt></ruby>めになった。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生がメアリーをお<ruby>褒<rt>ほ</rt></ruby>めになった。",
+                    "<ruby>私<rt>わたし</rt></ruby>たちがメアリーをお<ruby>褒<rt>ほ</rt></ruby>めになった。"
+                ],
+                "probs": [
+                    -154.73751831054688,
+                    -155.5399932861328
+                ]
+            },
+            {
+                "id": "subject honorification_38",
+                "pred": "<ruby>伊藤<rt>いとう</rt></ruby>先生には兄弟がおいでになる。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生には兄弟がおいでになる。",
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生には<ruby>私<rt>わたし</rt></ruby>がおいでになる。"
+                ],
+                "probs": [
+                    -93.62911224365234,
+                    -141.34103393554688
+                ]
+            },
+            {
+                "id": "subject honorification_39",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>には<ruby>伊藤<rt>いとう</rt></ruby>先生がおいでになる。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>には<ruby>伊藤<rt>いとう</rt></ruby>先生がおいでになる。",
+                    "<ruby>私<rt>わたし</rt></ruby>には<ruby>伊藤<rt>いとう</rt></ruby>先生がおいでになる。"
+                ],
+                "probs": [
+                    -132.17669677734375,
+                    -135.3939971923828
+                ]
+            },
+            {
+                "id": "subject honorification_40",
+                "pred": "<ruby>私<rt>わたし</rt></ruby>には<ruby>伊藤<rt>いとう</rt></ruby>先生がお見えになる。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生には<ruby>私<rt>わたし</rt></ruby>がお見えになる。",
+                    "<ruby>私<rt>わたし</rt></ruby>には<ruby>伊藤<rt>いとう</rt></ruby>先生がお見えになる。"
+                ],
+                "probs": [
+                    -139.44754028320312,
+                    -133.37588500976562
+                ]
+            },
+            {
+                "id": "subject honorification_41",
+                "pred": "<ruby>伊藤<rt>いとう</rt></ruby>先生にジョンからそのことを伝えた。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生にジョンからそのことを伝えた。",
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生にジョンからそのことをお伝えになった。"
+                ],
+                "probs": [
+                    -104.52604675292969,
+                    -116.77545928955078
+                ]
+            },
+            {
+                "id": "subject honorification_42",
+                "pred": "ジョンを<ruby>伊藤<rt>いとう</rt></ruby>先生がお<ruby>褒<rt>ほ</rt></ruby>めになった。",
+                "correct": true,
+                "sentences": [
+                    "ジョンを<ruby>伊藤<rt>いとう</rt></ruby>先生がお<ruby>褒<rt>ほ</rt></ruby>めになった。",
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生をジョンがお<ruby>褒<rt>ほ</rt></ruby>めになった。"
+                ],
+                "probs": [
+                    -149.8205108642578,
+                    -157.48147583007812
+                ]
+            },
+            {
+                "id": "subject honorification_43",
+                "pred": "ジョンがお<ruby>褒<rt>ほ</rt></ruby>めになる<ruby>伊藤<rt>いとう</rt></ruby>先生は<ruby>背<rt>せ</rt></ruby>が高い。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生がお<ruby>褒<rt>ほ</rt></ruby>めになるジョンは<ruby>背<rt>せ</rt></ruby>が高い。",
+                    "ジョンがお<ruby>褒<rt>ほ</rt></ruby>めになる<ruby>伊藤<rt>いとう</rt></ruby>先生は<ruby>背<rt>せ</rt></ruby>が高い。"
+                ],
+                "probs": [
+                    -213.10482788085938,
+                    -209.8389434814453
+                ]
+            }
+        ]
+    },
+    "floating quantifiers": {
+        "predictions": [
+            {
+                "id": "floating quantifiers_0",
+                "pred": "学生が3人健に会った。",
+                "correct": true,
+                "sentences": [
+                    "学生が3人健に会った。",
+                    "学生が健に3人会った。"
+                ],
+                "probs": [
+                    -51.37312316894531,
+                    -51.622947692871094
+                ]
+            },
+            {
+                "id": "floating quantifiers_1",
+                "pred": "花束を<ruby>子供<rt>こども</rt></ruby>に3人<ruby>渡<rt>わた</rt></ruby>した。",
+                "correct": true,
+                "sentences": [
+                    "花束を<ruby>子供<rt>こども</rt></ruby>に3人<ruby>渡<rt>わた</rt></ruby>した。",
+                    "花束が<ruby>子供<rt>こども</rt></ruby>に3人<ruby>渡<rt>わた</rt></ruby>った。"
+                ],
+                "probs": [
+                    -137.97677612304688,
+                    -148.93359375
+                ]
+            },
+            {
+                "id": "floating quantifiers_2",
+                "pred": "学生が4人家を買った。",
+                "correct": true,
+                "sentences": [
+                    "学生が4人家を買った。",
+                    "学生が家を4人買った。"
+                ],
+                "probs": [
+                    -43.13260269165039,
+                    -44.463401794433594
+                ]
+            },
+            {
+                "id": "floating quantifiers_3",
+                "pred": "学生が4人オフィスに走った。",
+                "correct": true,
+                "sentences": [
+                    "学生が4人オフィスに走った。",
+                    "学生がオフィスに4人走った。"
+                ],
+                "probs": [
+                    -48.42694854736328,
+                    -49.64534378051758
+                ]
+            },
+            {
+                "id": "floating quantifiers_4",
+                "pred": "学生がアパートで3人<ruby>自炊<rt>じすい</rt></ruby>する。",
+                "correct": false,
+                "sentences": [
+                    "学生が3人アパートで<ruby>自炊<rt>じすい</rt></ruby>する。",
+                    "学生がアパートで3人<ruby>自炊<rt>じすい</rt></ruby>する。"
+                ],
+                "probs": [
+                    -110.92529296875,
+                    -110.25528717041016
+                ]
+            }
+        ]
+    },
+    "NPI": {
+        "predictions": [
+            {
+                "id": "NPI_0",
+                "pred": "今回は<ruby>誰<rt>だれ</rt></ruby>が<ruby>寄付<rt>きふ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>びかけもしなかった。",
+                "correct": false,
+                "sentences": [
+                    "今回は<ruby>誰<rt>だれ</rt></ruby>から<ruby>寄付<rt>きふ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>びかけもしなかった。",
+                    "今回は<ruby>誰<rt>だれ</rt></ruby>が<ruby>寄付<rt>きふ</rt></ruby>を<ruby>呼<rt>よ</rt></ruby>びかけもしなかった。"
+                ],
+                "probs": [
+                    -204.81231689453125,
+                    -202.8140106201172
+                ]
+            },
+            {
+                "id": "NPI_1",
+                "pred": "今日は<ruby>誰<rt>だれ</rt></ruby>が<ruby>子供<rt>こども</rt></ruby>に話しかけもしていない。",
+                "correct": false,
+                "sentences": [
+                    "今日は<ruby>誰<rt>だれ</rt></ruby>から<ruby>子供<rt>こども</rt></ruby>に話しかけもしていない。",
+                    "今日は<ruby>誰<rt>だれ</rt></ruby>が<ruby>子供<rt>こども</rt></ruby>に話しかけもしていない。"
+                ],
+                "probs": [
+                    -158.92041015625,
+                    -154.3311004638672
+                ]
+            }
+        ]
+    },
+    "honorification": {
+        "predictions": [
+            {
+                "id": "honorification_0",
+                "pred": "先生から絵里にそのことをお話になっている。",
+                "correct": true,
+                "sentences": [
+                    "先生から絵里にそのことをお話になっている。",
+                    "先生から絵里にそのことを話しておいでになる。"
+                ],
+                "probs": [
+                    -62.382896423339844,
+                    -64.50308227539062
+                ]
+            },
+            {
+                "id": "honorification_1",
+                "pred": "<ruby>伊藤<rt>いとう</rt></ruby>先生からそのことをお話になっている。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生からそのことをお話になっている。",
+                    "<ruby>伊藤<rt>いとう</rt></ruby>先生からそのことを話しておいでになる。"
+                ],
+                "probs": [
+                    -95.43075561523438,
+                    -98.77787780761719
+                ]
+            }
+        ]
+    },
+    "animacy": {
+        "predictions": [
+            {
+                "id": "animacy_0",
+                "pred": "ジョンにはお金が<ruby>居<rt>い</rt></ruby>る。",
+                "correct": false,
+                "sentences": [
+                    "ジョンには兄弟が<ruby>居<rt>い</rt></ruby>る。",
+                    "ジョンにはお金が<ruby>居<rt>い</rt></ruby>る。"
+                ],
+                "probs": [
+                    -92.541015625,
+                    -89.24006652832031
+                ]
+            }
+        ]
+    },
+    "reflexive": {
+        "predictions": [
+            {
+                "id": "reflexive_0",
+                "pred": "ジョンが自をさつした。",
+                "correct": false,
+                "sentences": [
+                    "ジョンが<ruby>自殺<rt>じさつ</rt></ruby>した。",
+                    "ジョンが自をさつした。"
+                ],
+                "probs": [
+                    -76.11425018310547,
+                    -55.58503723144531
+                ]
+            },
+            {
+                "id": "reflexive_1",
+                "pred": "ジョンが自分をさつした。",
+                "correct": false,
+                "sentences": [
+                    "ジョンが<ruby>自殺<rt>じさつ</rt></ruby>した。",
+                    "ジョンが自分をさつした。"
+                ],
+                "probs": [
+                    -76.11425018310547,
+                    -47.106040954589844
+                ]
+            }
+        ]
+    },
+    "inflection": {
+        "predictions": [
+            {
+                "id": "inflection_0",
+                "pred": "ジョンが<ruby>自殺<rt>じさつ</rt></ruby>した。",
+                "correct": true,
+                "sentences": [
+                    "ジョンが<ruby>自殺<rt>じさつ</rt></ruby>した。",
+                    "ジョンが<ruby>自殺<rt>じさつ</rt></ruby>た。"
+                ],
+                "probs": [
+                    -76.11425018310547,
+                    -84.44596862792969
+                ]
+            },
+            {
+                "id": "inflection_1",
+                "pred": "花子は学生である。",
+                "correct": true,
+                "sentences": [
+                    "花子は学生である。",
+                    "花子は学生でる。"
+                ],
+                "probs": [
+                    -34.9168586730957,
+                    -43.62683868408203
+                ]
+            },
+            {
+                "id": "inflection_2",
+                "pred": "花子は学生である。",
+                "correct": true,
+                "sentences": [
+                    "花子は学生である。",
+                    "花子は学生でい。"
+                ],
+                "probs": [
+                    -34.9168586730957,
+                    -44.64813232421875
+                ]
+            },
+            {
+                "id": "inflection_3",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は声が大きい。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は声が大きい。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は声が大きな。"
+                ],
+                "probs": [
+                    -73.48648834228516,
+                    -81.3861312866211
+                ]
+            },
+            {
+                "id": "inflection_4",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>は声が<ruby>綺麗<rt>きれい</rt></ruby>だ。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>は声が<ruby>綺麗<rt>きれい</rt></ruby>だ。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>は声が<ruby>綺麗<rt>きれい</rt></ruby>な。"
+                ],
+                "probs": [
+                    -134.9751739501953,
+                    -137.11402893066406
+                ]
+            },
+            {
+                "id": "inflection_5",
+                "pred": "<ruby>綺麗<rt>きれい</rt></ruby>な声が聞こえた。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>綺麗<rt>きれい</rt></ruby>な声が聞こえた。",
+                    "<ruby>綺麗<rt>きれい</rt></ruby>だ声が聞こえた。"
+                ],
+                "probs": [
+                    -79.56546020507812,
+                    -84.33436584472656
+                ]
+            },
+            {
+                "id": "inflection_6",
+                "pred": "その<ruby>粒子<rt>りゅうし</rt></ruby>は<ruby>計測<rt>けいそく</rt></ruby><ruby>可能<rt>かのう</rt></ruby>だとジョンは思っている。",
+                "correct": true,
+                "sentences": [
+                    "その<ruby>粒子<rt>りゅうし</rt></ruby>は<ruby>計測<rt>けいそく</rt></ruby><ruby>可能<rt>かのう</rt></ruby>だとジョンは思っている。",
+                    "その<ruby>粒子<rt>りゅうし</rt></ruby>は<ruby>計測<rt>けいそく</rt></ruby><ruby>可能<rt>かのう</rt></ruby>なとジョンは思っている。"
+                ],
+                "probs": [
+                    -230.38613891601562,
+                    -236.2911376953125
+                ]
+            },
+            {
+                "id": "inflection_7",
+                "pred": "それは<ruby>計測<rt>けいそく</rt></ruby><ruby>可能<rt>かのう</rt></ruby>だ<ruby>粒子<rt>りゅうし</rt></ruby>だ。",
+                "correct": false,
+                "sentences": [
+                    "それは<ruby>計測<rt>けいそく</rt></ruby><ruby>可能<rt>かのう</rt></ruby>な<ruby>粒子<rt>りゅうし</rt></ruby>だ。",
+                    "それは<ruby>計測<rt>けいそく</rt></ruby><ruby>可能<rt>かのう</rt></ruby>だ<ruby>粒子<rt>りゅうし</rt></ruby>だ。"
+                ],
+                "probs": [
+                    -209.39971923828125,
+                    -208.43450927734375
+                ]
+            },
+            {
+                "id": "inflection_8",
+                "pred": "この<ruby>粒子<rt>りゅうし</rt></ruby>はこの機械で<ruby>計測<rt>けいそく</rt></ruby><ruby>可能<rt>かのう</rt></ruby>だより小さい。",
+                "correct": false,
+                "sentences": [
+                    "この<ruby>粒子<rt>りゅうし</rt></ruby>はこの機械で<ruby>計測<rt>けいそく</rt></ruby><ruby>可能<rt>かのう</rt></ruby>なより小さい。",
+                    "この<ruby>粒子<rt>りゅうし</rt></ruby>はこの機械で<ruby>計測<rt>けいそく</rt></ruby><ruby>可能<rt>かのう</rt></ruby>だより小さい。"
+                ],
+                "probs": [
+                    -238.93618774414062,
+                    -235.9654541015625
+                ]
+            },
+            {
+                "id": "inflection_9",
+                "pred": "この<ruby>粒子<rt>りゅうし</rt></ruby>はこの機械で<ruby>計測<rt>けいそく</rt></ruby><ruby>可能<rt>かのう</rt></ruby>な大きさより小さい。",
+                "correct": true,
+                "sentences": [
+                    "この<ruby>粒子<rt>りゅうし</rt></ruby>はこの機械で<ruby>計測<rt>けいそく</rt></ruby><ruby>可能<rt>かのう</rt></ruby>な大きさより小さい。",
+                    "この<ruby>粒子<rt>りゅうし</rt></ruby>はこの機械で<ruby>計測<rt>けいそく</rt></ruby><ruby>可能<rt>かのう</rt></ruby>だ大きさより小さい。"
+                ],
+                "probs": [
+                    -241.34963989257812,
+                    -245.24368286132812
+                ]
+            }
+        ]
+    },
+    "internal argument": {
+        "predictions": [
+            {
+                "id": "internal argument_0",
+                "pred": "ジョンが息子を<ruby>自殺<rt>じさつ</rt></ruby>した。",
+                "correct": false,
+                "sentences": [
+                    "ジョンが息子を<ruby>自慢<rt>じまん</rt></ruby>した。",
+                    "ジョンが息子を<ruby>自殺<rt>じさつ</rt></ruby>した。"
+                ],
+                "probs": [
+                    -94.39900207519531,
+                    -85.85397338867188
+                ]
+            },
+            {
+                "id": "internal argument_1",
+                "pred": "ジョンがクタクタに走った。",
+                "correct": false,
+                "sentences": [
+                    "ジョンが真っ直ぐに走った。",
+                    "ジョンがクタクタに走った。"
+                ],
+                "probs": [
+                    -51.56721496582031,
+                    -49.54280471801758
+                ]
+            },
+            {
+                "id": "internal argument_2",
+                "pred": "建物が<ruby>自壊<rt>じかい</rt></ruby>した。",
+                "correct": true,
+                "sentences": [
+                    "建物が<ruby>自壊<rt>じかい</rt></ruby>した。",
+                    "建物が<ruby>壁<rt>かべ</rt></ruby>を<ruby>自壊<rt>じかい</rt></ruby>した。"
+                ],
+                "probs": [
+                    -92.72956085205078,
+                    -141.47433471679688
+                ]
+            }
+        ]
+    },
+    "subject control": {
+        "predictions": [
+            {
+                "id": "subject control_0",
+                "pred": "ビルが<ruby>倒<rt>たお</rt></ruby>れ<ruby>損<rt>そこ</rt></ruby>ねた。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が<ruby>倒<rt>たお</rt></ruby>れ<ruby>損<rt>そこ</rt></ruby>ねた。",
+                    "ビルが<ruby>倒<rt>たお</rt></ruby>れ<ruby>損<rt>そこ</rt></ruby>ねた。"
+                ],
+                "probs": [
+                    -184.8427734375,
+                    -148.03225708007812
+                ]
+            },
+            {
+                "id": "subject control_1",
+                "pred": "建物が<ruby>自壊<rt>じかい</rt></ruby>し<ruby>損<rt>そこ</rt></ruby>ねた。",
+                "correct": false,
+                "sentences": [
+                    "ジョンが<ruby>自炊<rt>じすい</rt></ruby>し<ruby>損<rt>そこ</rt></ruby>ねた。",
+                    "建物が<ruby>自壊<rt>じかい</rt></ruby>し<ruby>損<rt>そこ</rt></ruby>ねた。"
+                ],
+                "probs": [
+                    -164.05374145507812,
+                    -162.63388061523438
+                ]
+            }
+        ]
+    },
+    "measure phrase": {
+        "predictions": [
+            {
+                "id": "measure phrase_0",
+                "pred": "このビルは高さ20メートルある。",
+                "correct": true,
+                "sentences": [
+                    "このビルは高さ20メートルある。",
+                    "このビルは低さ20メートルある。"
+                ],
+                "probs": [
+                    -35.14857482910156,
+                    -44.62212371826172
+                ]
+            },
+            {
+                "id": "measure phrase_1",
+                "pred": "このビルは高さ20メートルである。",
+                "correct": true,
+                "sentences": [
+                    "このビルは高さ20メートルである。",
+                    "このビルは低さ20メートルである。"
+                ],
+                "probs": [
+                    -38.66737747192383,
+                    -47.76382827758789
+                ]
+            },
+            {
+                "id": "measure phrase_2",
+                "pred": "この箱は重さ2キロある。",
+                "correct": true,
+                "sentences": [
+                    "この箱は重さ2キロある。",
+                    "この箱は軽さ2キロある。"
+                ],
+                "probs": [
+                    -37.7694206237793,
+                    -46.655494689941406
+                ]
+            },
+            {
+                "id": "measure phrase_3",
+                "pred": "この箱は重さ2キロである。",
+                "correct": true,
+                "sentences": [
+                    "この箱は重さ2キロである。",
+                    "この箱は軽さ2キロである。"
+                ],
+                "probs": [
+                    -39.65675735473633,
+                    -49.939353942871094
+                ]
+            },
+            {
+                "id": "measure phrase_4",
+                "pred": "このビルは10メートルの高さである。",
+                "correct": true,
+                "sentences": [
+                    "このビルは10メートルの高さである。",
+                    "このビルは10メートルの高さある。"
+                ],
+                "probs": [
+                    -41.8516731262207,
+                    -42.453041076660156
+                ]
+            },
+            {
+                "id": "measure phrase_5",
+                "pred": "このビルは10メートルの低さである。",
+                "correct": true,
+                "sentences": [
+                    "このビルは10メートルの低さである。",
+                    "このビルは10メートルの低さある。"
+                ],
+                "probs": [
+                    -45.635459899902344,
+                    -48.23308563232422
+                ]
+            },
+            {
+                "id": "measure phrase_6",
+                "pred": "この箱は30グラムの重さである。",
+                "correct": true,
+                "sentences": [
+                    "この箱は30グラムの重さである。",
+                    "この箱は30グラムの重さある。"
+                ],
+                "probs": [
+                    -45.64141845703125,
+                    -45.88908004760742
+                ]
+            },
+            {
+                "id": "measure phrase_7",
+                "pred": "この箱は30グラムの軽さである。",
+                "correct": true,
+                "sentences": [
+                    "この箱は30グラムの軽さである。",
+                    "この箱は30グラムの軽さある。"
+                ],
+                "probs": [
+                    -50.99748992919922,
+                    -52.80924987792969
+                ]
+            },
+            {
+                "id": "measure phrase_8",
+                "pred": "ジョンの後ろ2メートルにビルがいる。",
+                "correct": false,
+                "sentences": [
+                    "ジョンの後ろ2メートルのところにビルがいる。",
+                    "ジョンの後ろ2メートルにビルがいる。"
+                ],
+                "probs": [
+                    -62.689884185791016,
+                    -59.363773345947266
+                ]
+            },
+            {
+                "id": "measure phrase_9",
+                "pred": "ジョンは<ruby>事件<rt>じけん</rt></ruby>の2時間後にメアリーに会った。",
+                "correct": true,
+                "sentences": [
+                    "ジョンは<ruby>事件<rt>じけん</rt></ruby>の2時間後にメアリーに会った。",
+                    "ジョンは<ruby>事件<rt>じけん</rt></ruby>の後2時間の時にメアリーに会った。"
+                ],
+                "probs": [
+                    -112.63250732421875,
+                    -129.88742065429688
+                ]
+            },
+            {
+                "id": "measure phrase_10",
+                "pred": "もしそのビルの高さ20メートルであるならば、<ruby>太郎<rt>たろう</rt></ruby>は<ruby>驚<rt>おどろ</rt></ruby>くだろう。",
+                "correct": false,
+                "sentences": [
+                    "もしそのビルの高さが20メートルであるならば、<ruby>太郎<rt>たろう</rt></ruby>は<ruby>驚<rt>おどろ</rt></ruby>くだろう。",
+                    "もしそのビルの高さ20メートルであるならば、<ruby>太郎<rt>たろう</rt></ruby>は<ruby>驚<rt>おどろ</rt></ruby>くだろう。"
+                ],
+                "probs": [
+                    -196.92449951171875,
+                    -192.2891845703125
+                ]
+            },
+            {
+                "id": "measure phrase_11",
+                "pred": "もしそのビルの高さ20メートルあるならば、<ruby>太郎<rt>たろう</rt></ruby>は<ruby>驚<rt>おどろ</rt></ruby>くだろう。",
+                "correct": false,
+                "sentences": [
+                    "もしそのビルの高さが20メートルあるならば、<ruby>太郎<rt>たろう</rt></ruby>は<ruby>驚<rt>おどろ</rt></ruby>くだろう。",
+                    "もしそのビルの高さ20メートルあるならば、<ruby>太郎<rt>たろう</rt></ruby>は<ruby>驚<rt>おどろ</rt></ruby>くだろう。"
+                ],
+                "probs": [
+                    -191.42066955566406,
+                    -189.33486938476562
+                ]
+            },
+            {
+                "id": "measure phrase_12",
+                "pred": "このビルは高さ10メートルある。",
+                "correct": true,
+                "sentences": [
+                    "このビルは高さ10メートルある。",
+                    "このビルはあのビルより高さ10メートルある。"
+                ],
+                "probs": [
+                    -34.09993362426758,
+                    -53.61973571777344
+                ]
+            },
+            {
+                "id": "measure phrase_13",
+                "pred": "このビルはあのビルより10メートル高さがある。",
+                "correct": true,
+                "sentences": [
+                    "このビルはあのビルより10メートル高さがある。",
+                    "このビルはあのビルより10メートル高さある。"
+                ],
+                "probs": [
+                    -58.2468147277832,
+                    -60.434913635253906
+                ]
+            }
+        ]
+    },
+    "resumptive pronoun": {
+        "predictions": [
+            {
+                "id": "resumptive pronoun_0",
+                "pred": "ジョンはトムが食べたことが明らかなよりたくさん<ruby>芋<rt>いも</rt></ruby>を食べた。",
+                "correct": true,
+                "sentences": [
+                    "ジョンはトムが食べたことが明らかなよりたくさん<ruby>芋<rt>いも</rt></ruby>を食べた。",
+                    "ジョンはトムがそれらを食べたことが明らかなよりたくさん<ruby>芋<rt>いも</rt></ruby>を食べた。"
+                ],
+                "probs": [
+                    -134.63409423828125,
+                    -152.05714416503906
+                ]
+            },
+            {
+                "id": "resumptive pronoun_1",
+                "pred": "トムが食べたことが明らかな<ruby>芋<rt>いも</rt></ruby>は大きかった。",
+                "correct": true,
+                "sentences": [
+                    "トムが食べたことが明らかな<ruby>芋<rt>いも</rt></ruby>は大きかった。",
+                    "トムがそれらを食べたことが明らかな<ruby>芋<rt>いも</rt></ruby>は大きかった。"
+                ],
+                "probs": [
+                    -107.77486419677734,
+                    -126.37191772460938
+                ]
+            }
+        ]
+    },
+    "specificity island": {
+        "predictions": [
+            {
+                "id": "specificity island_0",
+                "pred": "ジョンはメアリーより高い指輪を買った。",
+                "correct": true,
+                "sentences": [
+                    "ジョンはメアリーより高い指輪を買った。",
+                    "ジョンはそのメアリーより高い指輪を買った。"
+                ],
+                "probs": [
+                    -63.680259704589844,
+                    -70.56271362304688
+                ]
+            }
+        ]
+    },
+    "negative island": {
+        "predictions": [
+            {
+                "id": "negative island_0",
+                "pred": "ジョンはメアリーが<ruby>雇<rt>やと</rt></ruby>ったより<ruby>賢<rt>かしこ</rt></ruby>い人を見つけた。",
+                "correct": true,
+                "sentences": [
+                    "ジョンはメアリーが<ruby>雇<rt>やと</rt></ruby>ったより<ruby>賢<rt>かしこ</rt></ruby>い人を見つけた。",
+                    "ジョンはメアリーが<ruby>雇<rt>やと</rt></ruby>わなかったより<ruby>賢<rt>かしこ</rt></ruby>い人を見つけた。"
+                ],
+                "probs": [
+                    -184.7156982421875,
+                    -188.43760681152344
+                ]
+            }
+        ]
+    },
+    "NCI": {
+        "predictions": [
+            {
+                "id": "NCI_0",
+                "pred": "ジョンがもし何か<ruby>盗<rt>ぬす</rt></ruby>んだら、<ruby>逮捕<rt>たいほ</rt></ruby>されるだろう。",
+                "correct": true,
+                "sentences": [
+                    "ジョンがもし何か<ruby>盗<rt>ぬす</rt></ruby>んだら、<ruby>逮捕<rt>たいほ</rt></ruby>されるだろう。",
+                    "ジョンがもし何も<ruby>盗<rt>ぬす</rt></ruby>んだら、<ruby>逮捕<rt>たいほ</rt></ruby>されるだろう。"
+                ],
+                "probs": [
+                    -170.2729949951172,
+                    -171.48565673828125
+                ]
+            },
+            {
+                "id": "NCI_1",
+                "pred": "<ruby>僕<rt>ぼく</rt></ruby>はジョンが<ruby>誰<rt>だれ</rt></ruby>も<ruby>尊敬<rt>そんけい</rt></ruby>していないと言った。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>僕<rt>ぼく</rt></ruby>はジョンが<ruby>誰<rt>だれ</rt></ruby>も<ruby>尊敬<rt>そんけい</rt></ruby>していないと言った。",
+                    "<ruby>僕<rt>ぼく</rt></ruby>はジョンが<ruby>誰<rt>だれ</rt></ruby>も<ruby>尊敬<rt>そんけい</rt></ruby>していると言わなかった。"
+                ],
+                "probs": [
+                    -208.8069305419922,
+                    -211.36282348632812
+                ]
+            }
+        ]
+    },
+    "universal quantifiers": {
+        "predictions": [
+            {
+                "id": "universal quantifiers_0",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が学校でみんなをみんな見た。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が学校でみんなをみんな見たわけではない。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が学校でみんなをみんな見た。"
+                ],
+                "probs": [
+                    -102.56744384765625,
+                    -94.71064758300781
+                ]
+            },
+            {
+                "id": "universal quantifiers_1",
+                "pred": "みんながみんな大学へ行かない。",
+                "correct": false,
+                "sentences": [
+                    "みんながみんな大学へ行くわけではない。",
+                    "みんながみんな大学へ行かない。"
+                ],
+                "probs": [
+                    -41.84028625488281,
+                    -38.95311737060547
+                ]
+            },
+            {
+                "id": "universal quantifiers_2",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が学校でみんなをみんな見たわけではない。",
+                "correct": true,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が学校でみんなをみんな見たわけではない。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が学校でほとんどみんなをみんな見たわけではない。"
+                ],
+                "probs": [
+                    -102.56744384765625,
+                    -112.39888000488281
+                ]
+            },
+            {
+                "id": "universal quantifiers_3",
+                "pred": "<ruby>太郎<rt>たろう</rt></ruby>が学校でみんなをみんな見なかった。",
+                "correct": false,
+                "sentences": [
+                    "<ruby>太郎<rt>たろう</rt></ruby>が学校で<ruby>誰<rt>だれ</rt></ruby>も見なかった。",
+                    "<ruby>太郎<rt>たろう</rt></ruby>が学校でみんなをみんな見なかった。"
+                ],
+                "probs": [
+                    -137.70925903320312,
+                    -98.17427062988281
+                ]
+            }
+        ]
+    }
+}

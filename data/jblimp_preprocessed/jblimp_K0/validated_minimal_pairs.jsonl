@@ -1,0 +1,331 @@
+{"ID":0,"good_sentence":"たろうがきのうはなこにあったひとをさがしているのだ。","bad_sentence":"たろうがきのうあったひとをさがしているのははなこにだ。","type":"acceptability","phenomenon":"island effects","phenomenon-2":null,"paradigm":"complex NP island"}
+{"ID":1,"good_sentence":"たろうがそのほんをよんだからはなこがおこったのだ。","bad_sentence":"たろうがよんだからはなこがおこったのはそのほんをだ。","type":"acceptability","phenomenon":"island effects","phenomenon-2":null,"paradigm":"adjunct island"}
+{"ID":2,"good_sentence":"はじめてあうひとがけなすのはだれをですか？","bad_sentence":"はじめてそいつにあうひとがけなすのはだれをですか？","type":"coreference","phenomenon":"binding","phenomenon-2":null,"paradigm":"weak crossover"}
+{"ID":4,"good_sentence":"たろうがはなこにあう。","bad_sentence":"たろうがはなこをあう。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":5,"good_sentence":"たろうがはなこをけなす。","bad_sentence":"たろうがはなこにけなす。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":6,"good_sentence":"たろうがそのほんをよんだ。","bad_sentence":"たろうがそのほんによんだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":7,"good_sentence":"たろうがそのほんにうんざりした。","bad_sentence":"たろうがそのほんをうんざりした。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":8,"good_sentence":"はじめてあうひとがけなすのはだれをですか？","bad_sentence":"はじめてあうひとがけなすのはだれにですか？","type":"acceptability","phenomenon":"island effects","phenomenon-2":"argument structure","paradigm":"complex NP island"}
+{"ID":9,"good_sentence":"よんだがくせいがうんざりしたのはどのろんぶんにですか？","bad_sentence":"よんだがくせいがうんざりしたのはどのろんぶんをですか？","type":"acceptability","phenomenon":"island effects","phenomenon-2":"argument structure","paradigm":"complex NP island"}
+{"ID":11,"good_sentence":"よんだがくせいがうんざりしたのはどのろんぶんにですか？","bad_sentence":"よんだがくせいがどのろんぶんにうんざりしたの？","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"parasitic-gap"}
+{"ID":12,"good_sentence":"はじめてそいつにあったひとがたろうをけなした。","bad_sentence":"はじめてそいつにあったひとがだれもをけなした。","type":"coreference","phenomenon":"binding","phenomenon-2":null,"paradigm":"weak crossover"}
+{"ID":13,"good_sentence":"はじめてあったひとがたろうをけなした。","bad_sentence":"はじめてあったひとがだれもをけなした。","type":"coreference","phenomenon":"binding","phenomenon-2":null,"paradigm":"weak crossover"}
+{"ID":14,"good_sentence":"はじめてそいつにあったひとがたろうをけなしたの？","bad_sentence":"はじめてそいつにあったひとがだれをけなしたの？","type":"coreference","phenomenon":"binding","phenomenon-2":null,"paradigm":"weak crossover"}
+{"ID":15,"good_sentence":"はじめてあったひとがたろうをけなしたの？","bad_sentence":"はじめてあったひとがだれをけなしたの？","type":"coreference","phenomenon":"binding","phenomenon-2":null,"paradigm":"weak crossover"}
+{"ID":16,"good_sentence":"はなこがなんどもあっていたからなきだしたじょせいがすきだったのはだれをですか？","bad_sentence":"はなこがなんどもそいつにあっていたからなきだしたじょせいがすきだったのはだれをですか？","type":"coreference","phenomenon":"binding","phenomenon-2":null,"paradigm":"weak crossover"}
+{"ID":18,"good_sentence":"たろうがはなこをかいこしようとしているのはなぜですか？","bad_sentence":"たろうをかいこしたひとがはなこもかいこしようとしているのはなぜですか？","type":"interpretation","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"parasitic-gap"}
+{"ID":19,"good_sentence":"そのひとがこのていりをしょうめいしたのはどうやってですか？","bad_sentence":"そのていりをしょうめいしたひとがこのていりもしょうめいしたのはどうやってですか？","type":"interpretation","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"parasitic-gap"}
+{"ID":22,"good_sentence":"このドアがたろうによってあけられた。","bad_sentence":"このドアがたろうにあけられた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"passive"}
+{"ID":23,"good_sentence":"そのてらはよくとしくうかいにやきはらわれた。","bad_sentence":"そのてらはよくとしくうかいにたてられた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"passive"}
+{"ID":24,"good_sentence":"わたしはさむいです。","bad_sentence":"あなたはさむいです。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":25,"good_sentence":"わたしはさむいです。","bad_sentence":"かれはさむいです。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":26,"good_sentence":"わたしはさびしいです。","bad_sentence":"あなたはさびしいです。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":27,"good_sentence":"わたしはさびしいです。","bad_sentence":"かれはさびしいです。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":28,"good_sentence":"あなたはさむいですか？","bad_sentence":"わたしはさむいですか？","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":29,"good_sentence":"あなたはさむいですか？","bad_sentence":"かれはさむいですか？","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":30,"good_sentence":"あなたはさびしいですか？","bad_sentence":"わたしはさびしいですか？","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":31,"good_sentence":"あなたはさびしいですか？","bad_sentence":"かれはさびしいですか？","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":32,"good_sentence":"わたしはさびしいよ。","bad_sentence":"メアリーはさびしいよ。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":33,"good_sentence":"わたしはあつかったよ。","bad_sentence":"メアリーはあつかったよ。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":34,"good_sentence":"わたしはみずがのみたい。","bad_sentence":"かれはみずがのみたい。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":35,"good_sentence":"かのじょはさむがっているよ。","bad_sentence":"わたしはさむがっているよ。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":36,"good_sentence":"かのじょはさむがっていますか？","bad_sentence":"わたしはさむがっていますか？","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":37,"good_sentence":"かのじょはさむがっていますよ。","bad_sentence":"あなたはさむがっていますよ。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":38,"good_sentence":"かのじょはさむがっていますか？","bad_sentence":"あなたはさむがっていますか？","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":39,"good_sentence":"たかしはりょうこがじぶんをたずねてきたのでうれしがった。","bad_sentence":"たかしはりょうこがじぶんをたずねていったのでうれしがった。","type":"coreference","phenomenon":"binding","phenomenon-2":null,"paradigm":"anaphor"}
+{"ID":40,"good_sentence":"たろうがプールで1じかんおよいだ。","bad_sentence":"たろうがプールで1じかんでおよいだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"aspect"}
+{"ID":41,"good_sentence":"やまだせんせいはこのほんをおよみになった。","bad_sentence":"やまだせんせいはこのほんをなったことはおよみだ。","type":"acceptability","phenomenon":"filler-gap","phenomenon-2":null,"paradigm":"relative clause"}
+{"ID":42,"good_sentence":"やまだせんせいがこのほんをおよみになった。","bad_sentence":"やまだせんせいがなったのはこのほんのおよみだ。","type":"acceptability","phenomenon":"filler-gap","phenomenon-2":null,"paradigm":"cleft"}
+{"ID":43,"good_sentence":"やまださんはよしださんのことがしんぱいになり、たなかさんもしんぱいになった。","bad_sentence":"やまださんはよしださんのことがしんぱいになり、たなかさんもなった。","type":"interpretation","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"nominal ellipsis"}
+{"ID":44,"good_sentence":"たろうがきょうがくして、なおこもきょうがくした。","bad_sentence":"たろうがきょうがくして、なおこもした。","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"nominal ellipsis"}
+{"ID":45,"good_sentence":"あきこがきぜつして、なおこもきぜつした。","bad_sentence":"あきこがきぜつして、なおこもした。","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"nominal ellipsis"}
+{"ID":46,"good_sentence":"たろうがきょうがくした。","bad_sentence":"たろうがしたのはきょうがくだ。","type":"acceptability","phenomenon":"filler-gap","phenomenon-2":null,"paradigm":"cleft"}
+{"ID":47,"good_sentence":"なおみはきょうがくではなく、こうふんした。","bad_sentence":"なおみがしたのはきょうがくではなく、こうふんだ。","type":"acceptability","phenomenon":"filler-gap","phenomenon-2":null,"paradigm":"cleft"}
+{"ID":48,"good_sentence":"たべそう。","bad_sentence":"こどもそう。","type":"lexical","phenomenon":"morphology","phenomenon-2":null,"paradigm":"part of speech"}
+{"ID":49,"good_sentence":"おいしそう。","bad_sentence":"こどもそう。","type":"lexical","phenomenon":"morphology","phenomenon-2":null,"paradigm":"part of speech"}
+{"ID":50,"good_sentence":"たべそう。","bad_sentence":"おたべそう。","type":"lexical","phenomenon":"morphology","phenomenon-2":null,"paradigm":"part of speech"}
+{"ID":51,"good_sentence":"おいしそう。","bad_sentence":"おたべそう。","type":"lexical","phenomenon":"morphology","phenomenon-2":null,"paradigm":"part of speech"}
+{"ID":52,"good_sentence":"せんせいがはやくおかえりになった。","bad_sentence":"せんせいがはやいおかえりになった。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"part of speech"}
+{"ID":53,"good_sentence":"わたしがせんせいをおたすけした。","bad_sentence":"わたしがせんせいのおたすけした。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":54,"good_sentence":"たろうはおもったことをくちにだす。","bad_sentence":"たろうはくちにおもったことをだす。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":55,"good_sentence":"たろうはさいのうをはなにかけている。","bad_sentence":"たろうははなにさいのうをかけている。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":56,"good_sentence":"たろうはくるまをてにいれた。","bad_sentence":"たろうはてにくるまをいれた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":57,"good_sentence":"たろうはいつもじぶんのしっぱいをたなにあげる。","bad_sentence":"たろうはいつもたなにじぶんのしっぱいをあげる。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":58,"good_sentence":"たろうはひとのことにくちをだす。","bad_sentence":"たろうはくちをひとのことにだす。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":59,"good_sentence":"たろうはそのぎろんにはくしゃをかけた。","bad_sentence":"たろうははくしゃをそのぎろんにかけた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":60,"good_sentence":"たろうはげんこうにてをいれた。","bad_sentence":"たろうはてをげんこうにいれた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":61,"good_sentence":"たろうはまーじゃんにちみちをあげた。","bad_sentence":"たろうはちみちをまーじゃんにあげた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":62,"good_sentence":"たろうのちゅうこくははなこにはぬかにくぎだった。","bad_sentence":"たろうのちゅうこくははなこにはぬかにもくぎだった。","type":"lexical","phenomenon":"morphology","phenomenon-2":null,"paradigm":"idiom"}
+{"ID":63,"good_sentence":"たろうになにをいってものれんにうでおしだ。","bad_sentence":"たろうになにをいってものれんにはうでおしだ。","type":"lexical","phenomenon":"morphology","phenomenon-2":null,"paradigm":"idiom"}
+{"ID":64,"good_sentence":"たろうのはつげんがひにあぶらをそそいだ。","bad_sentence":"たろうのはつげんがひにはあぶらをそそいだ。","type":"lexical","phenomenon":"morphology","phenomenon-2":null,"paradigm":"idiom"}
+{"ID":65,"good_sentence":"たろうはうでによりをかけてりょうりをつくった。","bad_sentence":"たろうはうでにはよりをかけてりょうりをつくった。","type":"lexical","phenomenon":"morphology","phenomenon-2":null,"paradigm":"idiom"}
+{"ID":66,"good_sentence":"たろうはつめにひをともすせいかつをしている。","bad_sentence":"たろうはつめにはひをともすせいかつをしている。","type":"lexical","phenomenon":"morphology","phenomenon-2":null,"paradigm":"idiom"}
+{"ID":67,"good_sentence":"めにはめを。","bad_sentence":"めにめを。","type":"lexical","phenomenon":"morphology","phenomenon-2":null,"paradigm":"idiom"}
+{"ID":68,"good_sentence":"ねんにはねんをいれる。","bad_sentence":"ねんにねんをいれる。","type":"lexical","phenomenon":"morphology","phenomenon-2":null,"paradigm":"idiom"}
+{"ID":69,"good_sentence":"いしのうえにも3ねん。","bad_sentence":"いしのうえに3ねん。","type":"lexical","phenomenon":"morphology","phenomenon-2":null,"paradigm":"idiom"}
+{"ID":70,"good_sentence":"たろうがはなこにおかしをあたえた。","bad_sentence":"たろうがはなこへおかしをあたえた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":71,"good_sentence":"おもったことをくちにだす。","bad_sentence":"おもったことをくちへだす。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":72,"good_sentence":"さいのうをはなにかける。","bad_sentence":"さいのうをはなへかける。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":73,"good_sentence":"くるまをてにいれる。","bad_sentence":"くるまをてへいれる。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":74,"good_sentence":"しっぱいをたなにあげる。","bad_sentence":"しっぱいをたなへあげる。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":75,"good_sentence":"ひとのことへのくちのだしにくさがしてきされた。","bad_sentence":"ひとのことにくちのだしにくさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":76,"good_sentence":"そんなぎろんへのはくしゃのかけにくさがしてきされた。","bad_sentence":"そんなぎろんにはくしゃのかけにくさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":77,"good_sentence":"げんこうへのてのいれにくさがしてきされた。","bad_sentence":"げんこうにてのいれにくさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":78,"good_sentence":"まーじゃんへのちみちのあげやすさがしてきされた。","bad_sentence":"まーじゃんにちみちのあげやすさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":79,"good_sentence":"ひとのことへのくちのだしにくさがしてきされた。","bad_sentence":"くちのひとのことへのだしにくさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":80,"good_sentence":"そんなぎろんへのはくしゃのかけにくさがしてきされた。","bad_sentence":"はくしゃのそんなぎろんへのかけやすさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":81,"good_sentence":"げんこうへのてのいれにくさがしてきされた。","bad_sentence":"てのげんこうへのいれにくさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":82,"good_sentence":"まーじゃんへのちみちのあげやすさがしてきされた。","bad_sentence":"ちみちのまーじゃんへのあげやすさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":84,"good_sentence":"じぶんのさいのうのはなにかけやすさがしてきされた。","bad_sentence":"じぶんのさいのうのはなへのかけやすさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":85,"good_sentence":"くるまのてにいれにくさがしてきされた。","bad_sentence":"くるまのてへのいれにくさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":86,"good_sentence":"じぶんのしっぱいのたなにあげやすさがしてきされた。","bad_sentence":"じぶんのしっぱいのたなへのあげやすさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":87,"good_sentence":"ひとのことへのくちのだしにくさがしてきされた。","bad_sentence":"ひとのことへのくちをだしにくさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":88,"good_sentence":"そんなぎろんへのはくしゃのかけにくさがしてきされた。","bad_sentence":"そんなぎろんへのはくしゃをかけやすさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":89,"good_sentence":"げんこうへのてのいれにくさがしてきされた。","bad_sentence":"げんこうへのてをいれにくさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":90,"good_sentence":"まーじゃんへのちみちのあげやすさがしてきされた。","bad_sentence":"まーじゃんへのちみちをあげやすさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":91,"good_sentence":"たろうはくさいものにふたをしないしゅぎだ。","bad_sentence":"たろうはふたをくさいものにしないしゅぎだ。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":92,"good_sentence":"くさいものにふたをしにくいこと。","bad_sentence":"ふたをくさいものにしにくいこと。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":93,"good_sentence":"くさいものへのふたのしにくさがしてきされた。","bad_sentence":"くさいものにふたのしにくさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":94,"good_sentence":"たろうがはなこにほんをあたえた。","bad_sentence":"たろうがはなこへほんをあたえた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":95,"good_sentence":"はなこへのほんのあたえにくさがしてきされた。","bad_sentence":"はなこにほんのあたえにくさがしてきされた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":96,"good_sentence":"たろうがげんこうにてをいれた。","bad_sentence":"たろうがげんこうへてをいれた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":97,"good_sentence":"たろうはいつもくさいものにふたをする。","bad_sentence":"たろうはいつもくさいものへふたをする。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":98,"good_sentence":"げんこうへのてのいれかたはひとそれぞれだ。","bad_sentence":"げんこうにてのいれかたはひとそれぞれだ。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"nominalization"}
+{"ID":100,"good_sentence":"くさいものへのふたのしかたはひとそれぞれだ。","bad_sentence":"くさいものにふたのしかたはひとそれぞれだ。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"nominalization"}
+{"ID":101,"good_sentence":"せんせいのおはなしはすてきだった。","bad_sentence":"せんせいのおはなしになりはすてきだった。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"part of speech"}
+{"ID":104,"good_sentence":"ベランダへのせんたくもののだしにくさがしてきされた。","bad_sentence":"ベランダにせんたくもののだしにくさがしてきされた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":105,"good_sentence":"せんたくもののベランダへのだしにくさがしてきされた。","bad_sentence":"せんたくもののベランダにだしにくさがしてきされた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":106,"good_sentence":"ひまわりへのみずのあたえにくさがしてきされた。","bad_sentence":"ひまわりにみずのあたえにくさがしてきされた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":107,"good_sentence":"みずのひまわりへのあたえにくさがしてきされた。","bad_sentence":"みずのひまわりにあたえにくさがしてきされた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":108,"good_sentence":"テーブルのえほんのおきかたはひとそれぞれだ。","bad_sentence":"えほんのテーブルのおきかたはひとそれぞれだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":109,"good_sentence":"テーブルのえほんのおかれかたはどくとくだ。","bad_sentence":"えほんのテーブルのおかれかたはどくとくだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":110,"good_sentence":"ランドセルのきょうかしょのいれかたはひとそれぞれだ。","bad_sentence":"きょうかしょのランドセルのいれかたはひとそれぞれだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":111,"good_sentence":"ベランダのせんたくもののだしにくさがしてきされた。","bad_sentence":"せんたくもののベランダのだしにくさがしてきされた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":112,"good_sentence":"ひまわりのみずのあたえにくさがしてきされた。","bad_sentence":"みずのひまわりのあたえにくさがしてきされた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":113,"good_sentence":"ジョンのこいぬのえさのあたえかたはどくとくだ。","bad_sentence":"こいぬのジョンのえさのあたえかたはどくとくだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":114,"good_sentence":"はなこへのにもつのとうきょうへのおくりにくさ。","bad_sentence":"はなこへのにもつのとうきょうにおくりにくさ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":115,"good_sentence":"はなこへのとうきょうへのにもつのおくりにくさ。","bad_sentence":"はなこへのとうきょうににもつのおくりにくさ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":116,"good_sentence":"はなこへのとうきょうへのにもつのおくりにくさ。","bad_sentence":"はなこにとうきょうへのにもつのおくりにくさ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":117,"good_sentence":"せんしゅはかんとくのほうしんにふまんをくちにした。","bad_sentence":"せんしゅはかんとくのほうしんにくちにふまんをした。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":118,"good_sentence":"そのほうしんへのふまんのくちにしにくさがしてきされた。","bad_sentence":"そのほうしんへのふまんのくちへのしにくさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":119,"good_sentence":"そのほうしんへのふまんのくちにしにくさがしてきされた。","bad_sentence":"そのほうしんにふまんのくちへのしにくさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":120,"good_sentence":"そのほうしんへのふまんのくちにしにくさがしてきされた。","bad_sentence":"そのほうしんにふまんのくちにしにくさがしてきされた。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":121,"good_sentence":"わたしがきのうみたひとはすてきだった。","bad_sentence":"わたしがきのうみたのひとはすてきだった。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"modifier"}
+{"ID":122,"good_sentence":"たろうがかったのはさんさつのほんだ。","bad_sentence":"たろうがかったのはさんさつほんだ。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"modifier"}
+{"ID":123,"good_sentence":"はれのひはよいが、あめのひはおちこむ。","bad_sentence":"はれのひはよいが、あめのはおちこむ。","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"nominal ellipsis"}
+{"ID":124,"good_sentence":"たろうは1にちにさんさつのほんをよむが、はなこは5さつのほんをよむ。","bad_sentence":"たろうは1にちにさんさつのほんをよむが、はなこは5さつのをよむ。","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"nominal ellipsis"}
+{"ID":125,"good_sentence":"たろうは3さつのほんをかったが、はなこは5さつのほんをかった。","bad_sentence":"たろうは3さつのほんをかったが、はなこは5さつのをかった。","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"nominal ellipsis"}
+{"ID":126,"good_sentence":"たろうがきのうあったひとはやさしいが、はなこがきのうあったひとはこわい。","bad_sentence":"たろうがきのうあったひとはやさしいが、はなこがきのうあったはこわい。","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"nominal ellipsis"}
+{"ID":127,"good_sentence":"たろうははなこがなぜかれのてがみをすてたとおもっているの？","bad_sentence":"たろうははなこがなぜかれのてがみをすてたからおこっているの？","type":"acceptability","phenomenon":"island effects","phenomenon-2":"filler-gap","paradigm":"adjunct island"}
+{"ID":128,"good_sentence":"たろうがどろぼうがげんきんをぬすんだとおもっているのはこのぎんこうからだ。","bad_sentence":"たろうがどろぼうがぬすむまえにがっこうにいたのはこのぎんこうからだ。","type":"acceptability","phenomenon":"island effects","phenomenon-2":"filler-gap","paradigm":"adjunct island"}
+{"ID":129,"good_sentence":"たろうがはなこがかれのてがみをすてさえしたのでおこった。","bad_sentence":"かれのてがみをすてさえたろうがはなこがしたのでおこった。","type":"acceptability","phenomenon":"island effects","phenomenon-2":"filler-gap","paradigm":"adjunct island"}
+{"ID":130,"good_sentence":"たろうがかれのてがみをすてさえはなこがしたのでおこった。","bad_sentence":"かれのてがみをすてさえたろうがはなこがしたのでおこった。","type":"acceptability","phenomenon":"island effects","phenomenon-2":"filler-gap","paradigm":"adjunct island"}
+{"ID":131,"good_sentence":"ジョンはメアリーがかしこいいじょうにかしこい。","bad_sentence":"ジョンはメアリーがかしこいいじょうにかしこくない。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"negation"}
+{"ID":132,"good_sentence":"ジョンはメアリーがかしこいぐらいかしこい。","bad_sentence":"ジョンはメアリーがかしこいぐらいかしこくない。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"negation"}
+{"ID":133,"good_sentence":"2きれのハムはゆうしょくになるが、1きれのハムはならない。","bad_sentence":"2きれのハムはゆうしょくになるが、1きれのはならない。","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"nominal ellipsis"}
+{"ID":134,"good_sentence":"とうきょうでのしょくじはよかったが、きょうとでのしょくじはひさんだった。","bad_sentence":"とうきょうでのしょくじはよかったが、きょうとでのはひさんだった。","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"nominal ellipsis"}
+{"ID":135,"good_sentence":"たろうはその3ぼんずつのえんぴつをかった。","bad_sentence":"たろうは3ぼんずつのそのえんぴつをかった。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"classifier"}
+{"ID":137,"good_sentence":"なにをけんしかよまなかったの？","bad_sentence":"けんしかなにをよまなかったの？","type":"acceptability","phenomenon":"filler-gap","phenomenon-2":null,"paradigm":"intervention effects"}
+{"ID":139,"good_sentence":"なにをだれかがよんだの？","bad_sentence":"だれかがなにをよんだの？","type":"acceptability","phenomenon":"filler-gap","phenomenon-2":null,"paradigm":"intervention effects"}
+{"ID":142,"good_sentence":"えりかはだれもなぜこなかったかしっているの？","bad_sentence":"えりかはだれもなぜこなかったとおもっているの？","type":"interpretation","phenomenon":"filler-gap","phenomenon-2":null,"paradigm":"intervention effects"}
+{"ID":143,"good_sentence":"せんせいがせいとをなかせたばしょはここだ。","bad_sentence":"せんせいがせいとのなかせたばしょはここだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":144,"good_sentence":"せいとをなかせたせんせいはあのひとだ。","bad_sentence":"せいとのなかせたせんせいはあのひとだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":145,"good_sentence":"たろうのゴミのすてかたはざつだ。","bad_sentence":"たろうのゴミをすてかたはざつだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":146,"good_sentence":"あくじからのあしのあらいかたはしっている。","bad_sentence":"あくじからのあしをあらいかたはしっている。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":147,"good_sentence":"たろうがもえるゴミをすてるばしょはここだ。","bad_sentence":"たろうがもえるゴミのすてるばしょはここだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":148,"good_sentence":"かれがあくじからあしをあらうひはいつになるのだろう？","bad_sentence":"かれがあくじからあしのあらうひはいつになるのだろう？","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":149,"good_sentence":"かれのてしたがだいとうりょうをあんさつするけいかくはにゅうねんだ。","bad_sentence":"かれのてしたがだいとうりょうのあんさつするけいかくはにゅうねんだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":150,"good_sentence":"せいとたちがちからをいれるかもくはすうがくだ。","bad_sentence":"せいとたちがちからのいれるかもくはすうがくだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":151,"good_sentence":"やまだがざぶとんをはこびこむへやはここだ。","bad_sentence":"やまだがざぶとんのはこびこむへやはここだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":152,"good_sentence":"しんにゅうしゃいんがはめをはずすきかいはすくない。","bad_sentence":"しんにゅうしゃいんがはめのはずすきかいはすくない。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":153,"good_sentence":"とりがたまごをあたためるばしょはここだ。","bad_sentence":"とりがたまごのあたためるばしょはここだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":154,"good_sentence":"もえるゴミをすてたばしょはここだ。","bad_sentence":"もえるゴミのすてたばしょはここだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":155,"good_sentence":"あくじからあしをあらったひはおぼえている。","bad_sentence":"あくじからあしのあらったひはおぼえている。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":156,"good_sentence":"ちからをいれたかもくはすうがくだ。","bad_sentence":"ちからのいれたかもくはすうがくだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":157,"good_sentence":"ざぶとんをはこびこんだへやはここだ。","bad_sentence":"ざぶとんのはこびこんだへやはここだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":158,"good_sentence":"このばしょにはもえるゴミをすてる。","bad_sentence":"このばしょにはもえるゴミのすてる。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":159,"good_sentence":"かぞくをもつとふつうあくじからあしをあらう。","bad_sentence":"かぞくをもつとふつうあくじからあしのあらう。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":160,"good_sentence":"えんかいでははめをはずす。","bad_sentence":"えんかいでははめのはずす。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":161,"good_sentence":"もえるゴミをすてるようめいれいした。","bad_sentence":"もえるゴミのすてるようめいれいした。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":162,"good_sentence":"かれはあくじからあしをあらうとおもわれていた。","bad_sentence":"かれはあくじからあしのあらうとおもわれていた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":163,"good_sentence":"ざぶとんをはこびこむかどうかわからないへやがあった。","bad_sentence":"ざぶとんのはこびこむかどうかわからないへやがあった。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":164,"good_sentence":"ゴミをすてるとおもわれていたひはおぼえている。","bad_sentence":"ゴミのすてるとおもわれていたひはおぼえている。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":165,"good_sentence":"あくじからあしをあらうまでしんじてあげない。","bad_sentence":"あくじからあしのあらうまでしんじてあげない。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":166,"good_sentence":"もえるゴミをすてるよりもえないゴミをすてるほうがむずかしい。","bad_sentence":"もえるゴミのすてるよりもえないゴミをすてるほうがむずかしい。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":167,"good_sentence":"ざぶとんをはこびこむにつれてへやがいっぱいになってきた。","bad_sentence":"ざぶとんのはこびこむにつれてへやがいっぱいになってきた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":168,"good_sentence":"たろうがおんがくをこのむきせつはなつだ。","bad_sentence":"たろうがおんがくのこのむきせつはなつだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":169,"good_sentence":"たろうがゴミをすてるとやくそくしたひはあすだ。","bad_sentence":"たろうがゴミのすてるとやくそくしたひはあすだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":170,"good_sentence":"たろうがびわこをおよいだひはどようびだった。","bad_sentence":"たろうのびわこをおよいだひはどようびだった。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":171,"good_sentence":"かれがもんだいをかいけつしたひはどようびだった。","bad_sentence":"かれのもんだいをかいけつしたひはどようびだった。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":172,"good_sentence":"ジョンがしけんをうけたひにあめがふった。","bad_sentence":"ジョンのしけんをうけたひにあめがふった。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":173,"good_sentence":"じゅうぎょういんがざぶとんをはこびこんだへやはここだ。","bad_sentence":"じゅうぎょういんのざぶとんをはこびこんだへやはここだ。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":174,"good_sentence":"ごにんのがくせいのめんどうをみなければならない。","bad_sentence":"ごにんののめんどうをみなければならない。","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"nominal ellipsis"}
+{"ID":175,"good_sentence":"これはたろうがしゅじんこうであるものがたりだ。","bad_sentence":"これはたろうがしゅじんこうであるのものがたりだ。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"modifier"}
+{"ID":176,"good_sentence":"たろうはそのふたりのがくせいにあった。","bad_sentence":"たろうはそのふたりがくせいにあった。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"modifier"}
+{"ID":177,"good_sentence":"グランド30しゅうのとっくんはかこくだ。","bad_sentence":"30しゅうのグラウンドのとっくんはかこくだ。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"classifier"}
+{"ID":178,"good_sentence":"たろうはグランドを30しゅうした。","bad_sentence":"たろうはグランドをした。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"classifier"}
+{"ID":180,"good_sentence":"メアリーがジョンがじぶんのがくせいがあたらしいかせつをていあんしたといっていたののけっかんをしてきした。","bad_sentence":"メアリーがジョンがじぶんのがくせいがあたらしいかせつをていあんしたとしっていたののけっかんをしてきした。","type":"acceptability","phenomenon":"island effects","phenomenon-2":null,"paradigm":"factive island"}
+{"ID":181,"good_sentence":"たろうがみぎめをつぶる。","bad_sentence":"たろうがみぎめがつぶる。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":182,"good_sentence":"だいくがいえをたてさせられた。","bad_sentence":"いえがだいくにたてさせられた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"passive"}
+{"ID":183,"good_sentence":"はなこがたろうにみぎめをつぶらせた。","bad_sentence":"はなこがたろうにみぎめがつぶらせた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":184,"good_sentence":"メアリーがジョンにえいごをわからせる。","bad_sentence":"メアリーがジョンにえいごがわからせる。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":185,"good_sentence":"たろうはメアリーにワインをのませやすい。","bad_sentence":"たろうはメアリーをワインをのませやすい。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":186,"good_sentence":"たろうはメアリーがワインをのませやすい。","bad_sentence":"たろうはメアリーをワインをのませやすい。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":187,"good_sentence":"たろうはメアリーがワインをのませやすい。","bad_sentence":"たろうはメアリーをワインがのませやすい。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":188,"good_sentence":"たろうはメアリーがワインがのませやすい。","bad_sentence":"たろうはメアリーをワインがのませやすい。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":189,"good_sentence":"たろうがはなこにとうきょうににもつをおくった。","bad_sentence":"たろうがとうきょうにはなこににもつをおくった。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":190,"good_sentence":"たろうがはなこににもつをとうきょうにおくった。","bad_sentence":"たろうがにもつをはなこにとうきょうにおくった。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":193,"good_sentence":"えいこうをてにする。","bad_sentence":"えいこうをてへする。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":194,"good_sentence":"しょうげきてきなこうけいをめにする。","bad_sentence":"しょうげきてきなこうけいをめへする。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":195,"good_sentence":"ともだちのわるぐちをねにもつ。","bad_sentence":"ともだちのわるぐちをねへもつ。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":196,"good_sentence":"ほうどうじんをけむにまく。","bad_sentence":"ほうどうじんをけむへまく。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":197,"good_sentence":"じんせいをぼうにふる。","bad_sentence":"じんせいをぼうへふる。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":198,"good_sentence":"こどもをてにあます。","bad_sentence":"こどもをてへあます。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":199,"good_sentence":"ふしんなじんぶつにめにとめる。","bad_sentence":"ふしんなじんぶつにめへとめる。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":200,"good_sentence":"けいさつがそしきをあみにかける。","bad_sentence":"けいさつがそしきをあみへかける。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":201,"good_sentence":"あだをてにかける。","bad_sentence":"あだをてへかける。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":202,"good_sentence":"ブランドひんをみにつける。","bad_sentence":"ブランドひんをみへつける。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":203,"good_sentence":"たかいちいをてにいれる。","bad_sentence":"たかいちいをてへいれる。","type":"interpretation","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":204,"good_sentence":"これはたろうとのしごとだ。","bad_sentence":"これはたろうとしごとだ。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"modifier"}
+{"ID":205,"good_sentence":"これはぎんこうからのおかねだ。","bad_sentence":"これはぎんこうからおかねだ。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"modifier"}
+{"ID":206,"good_sentence":"トイレへのがっこうでのいきにくさがしてきされた。","bad_sentence":"トイレにがっこうでのいきにくさがしてきされた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":207,"good_sentence":"トイレへのがっこうでのいきにくさがしてきされた。","bad_sentence":"トイレへがっこうでのいきにくさがしてきされた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":208,"good_sentence":"トイレへのがっこうでのいきにくさがしてきされた。","bad_sentence":"トイレへのがっこうでいきにくさがしてきされた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":209,"good_sentence":"がっこうでのトイレへのいきにくさがしてきされた。","bad_sentence":"がっこうでトイレへのいきにくさがしてきされた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":212,"good_sentence":"たろうとしごとのやりにくさがしてきされた。","bad_sentence":"しごとのたろうとやりにくさがしてきされた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":215,"good_sentence":"ふくさようのだしかたにはこじんさがあります。","bad_sentence":"ふくさようをだしかたにはこじんさがあります。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":216,"good_sentence":"くみあわせによって、えいきょうのうけかたがかわってきます。","bad_sentence":"くみあわせによって、えいきょうをうけかたがかわってきます。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":217,"good_sentence":"これはものによって、ねつのつたえやすさがちがうためです。","bad_sentence":"これはものによって、ねつをつたえやすさがちがうためです。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":219,"good_sentence":"よんだがくせいがうんざりしたのはどのろんぶんにですか？","bad_sentence":"よんだがくせいがどのろんぶんにうんざりしたのですか？","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"parasitic-gap"}
+{"ID":220,"good_sentence":"はじめてあったひとがけなしたのはだれをですか？","bad_sentence":"はじめてそいつにあったひとがけなしたのはだれをですか？","type":"coreference","phenomenon":"binding","phenomenon-2":null,"paradigm":"weak crossover"}
+{"ID":221,"good_sentence":"たろうがはなこがだれをあいしているかとゆみこがだれをあいしているかしっている。","bad_sentence":"たろうがはなこがだれをあいしているかとゆみこがあいしているかしっている。","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"nominal ellipsis"}
+{"ID":222,"good_sentence":"はじめてあったひとがけなしたのはだれをですか？","bad_sentence":"はじめてあったひとがメアリーがけなしたといったのはだれをですか？","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"parasitic-gap"}
+{"ID":223,"good_sentence":"はじめてあったひとがけなしたのはだれをですか？","bad_sentence":"だれをはじめてあったひとがメアリーがけなしたといったの？","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"parasitic-gap"}
+{"ID":224,"good_sentence":"ジョンとビルをおたがいのははおやがけなした。","bad_sentence":"ジョンとビルをおたがいのははおやがせんせいがけなしたといった。","type":"coreference","phenomenon":"binding","phenomenon-2":null,"paradigm":"anaphor"}
+{"ID":225,"good_sentence":"おたがいのははおやがけなしたのはジョンとビルをです。","bad_sentence":"おたがいのははおやがせんせいがけなしたといったのはジョンとビルをです。","type":"coreference","phenomenon":"binding","phenomenon-2":null,"paradigm":"anaphor"}
+{"ID":226,"good_sentence":"はなこがだれにそいつがかいたろんぶんをしゅうせいさせたのですか？","bad_sentence":"はなこがそいつがかいたろんぶんをしゅうせいさせたのはだれにですか？","type":"coreference","phenomenon":"binding","phenomenon-2":null,"paradigm":"variable binding"}
+{"ID":228,"good_sentence":"やまだせんせいがけんにおあいになった。","bad_sentence":"けんがやまだせんせいにおあいになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":229,"good_sentence":"けんにやまだせんせいがおあいになった。","bad_sentence":"けんがやまだせんせいにおあいになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":230,"good_sentence":"やまだせんせいがけんにおあいになった。","bad_sentence":"やまだせんせいにけんがおあいになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":231,"good_sentence":"けんにやまだせんせいがおあいになった。","bad_sentence":"やまだせんせいにけんがおあいになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":234,"good_sentence":"やまだせんせいにそのがくせいがおわかりにならなかったこと。","bad_sentence":"やまだせんせいがそのがくせいにおわかりにならなかったこと。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":236,"good_sentence":"がくせいが3にんけんにあった。","bad_sentence":"がくせいがけんに3にんあった。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"floating quantifiers"}
+{"ID":237,"good_sentence":"けんにさいふがもどった。","bad_sentence":"やまだせんせいにさいふがおもどりになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":238,"good_sentence":"けんきゅうしつにやまだせんせいがおもどりになった。","bad_sentence":"やまだせんせいにさいふがおもどりになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":239,"good_sentence":"さいふがけんにもどった。","bad_sentence":"さいふがやまだせんせいにおもどりになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":240,"good_sentence":"けんきゅうしつにやまだせんせいがおもどりになった。","bad_sentence":"さいふがやまだせんせいにおもどりになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":241,"good_sentence":"けんにてがみがとどいた。","bad_sentence":"けんがてがみがとどいた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":242,"good_sentence":"ゆみがてがみをわたされた。","bad_sentence":"ゆみがてがみをおくられた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"passive"}
+{"ID":243,"good_sentence":"けんにたいきんがわたった。","bad_sentence":"やまだせんせいにたいきんがおわたりになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":244,"good_sentence":"けんにそのじょうほうがつたわった。","bad_sentence":"やまだせんせいにそのじょうほうがおつたわりになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":245,"good_sentence":"ゆみにべんとうがとどいた。","bad_sentence":"やまだせんせいにおべんとうがおとどきになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":246,"good_sentence":"はなたばをこどもに3にんわたした。","bad_sentence":"はなたばがこどもに3にんわたった。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"floating quantifiers"}
+{"ID":247,"good_sentence":"やまだせんせいがプレゼントをおわたされになった。","bad_sentence":"やまだせんせいにプレゼントがおわたされになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":248,"good_sentence":"いとうせんせいがメアリーをおほめになった。","bad_sentence":"メアリーがいとうせんせいをおほめになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":249,"good_sentence":"いとうせんせいがメアリーにほんをおあたえになった。","bad_sentence":"メアリーがいとうせんせいにほんをおあたえになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":251,"good_sentence":"こんかいはだれからきふをよびかけもしなかった。","bad_sentence":"こんかいはだれがきふをよびかけもしなかった。","type":"acceptability","phenomenon":"NPI licensing","phenomenon-2":null,"paradigm":"NPI"}
+{"ID":252,"good_sentence":"いとうせんせいはジョンからほんをおかりになった。","bad_sentence":"ジョンはいとうせんせいからほんをおかりになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":253,"good_sentence":"せんせいからえりにそのことをおはなしになっている。","bad_sentence":"せんせいからえりにそのことをはなしておいでになる。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"honorification"}
+{"ID":254,"good_sentence":"きょうはだれからこどもにはなしかけもしていない。","bad_sentence":"きょうはだれがこどもにはなしかけもしていない。","type":"acceptability","phenomenon":"NPI licensing","phenomenon-2":null,"paradigm":"NPI"}
+{"ID":255,"good_sentence":"せんせいがけんからほんをおうけとりになっている。","bad_sentence":"けんがせんせいからほんをおうけとりになっている。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":256,"good_sentence":"せんせいがけんからほんをうけとっておいでになる。","bad_sentence":"けんがせんせいからほんをうけとっておいでになる。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":257,"good_sentence":"えりがせんせいからそのことをはなされている。","bad_sentence":"えりがせんせいからそのことをおはなされになっている。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":258,"good_sentence":"えりがせんせいからそのことをはなされている。","bad_sentence":"えりがせんせいからそのことをはなされておいでになる。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":259,"good_sentence":"せんせいがえりをおほめになっている。","bad_sentence":"えりがせんせいをおほめになっている。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":260,"good_sentence":"せんせいがえりをほめておいでになる。","bad_sentence":"えりがせんせいをほめておいでになる。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":261,"good_sentence":"さとうせんせいがそのしごとをおたのまれになった。","bad_sentence":"そのしごとがさとうせんせいにおたのまれになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":262,"good_sentence":"にもつがさとうせんせいからとどいた。","bad_sentence":"にもつがさとうせんせいからおとどきになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":263,"good_sentence":"いとうせんせいからそのことをおはなしになっている。","bad_sentence":"いとうせんせいからそのことをはなしておいでになる。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"honorification"}
+{"ID":264,"good_sentence":"いとうせんせいにそのさけびごえがおきこえになった。","bad_sentence":"いとうせんせいからそのさけびごえがおきこえになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":265,"good_sentence":"ジョンにもじぶんのこどものこえがきこえた。","bad_sentence":"ジョンからもじぶんのさけびごえがきこえた。","type":"coreference","phenomenon":"binding","phenomenon-2":null,"paradigm":"anaphor"}
+{"ID":266,"good_sentence":"いとうせんせいがけんをおほめになっている。","bad_sentence":"けんがいとうせんせいをおほめになっている。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":267,"good_sentence":"けんをいとうせんせいがおほめになっている。","bad_sentence":"けんがいとうせんせいをおほめになっている。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":268,"good_sentence":"いとうせんせいがけんをほめておいでになる。","bad_sentence":"けんがいとうせんせいをほめておいでになる。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":269,"good_sentence":"けんをいとうせんせいがほめておいでになる。","bad_sentence":"けんがいとうせんせいをほめておいでになる。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":270,"good_sentence":"いとうせんせいがけんをおほめになっている。","bad_sentence":"いとうせんせいをけんがおほめになっている。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":272,"good_sentence":"いとうせんせいがけんをほめておいでになる。","bad_sentence":"いとうせんせいをけんがほめておいでになる。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":273,"good_sentence":"けんをいとうせんせいがほめておいでになる。","bad_sentence":"いとうせんせいをけんがほめておいでになる。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":274,"good_sentence":"けんはいとうせんせいがおほめになっている。","bad_sentence":"いとうせんせいはけんがおほめになっている。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":275,"good_sentence":"けんはいとうせんせいがほめておいでになる。","bad_sentence":"いとうせんせいはけんがほめておいでになる。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":276,"good_sentence":"たろうはいとうせんせいがおほめになっているけんにあった。","bad_sentence":"たろうはけんがおほめになっているいとうせんせいにあった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":"filler-gap","paradigm":"subject honorification"}
+{"ID":277,"good_sentence":"たろうはいとうせんせいがほめておいでになるけんにあった。","bad_sentence":"たろうはけんがほめておいでになるいとうせんせいにあった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":"filler-gap","paradigm":"subject honorification"}
+{"ID":279,"good_sentence":"せんせいにはじぶんのがくせいがわかる。","bad_sentence":"じぶんのせんせいにはがくせいがわかる。","type":"coreference","phenomenon":"binding","phenomenon-2":null,"paradigm":"anaphor"}
+{"ID":281,"good_sentence":"ジョンにはきょうだいがいる。","bad_sentence":"ジョンにはおかねがいる。","type":"lexical","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"animacy"}
+{"ID":282,"good_sentence":"いとうせんせいがメアリーをおほめになった。","bad_sentence":"わたしがメアリーをおほめになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":283,"good_sentence":"いとうせんせいがメアリーをおほめになった。","bad_sentence":"わたしたちがメアリーをおほめになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":284,"good_sentence":"いとうせんせいにはきょうだいがおいでになる。","bad_sentence":"いとうせんせいにはわたしがおいでになる。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":285,"good_sentence":"たろうにはいとうせんせいがおいでになる。","bad_sentence":"わたしにはいとうせんせいがおいでになる。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":286,"good_sentence":"いとうせんせいにはわたしがおみえになる。","bad_sentence":"わたしにはいとうせんせいがおみえになる。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":288,"good_sentence":"いとうせんせいにジョンからそのことをつたえた。","bad_sentence":"いとうせんせいにジョンからそのことをおつたえになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":289,"good_sentence":"ジョンをいとうせんせいがおほめになった。","bad_sentence":"いとうせんせいをジョンがおほめになった。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":290,"good_sentence":"いとうせんせいがおほめになるジョンはせがたかい。","bad_sentence":"ジョンがおほめになるいとうせんせいはせがたかい。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"subject honorification"}
+{"ID":291,"good_sentence":"ジョンがじさつした。","bad_sentence":"ジョンがじをさつした。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"reflexive"}
+{"ID":292,"good_sentence":"ジョンがじさつした。","bad_sentence":"ジョンがじぶんをさつした。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"reflexive"}
+{"ID":293,"good_sentence":"ジョンがじさつした。","bad_sentence":"ジョンがじさつた。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"inflection"}
+{"ID":294,"good_sentence":"ジョンがむすこをじまんした。","bad_sentence":"ジョンがむすこをじさつした。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"internal argument"}
+{"ID":295,"good_sentence":"ジョンがまっすぐにはしった。","bad_sentence":"ジョンがクタクタにはしった。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"internal argument"}
+{"ID":296,"good_sentence":"がくせいが4にんいえをかった。","bad_sentence":"がくせいがいえを4にんかった。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"floating quantifiers"}
+{"ID":297,"good_sentence":"がくせいが4にんオフィスにはしった。","bad_sentence":"がくせいがオフィスに4にんはしった。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"floating quantifiers"}
+{"ID":298,"good_sentence":"かいちょうがきのうしきょした。","bad_sentence":"かいちょうがきのうしきょをした。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":300,"good_sentence":"こどもがははおやによってころばせられた。","bad_sentence":"だるまがははおやによってころばせられた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"passive"}
+{"ID":301,"good_sentence":"こどもがははおやによってむりやりあんなふうにころばせられた。","bad_sentence":"こどもがははおやによっておもわずころばせられた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"passive"}
+{"ID":303,"good_sentence":"たろうがたおれそこねた。","bad_sentence":"ビルがたおれそこねた。","type":"acceptability","phenomenon":"control\/raising","phenomenon-2":null,"paradigm":"subject control"}
+{"ID":304,"good_sentence":"よみかけのざっしはめずらしい。","bad_sentence":"よみかけのまさおはめずらしい。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":"argument structure","paradigm":"modifier"}
+{"ID":306,"good_sentence":"たてものがじかいした。","bad_sentence":"たてものがかべをじかいした。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"internal argument"}
+{"ID":308,"good_sentence":"つよいじしんのためたてものがじかいした。","bad_sentence":"つよいじしんのためたてものがじかいをした。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":309,"good_sentence":"むすこがジョンによってじすいさせられた。","bad_sentence":"いえがジョンによってじかいさせられた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"passive"}
+{"ID":310,"good_sentence":"ジョンがじすいしそこねた。","bad_sentence":"たてものがじかいしそこねた。","type":"acceptability","phenomenon":"control\/raising","phenomenon-2":null,"paradigm":"subject control"}
+{"ID":312,"good_sentence":"がくせいが3にんアパートでじすいする。","bad_sentence":"がくせいがアパートで3にんじすいする。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"floating quantifiers"}
+{"ID":313,"good_sentence":"じかいしかけのたてものはめずらしい。","bad_sentence":"じすいしかけのジョンはめずらしい。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"modifier"}
+{"ID":314,"good_sentence":"たてものがじかいした。","bad_sentence":"たてものがじかいをした。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":315,"good_sentence":"わくせいがじてんしている。","bad_sentence":"わくせいがじてんをしている。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":317,"good_sentence":"たろうはむすこがいしゃである。","bad_sentence":"たろうはむすこいしゃである。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}
+{"ID":318,"good_sentence":"このビルはたかさ20メートルある。","bad_sentence":"このビルはひくさ20メートルある。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":319,"good_sentence":"このビルはたかさ20メートルである。","bad_sentence":"このビルはひくさ20メートルである。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":320,"good_sentence":"このはこはおもさ2キロある。","bad_sentence":"このはこはかるさ2キロある。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":321,"good_sentence":"このはこはおもさ2キロである。","bad_sentence":"このはこはかるさ2キロである。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":322,"good_sentence":"このビルは10メートルのたかさである。","bad_sentence":"このビルは10メートルのたかさある。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":323,"good_sentence":"このビルは10メートルのひくさである。","bad_sentence":"このビルは10メートルのひくさある。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":324,"good_sentence":"このはこは30グラムのおもさである。","bad_sentence":"このはこは30グラムのおもさある。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":325,"good_sentence":"このはこは30グラムのかるさである。","bad_sentence":"このはこは30グラムのかるさある。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":326,"good_sentence":"ジョンはしんちょうがある。","bad_sentence":"ジョンはしんちょうある。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"part of speech"}
+{"ID":327,"good_sentence":"ジョンはしんちょうがある。","bad_sentence":"ジョンはしんちょうである。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"part of speech"}
+{"ID":328,"good_sentence":"ジョンはしんちょうがある。","bad_sentence":"ジョンはしんちょうがである。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"part of speech"}
+{"ID":329,"good_sentence":"ジョンのうしろ2メートルのところにビルがいる。","bad_sentence":"ジョンのうしろ2メートルにビルがいる。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":330,"good_sentence":"ジョンはじけんの2じかんごにメアリーにあった。","bad_sentence":"ジョンはじけんのあと2じかんのときにメアリーにあった。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":331,"good_sentence":"ジョンのすぐうしろのところにビルがいる。","bad_sentence":"ジョンのうしろすぐのところにビルがいる。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"modifier"}
+{"ID":332,"good_sentence":"はなこはがくせいである。","bad_sentence":"はなこはがくせいでる。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"inflection"}
+{"ID":333,"good_sentence":"はなこはがくせいである。","bad_sentence":"はなこはがくせいでい。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"inflection"}
+{"ID":334,"good_sentence":"もしそのビルのたかさが20メートルであるならば、たろうはおどろくだろう。","bad_sentence":"もしそのビルのたかさ20メートルであるならば、たろうはおどろくだろう。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":335,"good_sentence":"もしそのビルのたかさが20メートルあるならば、たろうはおどろくだろう。","bad_sentence":"もしそのビルのたかさ20メートルあるならば、たろうはおどろくだろう。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":336,"good_sentence":"そのビルはたかさがある。","bad_sentence":"そのビルはたかさがである。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"part of speech"}
+{"ID":337,"good_sentence":"そのビルはたかさがある。","bad_sentence":"そのビルはたかくである。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"part of speech"}
+{"ID":338,"good_sentence":"このビルはたかさ10メートルある。","bad_sentence":"このビルはあのビルよりたかさ10メートルある。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":339,"good_sentence":"このビルはあのビルより10メートルたかさがある。","bad_sentence":"このビルはあのビルより10メートルたかさある。","type":"acceptability","phenomenon":"nominal structure","phenomenon-2":null,"paradigm":"measure phrase"}
+{"ID":340,"good_sentence":"ぼくはさむいよ。","bad_sentence":"かれはさむいよ。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":341,"good_sentence":"かれはさむがっているよ。","bad_sentence":"ぼくはさむがっているよ。","type":"acceptability","phenomenon":"verbal agreement","phenomenon-2":null,"paradigm":"person constraint"}
+{"ID":342,"good_sentence":"がくせいがアパートをたずねてきてくれた。","bad_sentence":"がくせいがアパートをたずねてくれてきた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":343,"good_sentence":"むすこにたかいくるまをかってやってしまった。","bad_sentence":"むすこにたかいくるまをかってしまってやった。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":344,"good_sentence":"たろうがもっともおもしろかったひとをしゅざいした。","bad_sentence":"もっともたろうがおもしろかったひとをしゅざいした。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"scrambling"}
+{"ID":345,"good_sentence":"たろうはこえがおおきい。","bad_sentence":"たろうはこえがおおきな。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"inflection"}
+{"ID":346,"good_sentence":"たろうはこえがきれいだ。","bad_sentence":"たろうはこえがきれいな。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"inflection"}
+{"ID":347,"good_sentence":"きれいなこえがきこえた。","bad_sentence":"きれいだこえがきこえた。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"inflection"}
+{"ID":348,"good_sentence":"そのりゅうしはけいそくかのうだとジョンはおもっている。","bad_sentence":"そのりゅうしはけいそくかのうなとジョンはおもっている。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"inflection"}
+{"ID":349,"good_sentence":"それはけいそくかのうなりゅうしだ。","bad_sentence":"それはけいそくかのうだりゅうしだ。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"inflection"}
+{"ID":350,"good_sentence":"このりゅうしはこのきかいでけいそくかのうなよりちいさい。","bad_sentence":"このりゅうしはこのきかいでけいそくかのうだよりちいさい。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"inflection"}
+{"ID":351,"good_sentence":"このりゅうしはこのきかいでけいそくかのうなおおきさよりちいさい。","bad_sentence":"このりゅうしはこのきかいでけいそくかのうだおおきさよりちいさい。","type":"acceptability","phenomenon":"morphology","phenomenon-2":null,"paradigm":"inflection"}
+{"ID":352,"good_sentence":"ジョンはトムがたべたことがあきらかなよりたくさんいもをたべた。","bad_sentence":"ジョンはトムがそれらをたべたことがあきらかなよりたくさんいもをたべた。","type":"acceptability","phenomenon":"filler-gap","phenomenon-2":null,"paradigm":"resumptive pronoun"}
+{"ID":353,"good_sentence":"トムがたべたことがあきらかないもはおおきかった。","bad_sentence":"トムがそれらをたべたことがあきらかないもはおおきかった。","type":"acceptability","phenomenon":"filler-gap","phenomenon-2":null,"paradigm":"resumptive pronoun"}
+{"ID":354,"good_sentence":"ジョンはメアリーよりたかいゆびわをかった。","bad_sentence":"ジョンはそのメアリーよりたかいゆびわをかった。","type":"acceptability","phenomenon":"island effects","phenomenon-2":null,"paradigm":"specificity island"}
+{"ID":355,"good_sentence":"ジョンはメアリーがやとったよりかしこいひとをみつけた。","bad_sentence":"ジョンはメアリーがやとわなかったよりかしこいひとをみつけた。","type":"acceptability","phenomenon":"island effects","phenomenon-2":null,"paradigm":"negative island"}
+{"ID":356,"good_sentence":"ジョンはとてもかしこいが、メアリーのきたいしたかしこさではない。","bad_sentence":"ジョンはとてもかしこいが、メアリーのきたいしたではない。","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"nominal ellipsis"}
+{"ID":357,"good_sentence":"ジョンはほんをよまなかったが、メアリーはビルがかいたほんをよんだ。","bad_sentence":"ジョンはほんをよまなかったが、メアリーはビルがかいたをよんだ。","type":"acceptability","phenomenon":"ellipsis","phenomenon-2":null,"paradigm":"nominal ellipsis"}
+{"ID":358,"good_sentence":"ジョンがもしなにかぬすんだら、たいほされるだろう。","bad_sentence":"ジョンがもしなにもぬすんだら、たいほされるだろう。","type":"acceptability","phenomenon":"NPI licensing","phenomenon-2":null,"paradigm":"NCI"}
+{"ID":359,"good_sentence":"ぼくはジョンがだれもそんけいしていないといった。","bad_sentence":"ぼくはジョンがだれもそんけいしているといわなかった。","type":"acceptability","phenomenon":"NPI licensing","phenomenon-2":null,"paradigm":"NCI"}
+{"ID":360,"good_sentence":"ジョンはすしをたべてみた。","bad_sentence":"ジョンはすしをたべにみた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"aspect"}
+{"ID":361,"good_sentence":"ジョンはすしをたべてもみた。","bad_sentence":"ジョンはすしをたべにもみた。","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"aspect"}
+{"ID":362,"good_sentence":"たろうががっこうでみんなをみんなみたわけではない。","bad_sentence":"たろうががっこうでみんなをみんなみた。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"universal quantifiers"}
+{"ID":363,"good_sentence":"みんながみんなだいがくへいくわけではない。","bad_sentence":"みんながみんなだいがくへいかない。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"universal quantifiers"}
+{"ID":364,"good_sentence":"たろうががっこうでみんなをみんなみたわけではない。","bad_sentence":"たろうががっこうでほとんどみんなをみんなみたわけではない。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"universal quantifiers"}
+{"ID":365,"good_sentence":"たろうががっこうでだれもみなかった。","bad_sentence":"たろうががっこうでみんなをみんなみなかった。","type":"acceptability","phenomenon":"quantifiers","phenomenon-2":null,"paradigm":"universal quantifiers"}
+{"ID":366,"good_sentence":"なにをたろうはかったの？","bad_sentence":"なにたろうはかったの？","type":"acceptability","phenomenon":"argument structure","phenomenon-2":null,"paradigm":"case"}

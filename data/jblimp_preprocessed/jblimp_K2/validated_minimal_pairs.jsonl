@@ -1,0 +1,331 @@
+{"ID": 0, "good_sentence": "たろうがきのう花子にあった人をさがしているのだ。", "bad_sentence": "たろうがきのうあった人をさがしているのは花子にだ。", "type": "acceptability", "phenomenon": "island effects", "phenomenon-2": null, "paradigm": "complex NP island"}
+{"ID": 1, "good_sentence": "たろうがその本をよんだから花子がおこったのだ。", "bad_sentence": "たろうがよんだから花子がおこったのはその本をだ。", "type": "acceptability", "phenomenon": "island effects", "phenomenon-2": null, "paradigm": "adjunct island"}
+{"ID": 2, "good_sentence": "はじめてあう人がけなすのはだれをですか？", "bad_sentence": "はじめてそいつにあう人がけなすのはだれをですか？", "type": "coreference", "phenomenon": "binding", "phenomenon-2": null, "paradigm": "weak crossover"}
+{"ID": 4, "good_sentence": "たろうが花子にあう。", "bad_sentence": "たろうが花子をあう。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 5, "good_sentence": "たろうが花子をけなす。", "bad_sentence": "たろうが花子にけなす。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 6, "good_sentence": "たろうがその本をよんだ。", "bad_sentence": "たろうがその本によんだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 7, "good_sentence": "たろうがその本にうんざりした。", "bad_sentence": "たろうがその本をうんざりした。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 8, "good_sentence": "はじめてあう人がけなすのはだれをですか？", "bad_sentence": "はじめてあう人がけなすのはだれにですか？", "type": "acceptability", "phenomenon": "island effects", "phenomenon-2": "argument structure", "paradigm": "complex NP island"}
+{"ID": 9, "good_sentence": "よんだ学生がうんざりしたのはどのろんぶんにですか？", "bad_sentence": "よんだ学生がうんざりしたのはどのろんぶんをですか？", "type": "acceptability", "phenomenon": "island effects", "phenomenon-2": "argument structure", "paradigm": "complex NP island"}
+{"ID": 11, "good_sentence": "よんだ学生がうんざりしたのはどのろんぶんにですか？", "bad_sentence": "よんだ学生がどのろんぶんにうんざりしたの？", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "parasitic-gap"}
+{"ID": 12, "good_sentence": "はじめてそいつにあった人がたろうをけなした。", "bad_sentence": "はじめてそいつにあった人がだれもをけなした。", "type": "coreference", "phenomenon": "binding", "phenomenon-2": null, "paradigm": "weak crossover"}
+{"ID": 13, "good_sentence": "はじめてあった人がたろうをけなした。", "bad_sentence": "はじめてあった人がだれもをけなした。", "type": "coreference", "phenomenon": "binding", "phenomenon-2": null, "paradigm": "weak crossover"}
+{"ID": 14, "good_sentence": "はじめてそいつにあった人がたろうをけなしたの？", "bad_sentence": "はじめてそいつにあった人がだれをけなしたの？", "type": "coreference", "phenomenon": "binding", "phenomenon-2": null, "paradigm": "weak crossover"}
+{"ID": 15, "good_sentence": "はじめてあった人がたろうをけなしたの？", "bad_sentence": "はじめてあった人がだれをけなしたの？", "type": "coreference", "phenomenon": "binding", "phenomenon-2": null, "paradigm": "weak crossover"}
+{"ID": 16, "good_sentence": "花子が何どもあっていたからなきだしたじょせいがすきだったのはだれをですか？", "bad_sentence": "花子が何どもそいつにあっていたからなきだしたじょせいがすきだったのはだれをですか？", "type": "coreference", "phenomenon": "binding", "phenomenon-2": null, "paradigm": "weak crossover"}
+{"ID": 18, "good_sentence": "たろうが花子をかいこしようとしているのはなぜですか？", "bad_sentence": "たろうをかいこした人が花子もかいこしようとしているのはなぜですか？", "type": "interpretation", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "parasitic-gap"}
+{"ID": 19, "good_sentence": "その人がこのていりをしょうめいしたのはどうやってですか？", "bad_sentence": "そのていりをしょうめいした人がこのていりもしょうめいしたのはどうやってですか？", "type": "interpretation", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "parasitic-gap"}
+{"ID": 22, "good_sentence": "このドアがたろうによってあけられた。", "bad_sentence": "このドアがたろうにあけられた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "passive"}
+{"ID": 23, "good_sentence": "その寺はよくねん空海にやきはらわれた。", "bad_sentence": "その寺はよくねん空海にたてられた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "passive"}
+{"ID": 24, "good_sentence": "わたしはさむいです。", "bad_sentence": "あなたはさむいです。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 25, "good_sentence": "わたしはさむいです。", "bad_sentence": "かれはさむいです。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 26, "good_sentence": "わたしはさびしいです。", "bad_sentence": "あなたはさびしいです。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 27, "good_sentence": "わたしはさびしいです。", "bad_sentence": "かれはさびしいです。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 28, "good_sentence": "あなたはさむいですか？", "bad_sentence": "わたしはさむいですか？", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 29, "good_sentence": "あなたはさむいですか？", "bad_sentence": "かれはさむいですか？", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 30, "good_sentence": "あなたはさびしいですか？", "bad_sentence": "わたしはさびしいですか？", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 31, "good_sentence": "あなたはさびしいですか？", "bad_sentence": "かれはさびしいですか？", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 32, "good_sentence": "わたしはさびしいよ。", "bad_sentence": "メアリーはさびしいよ。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 33, "good_sentence": "わたしはあつかったよ。", "bad_sentence": "メアリーはあつかったよ。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 34, "good_sentence": "わたしは水がのみたい。", "bad_sentence": "かれは水がのみたい。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 35, "good_sentence": "かのじょはさむがっているよ。", "bad_sentence": "わたしはさむがっているよ。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 36, "good_sentence": "かのじょはさむがっていますか？", "bad_sentence": "わたしはさむがっていますか？", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 37, "good_sentence": "かのじょはさむがっていますよ。", "bad_sentence": "あなたはさむがっていますよ。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 38, "good_sentence": "かのじょはさむがっていますか？", "bad_sentence": "あなたはさむがっていますか？", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 39, "good_sentence": "たかしはりょうこが自分をたずねてきたのでうれしがった。", "bad_sentence": "たかしはりょうこが自分をたずねていったのでうれしがった。", "type": "coreference", "phenomenon": "binding", "phenomenon-2": null, "paradigm": "anaphor"}
+{"ID": 40, "good_sentence": "たろうがプールで1時間およいだ。", "bad_sentence": "たろうがプールで1時間でおよいだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "aspect"}
+{"ID": 41, "good_sentence": "山田先生はこの本をおよみになった。", "bad_sentence": "山田先生はこの本をなったことはおよみだ。", "type": "acceptability", "phenomenon": "filler-gap", "phenomenon-2": null, "paradigm": "relative clause"}
+{"ID": 42, "good_sentence": "山田先生がこの本をおよみになった。", "bad_sentence": "山田先生がなったのはこの本のおよみだ。", "type": "acceptability", "phenomenon": "filler-gap", "phenomenon-2": null, "paradigm": "cleft"}
+{"ID": 43, "good_sentence": "山田さんはよしださんのことがしんぱいになり、田中さんもしんぱいになった。", "bad_sentence": "山田さんはよしださんのことがしんぱいになり、田中さんもなった。", "type": "interpretation", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "nominal ellipsis"}
+{"ID": 44, "good_sentence": "たろうがきょうがくして、直子もきょうがくした。", "bad_sentence": "たろうがきょうがくして、直子もした。", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "nominal ellipsis"}
+{"ID": 45, "good_sentence": "明子がきぜつして、直子もきぜつした。", "bad_sentence": "明子がきぜつして、直子もした。", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "nominal ellipsis"}
+{"ID": 46, "good_sentence": "たろうがきょうがくした。", "bad_sentence": "たろうがしたのはきょうがくだ。", "type": "acceptability", "phenomenon": "filler-gap", "phenomenon-2": null, "paradigm": "cleft"}
+{"ID": 47, "good_sentence": "なおみはきょうがくではなく、こうふんした。", "bad_sentence": "なおみがしたのはきょうがくではなく、こうふんだ。", "type": "acceptability", "phenomenon": "filler-gap", "phenomenon-2": null, "paradigm": "cleft"}
+{"ID": 48, "good_sentence": "たべそう。", "bad_sentence": "こどもそう。", "type": "lexical", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "part of speech"}
+{"ID": 49, "good_sentence": "おいしそう。", "bad_sentence": "こどもそう。", "type": "lexical", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "part of speech"}
+{"ID": 50, "good_sentence": "たべそう。", "bad_sentence": "おたべそう。", "type": "lexical", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "part of speech"}
+{"ID": 51, "good_sentence": "おいしそう。", "bad_sentence": "おたべそう。", "type": "lexical", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "part of speech"}
+{"ID": 52, "good_sentence": "先生がはやくおかえりになった。", "bad_sentence": "先生がはやいおかえりになった。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "part of speech"}
+{"ID": 53, "good_sentence": "わたしが先生をおたすけした。", "bad_sentence": "わたしが先生のおたすけした。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 54, "good_sentence": "たろうはおもったことを口にだす。", "bad_sentence": "たろうは口におもったことをだす。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 55, "good_sentence": "たろうはさいのうをはなにかけている。", "bad_sentence": "たろうははなにさいのうをかけている。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 56, "good_sentence": "たろうは車を手にいれた。", "bad_sentence": "たろうは手に車をいれた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 57, "good_sentence": "たろうはいつも自分のしっぱいをたなにあげる。", "bad_sentence": "たろうはいつもたなに自分のしっぱいをあげる。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 58, "good_sentence": "たろうは人のことに口をだす。", "bad_sentence": "たろうは口を人のことにだす。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 59, "good_sentence": "たろうはそのぎろんにはくしゃをかけた。", "bad_sentence": "たろうははくしゃをそのぎろんにかけた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 60, "good_sentence": "たろうはげんこうに手をいれた。", "bad_sentence": "たろうは手をげんこうにいれた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 61, "good_sentence": "たろうはまーじゃんにちみちをあげた。", "bad_sentence": "たろうはちみちをまーじゃんにあげた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 62, "good_sentence": "たろうのちゅうこくは花子にはぬかにくぎだった。", "bad_sentence": "たろうのちゅうこくは花子にはぬかにもくぎだった。", "type": "lexical", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "idiom"}
+{"ID": 63, "good_sentence": "たろうに何をいってものれんにうでおしだ。", "bad_sentence": "たろうに何をいってものれんにはうでおしだ。", "type": "lexical", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "idiom"}
+{"ID": 64, "good_sentence": "たろうのはつげんが火にあぶらをそそいだ。", "bad_sentence": "たろうのはつげんが火にはあぶらをそそいだ。", "type": "lexical", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "idiom"}
+{"ID": 65, "good_sentence": "たろうはうでによりをかけてりょうりをつくった。", "bad_sentence": "たろうはうでにはよりをかけてりょうりをつくった。", "type": "lexical", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "idiom"}
+{"ID": 66, "good_sentence": "たろうはつめに火をともす生活をしている。", "bad_sentence": "たろうはつめには火をともす生活をしている。", "type": "lexical", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "idiom"}
+{"ID": 67, "good_sentence": "目には目を。", "bad_sentence": "目に目を。", "type": "lexical", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "idiom"}
+{"ID": 68, "good_sentence": "ねんにはねんをいれる。", "bad_sentence": "ねんにねんをいれる。", "type": "lexical", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "idiom"}
+{"ID": 69, "good_sentence": "石の上にも3年。", "bad_sentence": "石の上に3年。", "type": "lexical", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "idiom"}
+{"ID": 70, "good_sentence": "たろうが花子におかしをあたえた。", "bad_sentence": "たろうが花子へおかしをあたえた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 71, "good_sentence": "おもったことを口にだす。", "bad_sentence": "おもったことを口へだす。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 72, "good_sentence": "さいのうをはなにかける。", "bad_sentence": "さいのうをはなへかける。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 73, "good_sentence": "車を手にいれる。", "bad_sentence": "車を手へいれる。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 74, "good_sentence": "しっぱいをたなにあげる。", "bad_sentence": "しっぱいをたなへあげる。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 75, "good_sentence": "人のことへの口のだしにくさがしてきされた。", "bad_sentence": "人のことに口のだしにくさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 76, "good_sentence": "そんなぎろんへのはくしゃのかけにくさがしてきされた。", "bad_sentence": "そんなぎろんにはくしゃのかけにくさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 77, "good_sentence": "げんこうへの手のいれにくさがしてきされた。", "bad_sentence": "げんこうに手のいれにくさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 78, "good_sentence": "まーじゃんへのちみちのあげやすさがしてきされた。", "bad_sentence": "まーじゃんにちみちのあげやすさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 79, "good_sentence": "人のことへの口のだしにくさがしてきされた。", "bad_sentence": "口の人のことへのだしにくさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 80, "good_sentence": "そんなぎろんへのはくしゃのかけにくさがしてきされた。", "bad_sentence": "はくしゃのそんなぎろんへのかけやすさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 81, "good_sentence": "げんこうへの手のいれにくさがしてきされた。", "bad_sentence": "手のげんこうへのいれにくさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 82, "good_sentence": "まーじゃんへのちみちのあげやすさがしてきされた。", "bad_sentence": "ちみちのまーじゃんへのあげやすさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 84, "good_sentence": "自分のさいのうのはなにかけやすさがしてきされた。", "bad_sentence": "自分のさいのうのはなへのかけやすさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 85, "good_sentence": "車の手にいれにくさがしてきされた。", "bad_sentence": "車の手へのいれにくさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 86, "good_sentence": "自分のしっぱいのたなにあげやすさがしてきされた。", "bad_sentence": "自分のしっぱいのたなへのあげやすさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 87, "good_sentence": "人のことへの口のだしにくさがしてきされた。", "bad_sentence": "人のことへの口をだしにくさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 88, "good_sentence": "そんなぎろんへのはくしゃのかけにくさがしてきされた。", "bad_sentence": "そんなぎろんへのはくしゃをかけやすさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 89, "good_sentence": "げんこうへの手のいれにくさがしてきされた。", "bad_sentence": "げんこうへの手をいれにくさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 90, "good_sentence": "まーじゃんへのちみちのあげやすさがしてきされた。", "bad_sentence": "まーじゃんへのちみちをあげやすさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 91, "good_sentence": "たろうはくさいものにふたをしないしゅぎだ。", "bad_sentence": "たろうはふたをくさいものにしないしゅぎだ。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 92, "good_sentence": "くさいものにふたをしにくいこと。", "bad_sentence": "ふたをくさいものにしにくいこと。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 93, "good_sentence": "くさいものへのふたのしにくさがしてきされた。", "bad_sentence": "くさいものにふたのしにくさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 94, "good_sentence": "たろうが花子に本をあたえた。", "bad_sentence": "たろうが花子へ本をあたえた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 95, "good_sentence": "花子への本のあたえにくさがしてきされた。", "bad_sentence": "花子に本のあたえにくさがしてきされた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 96, "good_sentence": "たろうがげんこうに手をいれた。", "bad_sentence": "たろうがげんこうへ手をいれた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 97, "good_sentence": "たろうはいつもくさいものにふたをする。", "bad_sentence": "たろうはいつもくさいものへふたをする。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 98, "good_sentence": "げんこうへの手のいれ方は人それぞれだ。", "bad_sentence": "げんこうに手のいれ方は人それぞれだ。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "nominalization"}
+{"ID": 100, "good_sentence": "くさいものへのふたのしかたは人それぞれだ。", "bad_sentence": "くさいものにふたのしかたは人それぞれだ。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "nominalization"}
+{"ID": 101, "good_sentence": "先生のお話はすてきだった。", "bad_sentence": "先生のお話になりはすてきだった。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "part of speech"}
+{"ID": 104, "good_sentence": "ベランダへのせんたくもののだしにくさがしてきされた。", "bad_sentence": "ベランダにせんたくもののだしにくさがしてきされた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 105, "good_sentence": "せんたくもののベランダへのだしにくさがしてきされた。", "bad_sentence": "せんたくもののベランダにだしにくさがしてきされた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 106, "good_sentence": "ひまわりへの水のあたえにくさがしてきされた。", "bad_sentence": "ひまわりに水のあたえにくさがしてきされた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 107, "good_sentence": "水のひまわりへのあたえにくさがしてきされた。", "bad_sentence": "水のひまわりにあたえにくさがしてきされた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 108, "good_sentence": "テーブルの絵本のおき方は人それぞれだ。", "bad_sentence": "絵本のテーブルのおき方は人それぞれだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 109, "good_sentence": "テーブルの絵本のおかれ方はどくとくだ。", "bad_sentence": "絵本のテーブルのおかれ方はどくとくだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 110, "good_sentence": "ランドセルの教科書のいれ方は人それぞれだ。", "bad_sentence": "教科書のランドセルのいれ方は人それぞれだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 111, "good_sentence": "ベランダのせんたくもののだしにくさがしてきされた。", "bad_sentence": "せんたくもののベランダのだしにくさがしてきされた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 112, "good_sentence": "ひまわりの水のあたえにくさがしてきされた。", "bad_sentence": "水のひまわりのあたえにくさがしてきされた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 113, "good_sentence": "ジョンの子犬のえさのあたえ方はどくとくだ。", "bad_sentence": "子犬のジョンのえさのあたえ方はどくとくだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 114, "good_sentence": "花子へのにもつの東京へのおくりにくさ。", "bad_sentence": "花子へのにもつの東京におくりにくさ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 115, "good_sentence": "花子への東京へのにもつのおくりにくさ。", "bad_sentence": "花子への東京ににもつのおくりにくさ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 116, "good_sentence": "花子への東京へのにもつのおくりにくさ。", "bad_sentence": "花子に東京へのにもつのおくりにくさ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 117, "good_sentence": "せんしゅはかんとくのほうしんにふまんを口にした。", "bad_sentence": "せんしゅはかんとくのほうしんに口にふまんをした。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 118, "good_sentence": "そのほうしんへのふまんの口にしにくさがしてきされた。", "bad_sentence": "そのほうしんへのふまんの口へのしにくさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 119, "good_sentence": "そのほうしんへのふまんの口にしにくさがしてきされた。", "bad_sentence": "そのほうしんにふまんの口へのしにくさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 120, "good_sentence": "そのほうしんへのふまんの口にしにくさがしてきされた。", "bad_sentence": "そのほうしんにふまんの口にしにくさがしてきされた。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 121, "good_sentence": "わたしがきのう見た人はすてきだった。", "bad_sentence": "わたしがきのう見たの人はすてきだった。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "modifier"}
+{"ID": 122, "good_sentence": "たろうがかったのは三さつの本だ。", "bad_sentence": "たろうがかったのは三さつ本だ。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "modifier"}
+{"ID": 123, "good_sentence": "はれの日はよいが、雨の日はおちこむ。", "bad_sentence": "はれの日はよいが、雨のはおちこむ。", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "nominal ellipsis"}
+{"ID": 124, "good_sentence": "たろうは1日に三さつの本をよむが、花子は5さつの本をよむ。", "bad_sentence": "たろうは1日に三さつの本をよむが、花子は5さつのをよむ。", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "nominal ellipsis"}
+{"ID": 125, "good_sentence": "たろうは3さつの本をかったが、花子は5さつの本をかった。", "bad_sentence": "たろうは3さつの本をかったが、花子は5さつのをかった。", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "nominal ellipsis"}
+{"ID": 126, "good_sentence": "たろうがきのうあった人はやさしいが、花子がきのうあった人はこわい。", "bad_sentence": "たろうがきのうあった人はやさしいが、花子がきのうあったはこわい。", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "nominal ellipsis"}
+{"ID": 127, "good_sentence": "たろうは花子がなぜかれの手紙をすてたとおもっているの？", "bad_sentence": "たろうは花子がなぜかれの手紙をすてたからおこっているの？", "type": "acceptability", "phenomenon": "island effects", "phenomenon-2": "filler-gap", "paradigm": "adjunct island"}
+{"ID": 128, "good_sentence": "たろうがどろぼうがげんきんをぬすんだとおもっているのはこのぎんこうからだ。", "bad_sentence": "たろうがどろぼうがぬすむ前に学校にいたのはこのぎんこうからだ。", "type": "acceptability", "phenomenon": "island effects", "phenomenon-2": "filler-gap", "paradigm": "adjunct island"}
+{"ID": 129, "good_sentence": "たろうが花子がかれの手紙をすてさえしたのでおこった。", "bad_sentence": "かれの手紙をすてさえたろうが花子がしたのでおこった。", "type": "acceptability", "phenomenon": "island effects", "phenomenon-2": "filler-gap", "paradigm": "adjunct island"}
+{"ID": 130, "good_sentence": "たろうがかれの手紙をすてさえ花子がしたのでおこった。", "bad_sentence": "かれの手紙をすてさえたろうが花子がしたのでおこった。", "type": "acceptability", "phenomenon": "island effects", "phenomenon-2": "filler-gap", "paradigm": "adjunct island"}
+{"ID": 131, "good_sentence": "ジョンはメアリーがかしこいいじょうにかしこい。", "bad_sentence": "ジョンはメアリーがかしこいいじょうにかしこくない。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "negation"}
+{"ID": 132, "good_sentence": "ジョンはメアリーがかしこいぐらいかしこい。", "bad_sentence": "ジョンはメアリーがかしこいぐらいかしこくない。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "negation"}
+{"ID": 133, "good_sentence": "2きれのハムは夕食になるが、1きれのハムはならない。", "bad_sentence": "2きれのハムは夕食になるが、1きれのはならない。", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "nominal ellipsis"}
+{"ID": 134, "good_sentence": "東京でのしょくじはよかったが、きょうとでのしょくじはひさんだった。", "bad_sentence": "東京でのしょくじはよかったが、きょうとでのはひさんだった。", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "nominal ellipsis"}
+{"ID": 135, "good_sentence": "たろうはその3本ずつのえんぴつをかった。", "bad_sentence": "たろうは3本ずつのそのえんぴつをかった。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "classifier"}
+{"ID": 137, "good_sentence": "何をけんしかよまなかったの？", "bad_sentence": "けんしか何をよまなかったの？", "type": "acceptability", "phenomenon": "filler-gap", "phenomenon-2": null, "paradigm": "intervention effects"}
+{"ID": 139, "good_sentence": "何をだれかがよんだの？", "bad_sentence": "だれかが何をよんだの？", "type": "acceptability", "phenomenon": "filler-gap", "phenomenon-2": null, "paradigm": "intervention effects"}
+{"ID": 142, "good_sentence": "えりかはだれもなぜ来なかったかしっているの？", "bad_sentence": "えりかはだれもなぜ来なかったとおもっているの？", "type": "interpretation", "phenomenon": "filler-gap", "phenomenon-2": null, "paradigm": "intervention effects"}
+{"ID": 143, "good_sentence": "先生がせいとをなかせたばしょはここだ。", "bad_sentence": "先生がせいとのなかせたばしょはここだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 144, "good_sentence": "せいとをなかせた先生はあの人だ。", "bad_sentence": "せいとのなかせた先生はあの人だ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 145, "good_sentence": "たろうのゴミのすて方はざつだ。", "bad_sentence": "たろうのゴミをすて方はざつだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 146, "good_sentence": "あくじからの足のあらい方はしっている。", "bad_sentence": "あくじからの足をあらい方はしっている。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 147, "good_sentence": "たろうがもえるゴミをすてるばしょはここだ。", "bad_sentence": "たろうがもえるゴミのすてるばしょはここだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 148, "good_sentence": "かれがあくじから足をあらう日はいつになるのだろう？", "bad_sentence": "かれがあくじから足のあらう日はいつになるのだろう？", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 149, "good_sentence": "かれの手下がだいとうりょうをあんさつする計画はにゅうねんだ。", "bad_sentence": "かれの手下がだいとうりょうのあんさつする計画はにゅうねんだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 150, "good_sentence": "せいとたちが力をいれる科目は数学だ。", "bad_sentence": "せいとたちが力のいれる科目は数学だ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 151, "good_sentence": "山田がざふとんをはこびこむへやはここだ。", "bad_sentence": "山田がざふとんのはこびこむへやはここだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 152, "good_sentence": "新入しゃいんが羽目をはずすきかいはすくない。", "bad_sentence": "新入しゃいんが羽目のはずすきかいはすくない。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 153, "good_sentence": "鳥がたまごをあたためるばしょはここだ。", "bad_sentence": "鳥がたまごのあたためるばしょはここだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 154, "good_sentence": "もえるゴミをすてたばしょはここだ。", "bad_sentence": "もえるゴミのすてたばしょはここだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 155, "good_sentence": "あくじから足をあらった日はおぼえている。", "bad_sentence": "あくじから足のあらった日はおぼえている。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 156, "good_sentence": "力をいれた科目は数学だ。", "bad_sentence": "力のいれた科目は数学だ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 157, "good_sentence": "ざふとんをはこびこんだへやはここだ。", "bad_sentence": "ざふとんのはこびこんだへやはここだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 158, "good_sentence": "このばしょにはもえるゴミをすてる。", "bad_sentence": "このばしょにはもえるゴミのすてる。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 159, "good_sentence": "かぞくをもつとふつうあくじから足をあらう。", "bad_sentence": "かぞくをもつとふつうあくじから足のあらう。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 160, "good_sentence": "えんかいでは羽目をはずす。", "bad_sentence": "えんかいでは羽目のはずす。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 161, "good_sentence": "もえるゴミをすてるようめいれいした。", "bad_sentence": "もえるゴミのすてるようめいれいした。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 162, "good_sentence": "かれはあくじから足をあらうとおもわれていた。", "bad_sentence": "かれはあくじから足のあらうとおもわれていた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 163, "good_sentence": "ざふとんをはこびこむかどうかわからないへやがあった。", "bad_sentence": "ざふとんのはこびこむかどうかわからないへやがあった。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 164, "good_sentence": "ゴミをすてるとおもわれていた日はおぼえている。", "bad_sentence": "ゴミのすてるとおもわれていた日はおぼえている。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 165, "good_sentence": "あくじから足をあらうまでしんじてあげない。", "bad_sentence": "あくじから足のあらうまでしんじてあげない。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 166, "good_sentence": "もえるゴミをすてるよりもえないゴミをすてる方がむずかしい。", "bad_sentence": "もえるゴミのすてるよりもえないゴミをすてる方がむずかしい。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 167, "good_sentence": "ざふとんをはこびこむにつれてへやがいっぱいになってきた。", "bad_sentence": "ざふとんのはこびこむにつれてへやがいっぱいになってきた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 168, "good_sentence": "たろうが音楽をこのむきせつは夏だ。", "bad_sentence": "たろうが音楽のこのむきせつは夏だ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 169, "good_sentence": "たろうがゴミをすてるとやくそくした日は明日だ。", "bad_sentence": "たろうがゴミのすてるとやくそくした日は明日だ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 170, "good_sentence": "たろうがびわこをおよいだ日は土曜日だった。", "bad_sentence": "たろうのびわこをおよいだ日は土曜日だった。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 171, "good_sentence": "かれがもんだいをかいけつした日は土曜日だった。", "bad_sentence": "かれのもんだいをかいけつした日は土曜日だった。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 172, "good_sentence": "ジョンがしけんをうけた日に雨がふった。", "bad_sentence": "ジョンのしけんをうけた日に雨がふった。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 173, "good_sentence": "じゅうぎょういんがざふとんをはこびこんだへやはここだ。", "bad_sentence": "じゅうぎょういんのざふとんをはこびこんだへやはここだ。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 174, "good_sentence": "五人の学生のめんどうを見なければならない。", "bad_sentence": "五人ののめんどうを見なければならない。", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "nominal ellipsis"}
+{"ID": 175, "good_sentence": "これはたろうがしゅじん公であるものがたりだ。", "bad_sentence": "これはたろうがしゅじん公であるのものがたりだ。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "modifier"}
+{"ID": 176, "good_sentence": "たろうはその二人の学生にあった。", "bad_sentence": "たろうはその二人学生にあった。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "modifier"}
+{"ID": 177, "good_sentence": "グランド30しゅうのとっくんはかこくだ。", "bad_sentence": "30しゅうのグラウンドのとっくんはかこくだ。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "classifier"}
+{"ID": 178, "good_sentence": "たろうはグランドを30しゅうした。", "bad_sentence": "たろうはグランドをした。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "classifier"}
+{"ID": 180, "good_sentence": "メアリーがジョンが自分の学生があたらしいかせつをていあんしたといっていたののけっかんをしてきした。", "bad_sentence": "メアリーがジョンが自分の学生があたらしいかせつをていあんしたとしっていたののけっかんをしてきした。", "type": "acceptability", "phenomenon": "island effects", "phenomenon-2": null, "paradigm": "factive island"}
+{"ID": 181, "good_sentence": "たろうが右目をつぶる。", "bad_sentence": "たろうが右目がつぶる。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 182, "good_sentence": "大工が家をたてさせられた。", "bad_sentence": "家が大工にたてさせられた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "passive"}
+{"ID": 183, "good_sentence": "花子がたろうに右目をつぶらせた。", "bad_sentence": "花子がたろうに右目がつぶらせた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 184, "good_sentence": "メアリーがジョンにえいごをわからせる。", "bad_sentence": "メアリーがジョンにえいごがわからせる。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 185, "good_sentence": "たろうはメアリーにワインをのませやすい。", "bad_sentence": "たろうはメアリーをワインをのませやすい。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 186, "good_sentence": "たろうはメアリーがワインをのませやすい。", "bad_sentence": "たろうはメアリーをワインをのませやすい。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 187, "good_sentence": "たろうはメアリーがワインをのませやすい。", "bad_sentence": "たろうはメアリーをワインがのませやすい。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 188, "good_sentence": "たろうはメアリーがワインがのませやすい。", "bad_sentence": "たろうはメアリーをワインがのませやすい。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 189, "good_sentence": "たろうが花子に東京ににもつをおくった。", "bad_sentence": "たろうが東京に花子ににもつをおくった。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 190, "good_sentence": "たろうが花子ににもつを東京におくった。", "bad_sentence": "たろうがにもつを花子に東京におくった。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 193, "good_sentence": "えいこうを手にする。", "bad_sentence": "えいこうを手へする。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 194, "good_sentence": "しょうげきてきなこうけいを目にする。", "bad_sentence": "しょうげきてきなこうけいを目へする。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 195, "good_sentence": "ともだちのわるくちをねにもつ。", "bad_sentence": "ともだちのわるくちをねへもつ。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 196, "good_sentence": "ほうどうじんをけむにまく。", "bad_sentence": "ほうどうじんをけむへまく。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 197, "good_sentence": "人生をぼうにふる。", "bad_sentence": "人生をぼうへふる。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 198, "good_sentence": "こどもを手にあます。", "bad_sentence": "こどもを手へあます。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 199, "good_sentence": "ふしんなじんぶつに目にとめる。", "bad_sentence": "ふしんなじんぶつに目へとめる。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 200, "good_sentence": "けいさつがそしきをあみにかける。", "bad_sentence": "けいさつがそしきをあみへかける。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 201, "good_sentence": "あだを手にかける。", "bad_sentence": "あだを手へかける。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 202, "good_sentence": "ブランドひんをみにつける。", "bad_sentence": "ブランドひんをみへつける。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 203, "good_sentence": "たかいちいを手にいれる。", "bad_sentence": "たかいちいを手へいれる。", "type": "interpretation", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 204, "good_sentence": "これはたろうとのしごとだ。", "bad_sentence": "これはたろうとしごとだ。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "modifier"}
+{"ID": 205, "good_sentence": "これはぎんこうからのお金だ。", "bad_sentence": "これはぎんこうからお金だ。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "modifier"}
+{"ID": 206, "good_sentence": "トイレへの学校でのいきにくさがしてきされた。", "bad_sentence": "トイレに学校でのいきにくさがしてきされた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 207, "good_sentence": "トイレへの学校でのいきにくさがしてきされた。", "bad_sentence": "トイレへ学校でのいきにくさがしてきされた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 208, "good_sentence": "トイレへの学校でのいきにくさがしてきされた。", "bad_sentence": "トイレへの学校でいきにくさがしてきされた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 209, "good_sentence": "学校でのトイレへのいきにくさがしてきされた。", "bad_sentence": "学校でトイレへのいきにくさがしてきされた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 212, "good_sentence": "たろうとしごとのやりにくさがしてきされた。", "bad_sentence": "しごとのたろうとやりにくさがしてきされた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 215, "good_sentence": "ふく作用のだし方にはこじんさがあります。", "bad_sentence": "ふく作用をだし方にはこじんさがあります。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 216, "good_sentence": "くみあわせによって、えいきょうのうけ方がかわってきます。", "bad_sentence": "くみあわせによって、えいきょうをうけ方がかわってきます。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 217, "good_sentence": "これはものによって、ねつのつたえやすさがちがうためです。", "bad_sentence": "これはものによって、ねつをつたえやすさがちがうためです。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 219, "good_sentence": "よんだ学生がうんざりしたのはどのろんぶんにですか？", "bad_sentence": "よんだ学生がどのろんぶんにうんざりしたのですか？", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "parasitic-gap"}
+{"ID": 220, "good_sentence": "はじめてあった人がけなしたのはだれをですか？", "bad_sentence": "はじめてそいつにあった人がけなしたのはだれをですか？", "type": "coreference", "phenomenon": "binding", "phenomenon-2": null, "paradigm": "weak crossover"}
+{"ID": 221, "good_sentence": "たろうが花子がだれをあいしているかとゆみこがだれをあいしているかしっている。", "bad_sentence": "たろうが花子がだれをあいしているかとゆみこがあいしているかしっている。", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "nominal ellipsis"}
+{"ID": 222, "good_sentence": "はじめてあった人がけなしたのはだれをですか？", "bad_sentence": "はじめてあった人がメアリーがけなしたといったのはだれをですか？", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "parasitic-gap"}
+{"ID": 223, "good_sentence": "はじめてあった人がけなしたのはだれをですか？", "bad_sentence": "だれをはじめてあった人がメアリーがけなしたといったの？", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "parasitic-gap"}
+{"ID": 224, "good_sentence": "ジョンとビルをおたがいの母親がけなした。", "bad_sentence": "ジョンとビルをおたがいの母親が先生がけなしたといった。", "type": "coreference", "phenomenon": "binding", "phenomenon-2": null, "paradigm": "anaphor"}
+{"ID": 225, "good_sentence": "おたがいの母親がけなしたのはジョンとビルをです。", "bad_sentence": "おたがいの母親が先生がけなしたといったのはジョンとビルをです。", "type": "coreference", "phenomenon": "binding", "phenomenon-2": null, "paradigm": "anaphor"}
+{"ID": 226, "good_sentence": "花子がだれにそいつがかいたろんぶんをしゅうせいさせたのですか？", "bad_sentence": "花子がそいつがかいたろんぶんをしゅうせいさせたのはだれにですか？", "type": "coreference", "phenomenon": "binding", "phenomenon-2": null, "paradigm": "variable binding"}
+{"ID": 228, "good_sentence": "山田先生がけんにおあいになった。", "bad_sentence": "けんが山田先生におあいになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 229, "good_sentence": "けんに山田先生がおあいになった。", "bad_sentence": "けんが山田先生におあいになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 230, "good_sentence": "山田先生がけんにおあいになった。", "bad_sentence": "山田先生にけんがおあいになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 231, "good_sentence": "けんに山田先生がおあいになった。", "bad_sentence": "山田先生にけんがおあいになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 234, "good_sentence": "山田先生にその学生がおわかりにならなかったこと。", "bad_sentence": "山田先生がその学生におわかりにならなかったこと。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 236, "good_sentence": "学生が3人けんにあった。", "bad_sentence": "学生がけんに3人あった。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "floating quantifiers"}
+{"ID": 237, "good_sentence": "けんにさいふがもどった。", "bad_sentence": "山田先生にさいふがおもどりになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 238, "good_sentence": "けんきゅう室に山田先生がおもどりになった。", "bad_sentence": "山田先生にさいふがおもどりになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 239, "good_sentence": "さいふがけんにもどった。", "bad_sentence": "さいふが山田先生におもどりになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 240, "good_sentence": "けんきゅう室に山田先生がおもどりになった。", "bad_sentence": "さいふが山田先生におもどりになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 241, "good_sentence": "けんに手紙がとどいた。", "bad_sentence": "けんが手紙がとどいた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 242, "good_sentence": "ゆみが手紙をわたされた。", "bad_sentence": "ゆみが手紙をおくられた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "passive"}
+{"ID": 243, "good_sentence": "けんに大金がわたった。", "bad_sentence": "山田先生に大金がおわたりになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 244, "good_sentence": "けんにそのじょうほうがつたわった。", "bad_sentence": "山田先生にそのじょうほうがおつたわりになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 245, "good_sentence": "ゆみにべんとうがとどいた。", "bad_sentence": "山田先生におべんとうがおとどきになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 246, "good_sentence": "はなたばをこどもに3人わたした。", "bad_sentence": "はなたばがこどもに3人わたった。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "floating quantifiers"}
+{"ID": 247, "good_sentence": "山田先生がプレゼントをおわたされになった。", "bad_sentence": "山田先生にプレゼントがおわたされになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 248, "good_sentence": "いとう先生がメアリーをおほめになった。", "bad_sentence": "メアリーがいとう先生をおほめになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 249, "good_sentence": "いとう先生がメアリーに本をおあたえになった。", "bad_sentence": "メアリーがいとう先生に本をおあたえになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 251, "good_sentence": "今回はだれからきふをよびかけもしなかった。", "bad_sentence": "今回はだれがきふをよびかけもしなかった。", "type": "acceptability", "phenomenon": "NPI licensing", "phenomenon-2": null, "paradigm": "NPI"}
+{"ID": 252, "good_sentence": "いとう先生はジョンから本をおかりになった。", "bad_sentence": "ジョンはいとう先生から本をおかりになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 253, "good_sentence": "先生から絵里にそのことをお話になっている。", "bad_sentence": "先生から絵里にそのことをはなしておいでになる。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "honorification"}
+{"ID": 254, "good_sentence": "今日はだれからこどもにはなしかけもしていない。", "bad_sentence": "今日はだれがこどもにはなしかけもしていない。", "type": "acceptability", "phenomenon": "NPI licensing", "phenomenon-2": null, "paradigm": "NPI"}
+{"ID": 255, "good_sentence": "先生がけんから本をおうけとりになっている。", "bad_sentence": "けんが先生から本をおうけとりになっている。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 256, "good_sentence": "先生がけんから本をうけとっておいでになる。", "bad_sentence": "けんが先生から本をうけとっておいでになる。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 257, "good_sentence": "絵里が先生からそのことをはなされている。", "bad_sentence": "絵里が先生からそのことをおはなされになっている。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 258, "good_sentence": "絵里が先生からそのことをはなされている。", "bad_sentence": "絵里が先生からそのことをはなされておいでになる。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 259, "good_sentence": "先生が絵里をおほめになっている。", "bad_sentence": "絵里が先生をおほめになっている。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 260, "good_sentence": "先生が絵里をほめておいでになる。", "bad_sentence": "絵里が先生をほめておいでになる。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 261, "good_sentence": "さとう先生がそのしごとをおたのまれになった。", "bad_sentence": "そのしごとがさとう先生におたのまれになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 262, "good_sentence": "にもつがさとう先生からとどいた。", "bad_sentence": "にもつがさとう先生からおとどきになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 263, "good_sentence": "いとう先生からそのことをお話になっている。", "bad_sentence": "いとう先生からそのことをはなしておいでになる。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "honorification"}
+{"ID": 264, "good_sentence": "いとう先生にそのさけびごえがおきこえになった。", "bad_sentence": "いとう先生からそのさけびごえがおきこえになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 265, "good_sentence": "ジョンにも自分のこどもの声がきこえた。", "bad_sentence": "ジョンからも自分のさけびごえがきこえた。", "type": "coreference", "phenomenon": "binding", "phenomenon-2": null, "paradigm": "anaphor"}
+{"ID": 266, "good_sentence": "いとう先生がけんをおほめになっている。", "bad_sentence": "けんがいとう先生をおほめになっている。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 267, "good_sentence": "けんをいとう先生がおほめになっている。", "bad_sentence": "けんがいとう先生をおほめになっている。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 268, "good_sentence": "いとう先生がけんをほめておいでになる。", "bad_sentence": "けんがいとう先生をほめておいでになる。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 269, "good_sentence": "けんをいとう先生がほめておいでになる。", "bad_sentence": "けんがいとう先生をほめておいでになる。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 270, "good_sentence": "いとう先生がけんをおほめになっている。", "bad_sentence": "いとう先生をけんがおほめになっている。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 272, "good_sentence": "いとう先生がけんをほめておいでになる。", "bad_sentence": "いとう先生をけんがほめておいでになる。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 273, "good_sentence": "けんをいとう先生がほめておいでになる。", "bad_sentence": "いとう先生をけんがほめておいでになる。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 274, "good_sentence": "けんはいとう先生がおほめになっている。", "bad_sentence": "いとう先生はけんがおほめになっている。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 275, "good_sentence": "けんはいとう先生がほめておいでになる。", "bad_sentence": "いとう先生はけんがほめておいでになる。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 276, "good_sentence": "たろうはいとう先生がおほめになっているけんにあった。", "bad_sentence": "たろうはけんがおほめになっているいとう先生にあった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": "filler-gap", "paradigm": "subject honorification"}
+{"ID": 277, "good_sentence": "たろうはいとう先生がほめておいでになるけんにあった。", "bad_sentence": "たろうはけんがほめておいでになるいとう先生にあった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": "filler-gap", "paradigm": "subject honorification"}
+{"ID": 279, "good_sentence": "先生には自分の学生がわかる。", "bad_sentence": "自分の先生には学生がわかる。", "type": "coreference", "phenomenon": "binding", "phenomenon-2": null, "paradigm": "anaphor"}
+{"ID": 281, "good_sentence": "ジョンには兄弟がいる。", "bad_sentence": "ジョンにはお金がいる。", "type": "lexical", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "animacy"}
+{"ID": 282, "good_sentence": "いとう先生がメアリーをおほめになった。", "bad_sentence": "わたしがメアリーをおほめになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 283, "good_sentence": "いとう先生がメアリーをおほめになった。", "bad_sentence": "わたしたちがメアリーをおほめになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 284, "good_sentence": "いとう先生には兄弟がおいでになる。", "bad_sentence": "いとう先生にはわたしがおいでになる。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 285, "good_sentence": "たろうにはいとう先生がおいでになる。", "bad_sentence": "わたしにはいとう先生がおいでになる。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 286, "good_sentence": "いとう先生にはわたしがおみえになる。", "bad_sentence": "わたしにはいとう先生がおみえになる。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 288, "good_sentence": "いとう先生にジョンからそのことをつたえた。", "bad_sentence": "いとう先生にジョンからそのことをおつたえになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 289, "good_sentence": "ジョンをいとう先生がおほめになった。", "bad_sentence": "いとう先生をジョンがおほめになった。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 290, "good_sentence": "いとう先生がおほめになるジョンはせがたかい。", "bad_sentence": "ジョンがおほめになるいとう先生はせがたかい。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "subject honorification"}
+{"ID": 291, "good_sentence": "ジョンがじさつした。", "bad_sentence": "ジョンが自をさつした。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "reflexive"}
+{"ID": 292, "good_sentence": "ジョンがじさつした。", "bad_sentence": "ジョンが自分をさつした。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "reflexive"}
+{"ID": 293, "good_sentence": "ジョンがじさつした。", "bad_sentence": "ジョンがじさつた。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "inflection"}
+{"ID": 294, "good_sentence": "ジョンがむすこをじまんした。", "bad_sentence": "ジョンがむすこをじさつした。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "internal argument"}
+{"ID": 295, "good_sentence": "ジョンがまっすぐにはしった。", "bad_sentence": "ジョンがクタクタにはしった。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "internal argument"}
+{"ID": 296, "good_sentence": "学生が4人家をかった。", "bad_sentence": "学生が家を4人かった。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "floating quantifiers"}
+{"ID": 297, "good_sentence": "学生が4人オフィスにはしった。", "bad_sentence": "学生がオフィスに4人はしった。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "floating quantifiers"}
+{"ID": 298, "good_sentence": "会長がきのうしきょした。", "bad_sentence": "会長がきのうしきょをした。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 300, "good_sentence": "こどもが母親によってころばせられた。", "bad_sentence": "だるまが母親によってころばせられた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "passive"}
+{"ID": 301, "good_sentence": "こどもが母親によってむりやりあんな風にころばせられた。", "bad_sentence": "こどもが母親によっておもわずころばせられた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "passive"}
+{"ID": 303, "good_sentence": "たろうがたおれそこねた。", "bad_sentence": "ビルがたおれそこねた。", "type": "acceptability", "phenomenon": "control/raising", "phenomenon-2": null, "paradigm": "subject control"}
+{"ID": 304, "good_sentence": "よみかけのざっしはめずらしい。", "bad_sentence": "よみかけのまさおはめずらしい。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": "argument structure", "paradigm": "modifier"}
+{"ID": 306, "good_sentence": "たてものがじかいした。", "bad_sentence": "たてものがかべをじかいした。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "internal argument"}
+{"ID": 308, "good_sentence": "つよいじしんのためたてものがじかいした。", "bad_sentence": "つよいじしんのためたてものがじかいをした。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 309, "good_sentence": "むすこがジョンによってじすいさせられた。", "bad_sentence": "家がジョンによってじかいさせられた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "passive"}
+{"ID": 310, "good_sentence": "ジョンがじすいしそこねた。", "bad_sentence": "たてものがじかいしそこねた。", "type": "acceptability", "phenomenon": "control/raising", "phenomenon-2": null, "paradigm": "subject control"}
+{"ID": 312, "good_sentence": "学生が3人アパートでじすいする。", "bad_sentence": "学生がアパートで3人じすいする。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "floating quantifiers"}
+{"ID": 313, "good_sentence": "じかいしかけのたてものはめずらしい。", "bad_sentence": "じすいしかけのジョンはめずらしい。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "modifier"}
+{"ID": 314, "good_sentence": "たてものがじかいした。", "bad_sentence": "たてものがじかいをした。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 315, "good_sentence": "わくせいがじてんしている。", "bad_sentence": "わくせいがじてんをしている。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 317, "good_sentence": "たろうはむすこがいしゃである。", "bad_sentence": "たろうはむすこいしゃである。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}
+{"ID": 318, "good_sentence": "このビルは高さ20メートルある。", "bad_sentence": "このビルはひくさ20メートルある。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 319, "good_sentence": "このビルは高さ20メートルである。", "bad_sentence": "このビルはひくさ20メートルである。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 320, "good_sentence": "このはこはおもさ2キロある。", "bad_sentence": "このはこはかるさ2キロある。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 321, "good_sentence": "このはこはおもさ2キロである。", "bad_sentence": "このはこはかるさ2キロである。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 322, "good_sentence": "このビルは10メートルの高さである。", "bad_sentence": "このビルは10メートルの高さある。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 323, "good_sentence": "このビルは10メートルのひくさである。", "bad_sentence": "このビルは10メートルのひくさある。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 324, "good_sentence": "このはこは30グラムのおもさである。", "bad_sentence": "このはこは30グラムのおもさある。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 325, "good_sentence": "このはこは30グラムのかるさである。", "bad_sentence": "このはこは30グラムのかるさある。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 326, "good_sentence": "ジョンはしんちょうがある。", "bad_sentence": "ジョンはしんちょうある。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "part of speech"}
+{"ID": 327, "good_sentence": "ジョンはしんちょうがある。", "bad_sentence": "ジョンはしんちょうである。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "part of speech"}
+{"ID": 328, "good_sentence": "ジョンはしんちょうがある。", "bad_sentence": "ジョンはしんちょうがである。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "part of speech"}
+{"ID": 329, "good_sentence": "ジョンのうしろ2メートルのところにビルがいる。", "bad_sentence": "ジョンのうしろ2メートルにビルがいる。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 330, "good_sentence": "ジョンはじけんの2時間後にメアリーにあった。", "bad_sentence": "ジョンはじけんの後2時間の時にメアリーにあった。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 331, "good_sentence": "ジョンのすぐうしろのところにビルがいる。", "bad_sentence": "ジョンのうしろすぐのところにビルがいる。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "modifier"}
+{"ID": 332, "good_sentence": "花子は学生である。", "bad_sentence": "花子は学生でる。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "inflection"}
+{"ID": 333, "good_sentence": "花子は学生である。", "bad_sentence": "花子は学生でい。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "inflection"}
+{"ID": 334, "good_sentence": "もしそのビルの高さが20メートルであるならば、たろうはおどろくだろう。", "bad_sentence": "もしそのビルの高さ20メートルであるならば、たろうはおどろくだろう。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 335, "good_sentence": "もしそのビルの高さが20メートルあるならば、たろうはおどろくだろう。", "bad_sentence": "もしそのビルの高さ20メートルあるならば、たろうはおどろくだろう。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 336, "good_sentence": "そのビルは高さがある。", "bad_sentence": "そのビルは高さがである。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "part of speech"}
+{"ID": 337, "good_sentence": "そのビルは高さがある。", "bad_sentence": "そのビルはたかくである。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "part of speech"}
+{"ID": 338, "good_sentence": "このビルは高さ10メートルある。", "bad_sentence": "このビルはあのビルより高さ10メートルある。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 339, "good_sentence": "このビルはあのビルより10メートル高さがある。", "bad_sentence": "このビルはあのビルより10メートル高さある。", "type": "acceptability", "phenomenon": "nominal structure", "phenomenon-2": null, "paradigm": "measure phrase"}
+{"ID": 340, "good_sentence": "ぼくはさむいよ。", "bad_sentence": "かれはさむいよ。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 341, "good_sentence": "かれはさむがっているよ。", "bad_sentence": "ぼくはさむがっているよ。", "type": "acceptability", "phenomenon": "verbal agreement", "phenomenon-2": null, "paradigm": "person constraint"}
+{"ID": 342, "good_sentence": "学生がアパートをたずねてきてくれた。", "bad_sentence": "学生がアパートをたずねてくれてきた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 343, "good_sentence": "むすこにたかい車をかってやってしまった。", "bad_sentence": "むすこにたかい車をかってしまってやった。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 344, "good_sentence": "たろうがもっともおもしろかった人をしゅざいした。", "bad_sentence": "もっともたろうがおもしろかった人をしゅざいした。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "scrambling"}
+{"ID": 345, "good_sentence": "たろうは声がおおきい。", "bad_sentence": "たろうは声がおおきな。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "inflection"}
+{"ID": 346, "good_sentence": "たろうは声がきれいだ。", "bad_sentence": "たろうは声がきれいな。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "inflection"}
+{"ID": 347, "good_sentence": "きれいな声がきこえた。", "bad_sentence": "きれいだ声がきこえた。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "inflection"}
+{"ID": 348, "good_sentence": "そのりゅうしはけいそくかのうだとジョンはおもっている。", "bad_sentence": "そのりゅうしはけいそくかのうなとジョンはおもっている。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "inflection"}
+{"ID": 349, "good_sentence": "それはけいそくかのうなりゅうしだ。", "bad_sentence": "それはけいそくかのうだりゅうしだ。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "inflection"}
+{"ID": 350, "good_sentence": "このりゅうしはこのきかいでけいそくかのうなよりちいさい。", "bad_sentence": "このりゅうしはこのきかいでけいそくかのうだよりちいさい。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "inflection"}
+{"ID": 351, "good_sentence": "このりゅうしはこのきかいでけいそくかのうなおおきさよりちいさい。", "bad_sentence": "このりゅうしはこのきかいでけいそくかのうだおおきさよりちいさい。", "type": "acceptability", "phenomenon": "morphology", "phenomenon-2": null, "paradigm": "inflection"}
+{"ID": 352, "good_sentence": "ジョンはトムがたべたことがあきらかなよりたくさんいもをたべた。", "bad_sentence": "ジョンはトムがそれらをたべたことがあきらかなよりたくさんいもをたべた。", "type": "acceptability", "phenomenon": "filler-gap", "phenomenon-2": null, "paradigm": "resumptive pronoun"}
+{"ID": 353, "good_sentence": "トムがたべたことがあきらかないもはおおきかった。", "bad_sentence": "トムがそれらをたべたことがあきらかないもはおおきかった。", "type": "acceptability", "phenomenon": "filler-gap", "phenomenon-2": null, "paradigm": "resumptive pronoun"}
+{"ID": 354, "good_sentence": "ジョンはメアリーよりたかいゆびわをかった。", "bad_sentence": "ジョンはそのメアリーよりたかいゆびわをかった。", "type": "acceptability", "phenomenon": "island effects", "phenomenon-2": null, "paradigm": "specificity island"}
+{"ID": 355, "good_sentence": "ジョンはメアリーがやとったよりかしこい人をみつけた。", "bad_sentence": "ジョンはメアリーがやとわなかったよりかしこい人をみつけた。", "type": "acceptability", "phenomenon": "island effects", "phenomenon-2": null, "paradigm": "negative island"}
+{"ID": 356, "good_sentence": "ジョンはとてもかしこいが、メアリーのきたいしたかしこさではない。", "bad_sentence": "ジョンはとてもかしこいが、メアリーのきたいしたではない。", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "nominal ellipsis"}
+{"ID": 357, "good_sentence": "ジョンは本をよまなかったが、メアリーはビルがかいた本をよんだ。", "bad_sentence": "ジョンは本をよまなかったが、メアリーはビルがかいたをよんだ。", "type": "acceptability", "phenomenon": "ellipsis", "phenomenon-2": null, "paradigm": "nominal ellipsis"}
+{"ID": 358, "good_sentence": "ジョンがもし何かぬすんだら、たいほされるだろう。", "bad_sentence": "ジョンがもし何もぬすんだら、たいほされるだろう。", "type": "acceptability", "phenomenon": "NPI licensing", "phenomenon-2": null, "paradigm": "NCI"}
+{"ID": 359, "good_sentence": "ぼくはジョンがだれもそんけいしていないといった。", "bad_sentence": "ぼくはジョンがだれもそんけいしているといわなかった。", "type": "acceptability", "phenomenon": "NPI licensing", "phenomenon-2": null, "paradigm": "NCI"}
+{"ID": 360, "good_sentence": "ジョンはすしをたべてみた。", "bad_sentence": "ジョンはすしをたべにみた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "aspect"}
+{"ID": 361, "good_sentence": "ジョンはすしをたべてもみた。", "bad_sentence": "ジョンはすしをたべにもみた。", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "aspect"}
+{"ID": 362, "good_sentence": "たろうが学校でみんなをみんな見たわけではない。", "bad_sentence": "たろうが学校でみんなをみんな見た。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "universal quantifiers"}
+{"ID": 363, "good_sentence": "みんながみんな大学へいくわけではない。", "bad_sentence": "みんながみんな大学へいかない。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "universal quantifiers"}
+{"ID": 364, "good_sentence": "たろうが学校でみんなをみんな見たわけではない。", "bad_sentence": "たろうが学校でほとんどみんなをみんな見たわけではない。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "universal quantifiers"}
+{"ID": 365, "good_sentence": "たろうが学校でだれも見なかった。", "bad_sentence": "たろうが学校でみんなをみんな見なかった。", "type": "acceptability", "phenomenon": "quantifiers", "phenomenon-2": null, "paradigm": "universal quantifiers"}
+{"ID": 366, "good_sentence": "何をたろうはかったの？", "bad_sentence": "何たろうはかったの？", "type": "acceptability", "phenomenon": "argument structure", "phenomenon-2": null, "paradigm": "case"}

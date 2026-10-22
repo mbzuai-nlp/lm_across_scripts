@@ -1,0 +1,66 @@
+TEMPERATURE: 1.00
+
+### FIELD ACCURACY
+acceptability: 58.267716535433074
+coreference: 53.84615384615385
+interpretation: 62.745098039215684
+lexical: 61.53846153846154
+
+### UID ACCURACY
+complex NP island: 66.66666666666667
+adjunct island: 100.0
+weak crossover: 42.857142857142854
+case: 64.0
+parasitic-gap: 83.33333333333333
+passive: 28.571428571428573
+person constraint: 64.70588235294117
+anaphor: 80.0
+aspect: 100.0
+relative clause: 100.0
+cleft: 66.66666666666667
+nominal ellipsis: 0.0
+part of speech: 81.81818181818181
+scrambling: 65.38461538461539
+idiom: 50.0
+nominalization: 0.0
+modifier: 77.77777777777777
+negation: 100.0
+classifier: 66.66666666666667
+intervention effects: 0.0
+factive island: 100.0
+variable binding: 0.0
+subject honorification: 50.0
+floating quantifiers: 100.0
+NPI: 0.0
+honorification: 0.0
+animacy: 100.0
+reflexive: 100.0
+inflection: 70.0
+internal argument: 66.66666666666667
+subject control: 0.0
+measure phrase: 35.714285714285715
+resumptive pronoun: 100.0
+specificity island: 100.0
+negative island: 100.0
+NCI: 50.0
+universal quantifiers: 50.0
+
+### LINGUISTICS_TERM ACCURACY
+island effects: 90.9090909090909
+binding: 53.84615384615385
+argument structure: 63.57142857142857
+ellipsis: 26.31578947368421
+verbal agreement: 54.09836065573771
+filler-gap: 55.55555555555556
+morphology: 62.857142857142854
+nominal structure: 52.17391304347826
+quantifiers: 78.57142857142857
+NPI licensing: 25.0
+control/raising: 0.0
+
+### TOTAL ACCURACY
+total: 58.91238670694864
+
+### MACRO AVERAGE UID ACCURACY
+macro-average: 61.10349498584793
+
