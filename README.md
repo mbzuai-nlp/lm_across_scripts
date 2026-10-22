@@ -4,7 +4,7 @@ Data, code, and experiment results for "Language Modeling Across Script Variants
 
 ## Dataset
 
-The ReazonSpeech text variants are hosted on Hugging Face:
+The preprocessed versions of [ReazonSpeech](https://huggingface.co/datasets/reazon-research/reazonspeech) used in our experiments are hosted on Hugging Face:
 
 **[go-inoue/reazonspeech-script-variants-100m](https://huggingface.co/datasets/go-inoue/reazonspeech-script-variants-100m)**
 
